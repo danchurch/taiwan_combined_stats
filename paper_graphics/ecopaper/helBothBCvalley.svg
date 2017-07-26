@@ -16,7 +16,10 @@
    id="svg10280"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="helBothBCvalley.svg">
+   sodipodi:docname="helBothBCvalley.svg"
+   inkscape:export-filename="/home/daniel/Documents/taiwan/eco_paper/graphics/helBothBCvalley.png"
+   inkscape:export-xdpi="115.3"
+   inkscape:export-ydpi="115.3">
   <defs
      id="defs10282">
     <g
@@ -1886,5 +1889,12 @@
          id="tspan13471"
          x="573.7666"
          y="648.30121">Wood</tspan></text>
+    <rect
+       style="fill:#ffffbf;fill-opacity:0;stroke:none;stroke-width:1.14999998;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect13492"
+       width="1141.4724"
+       height="640.43671"
+       x="-226.27417"
+       y="62.412712" />
   </g>
 </svg>
