@@ -12,11 +12,11 @@
    id="svg4848"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="800"
-   height="480"
-   viewBox="0 0 800 480"
+   width="765.93909"
+   height="417.25568"
+   viewBox="0 0 765.93909 417.25568"
    sodipodi:docname="gen95_trunc.svg"
-   inkscape:export-filename="/home/daniel/Documents/taiwan/method_paper/graphics/gen95_trunc.png"
+   inkscape:export-filename="/home/daniel/Documents/taiwan/method_paper/taiwan_combined_stats/paper_graphics/bioinfo/gen95_trunc.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -40,55 +40,60 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1215"
-     inkscape:window-height="1000"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
      id="namedview4850"
      showgrid="false"
      inkscape:object-paths="false"
      inkscape:snap-bbox="false"
-     showborder="false"
+     showborder="true"
      inkscape:snap-intersection-paths="true"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="710.74644"
-     inkscape:cy="105.4351"
+     inkscape:zoom="0.99999999"
+     inkscape:cx="366.76465"
+     inkscape:cy="211.2589"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4848" />
+     inkscape:current-layer="svg4848"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.33962265;stroke:none;stroke-width:0.25099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     x="26.517572"
-     y="771.85303"
+     x="38.168941"
+     y="723.28491"
      id="text7454"><tspan
        sodipodi:role="line"
        id="tspan7456"
-       x="26.517572"
-       y="771.85303" /></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.33962265;stroke:none;stroke-width:0.25099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
-     x="-72.292068"
-     y="775.49384"
-     id="text7458"><tspan
-       sodipodi:role="line"
-       id="tspan7460"
-       x="-72.292068"
-       y="775.49384" /></text>
+       x="38.168941"
+       y="723.28491" /></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.33962265;stroke:none;stroke-width:0.25099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     x="-118"
-     y="834"
+     x="-60.640701"
+     y="726.92572"
+     id="text7458"><tspan
+       sodipodi:role="line"
+       id="tspan7460"
+       x="-60.640701"
+       y="726.92572" /></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;fill-opacity:0.33962265;stroke:none;stroke-width:0.25099999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="-106.34863"
+     y="785.43188"
      id="text7462"><tspan
        sodipodi:role="line"
        id="tspan7464"
-       x="-118"
-       y="834" /></text>
+       x="-106.34863"
+       y="785.43188" /></text>
   <g
-     id="g7613">
+     id="g7613"
+     transform="translate(11.651369,-48.568137)">
     <path
        inkscape:connector-curvature="0"
        id="path5398"
@@ -659,12 +664,12 @@
        inkscape:connector-curvature="0"
        id="path7537"
        d="m 64.175719,173.72524 675.457971,0"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:3,12;stroke-dashoffset:0" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3, 12;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path7554"
        d="m 64.175719,266.77636 679.700611,0"
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:8,8;stroke-dashoffset:0" />
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8, 8;stroke-dashoffset:0;stroke-opacity:1" />
     <g
        transform="translate(-112,-8)"
        id="g7603">
@@ -713,4 +718,16 @@
          y="86.862373" />
     </g>
   </g>
+  <text
+     xml:space="preserve"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.75px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     x="-310.66232"
+     y="23.586426"
+     id="text4256"
+     sodipodi:linespacing="125%"
+     transform="matrix(0,-1,1,0,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan4258"
+       x="-310.66232"
+       y="23.586426">ITS1 read abundance (truncated)</tspan></text>
 </svg>
