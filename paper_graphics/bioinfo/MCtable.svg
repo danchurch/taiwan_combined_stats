@@ -13,11 +13,11 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    xml:space="preserve"
-   width="990"
-   height="765"
-   viewBox="0 0 990 765"
-   sodipodi:docname="MCtable .svg"
-   inkscape:export-filename="/home/daniel/Documents/taiwan/method_paper/graphics/MCtable .png"
+   width="773.75"
+   height="496.25"
+   viewBox="0 0 773.75 496.25"
+   sodipodi:docname="MCtable.svg"
+   inkscape:export-filename="/home/daniel/Documents/taiwan/method_paper/taiwan_combined_stats/paper_graphics/bioinfo/MCtable.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"><metadata
      id="metadata3361"><rdf:RDF><cc:Work
@@ -35,1013 +35,1267 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1215"
      inkscape:window-height="1000"
      id="namedview3357"
      showgrid="false"
-     inkscape:zoom="1.5869281"
-     inkscape:cx="257.48367"
-     inkscape:cy="483.32372"
-     inkscape:window-x="65"
+     inkscape:zoom="1.1221276"
+     inkscape:cx="331.09251"
+     inkscape:cy="354.82254"
+     inkscape:window-x="1431"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g3363" /><g
+     inkscape:current-layer="g3363"
+     fit-margin-top="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     fit-margin-left="10" /><g
      id="g3363"
      inkscape:groupmode="layer"
      inkscape:label="MCtable "
-     transform="matrix(1.25,0,0,-1.25,0,765)"><g
-       id="g3365"
-       transform="matrix(1,0,0,-1,0,612)"><g
-         id="g3367"
-         transform="matrix(0.75,0,0,0.75,95.25,54)"><g
-           id="g3369"
-           clip-path="url(#clipPath3371)"><path
-             d="M 0,0 803,0 803,507 0,507 0,0 Z"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path3375"
-             inkscape:connector-curvature="0" /><g
-             id="g3377"><path
-               d="m 0,0 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,23 -1,0 0,-23 1,0 z m 0,24 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z M 240,0 l 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,23 -1,0 0,-23 1,0 z m 0,24 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z M 341,0 l 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,23 -1,0 0,-23 1,0 z m 0,24 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z M 443,0 l 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,23 -1,0 0,-23 1,0 z m 0,24 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z M 588,0 l 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,23 -1,0 0,-23 1,0 z m 0,24 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z M 803,0 l 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,23 -1,0 0,-23 1,0 z m 0,24 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z m 0,21 0,0 0,20 -1,0 0,-20 1,0 z M -1,-1 l 0,0 804,0 0,1 -804,0 0,-1 z m 0,42 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,24 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z m 0,21 0,0 804,0 0,1 -804,0 0,-1 z"
-               style="fill:#000000;fill-opacity:0.14901961;fill-rule:nonzero;stroke:none"
-               id="path3379"
-               inkscape:connector-curvature="0" /></g><path
-             d="m -1,20.5 804,0"
-             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.47371292;stroke-dasharray:none;stroke-opacity:1"
-             id="path3381"
-             inkscape:connector-curvature="0" /><text
-             transform="translate(3,15.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3383"><tspan
-               x="0 8.658 12.987 20.215 27.443001 34.671001 41.171001 48.398998 55.626999 59.228001 67.157997 74.386002 80.886002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3385">Proposed Taxa</tspan></text>
-<text
-             transform="translate(243,15.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3387"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3389">MC#</tspan></text>
-<text
-             transform="translate(344,15.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3391"><tspan
-               x="0 8.658 15.886 22.386 25.271999 32.5"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3393">Phylum</tspan></text>
-<text
-             transform="translate(446,15.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3395"><tspan
-               x="0 8.658 15.886 23.114 27.443001 34.671001 41.898998 48.398998 51.285 58.513"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3397">Sub-phylum</tspan></text>
-<text
-             transform="translate(591,15.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3399"><tspan
-               x="0 9.3859997 12.272 19.5 26 32.5"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3401">Class </tspan></text>
-<text
-             transform="translate(3,36.245117)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3403"><tspan
-               x="0 8.658 15.886 23.114 30.341999 37.57 44.07 48.398998 54.898998 62.126999 65.727997 72.956001 80.183998 87.412003 93.912003 97.513 104.741 111.969 119.197 126.425 137.254 144.48199 151.71001 158.938 161.82401"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3405">Phaeocryptopus gaeumannii</tspan></text>
-<text
-             transform="translate(243,36.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3407"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3409">MC1</tspan></text>
-<text
-             transform="translate(344,36.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3411"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3413">Ascomycota</tspan></text>
-<text
-             transform="translate(446,36.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3415"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3417">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,36.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3419"><tspan
-               x="0 9.3859997 16.614 20.215 27.443001 30.329 37.556999 44.785 52.013 62.841999 69.342003 75.842003 83.07 86.670998 93.899002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3421">Dothideomycetes</tspan></text>
-<text
-             transform="translate(3,57.245117)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3423"><tspan
-               x="0 9.3859997 16.614 23.841999 31.07 38.298 45.526001 52.026001 54.911999 57.798 65.026001 72.253998 75.855003 83.083 90.310997 94.639999 101.14 108.368 112.697 115.583"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3425">Rhabdocline parkerii</tspan></text>
-<text
-             transform="translate(243,57.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3427"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3429">MC2</tspan></text>
-<text
-             transform="translate(344,57.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3431"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3433">Ascomycota</tspan></text>
-<text
-             transform="translate(446,57.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3435"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3437">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,57.245117)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3439"><tspan
-               x="0 7.2280002 14.456 21.684 25.285 28.171 35.398998 46.228001 52.728001 59.228001 66.456001 70.056999 77.285004"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3441">Leotiomycetes</tspan></text>
-<text
-             transform="translate(3,78.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3443"><tspan
-               x="0 8.658 12.259 16.587999 23.816 30.316 33.917 36.803001 44.030998 46.917 49.803001 57.030998 59.917 67.144997 73.644997 77.246002 83.746002 90.973999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3445">Atractiellales sp.</tspan></text>
-<text
-             transform="translate(243,78.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3447"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3449">MC3</tspan></text>
-<text
-             transform="translate(344,78.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3451"><tspan
-               x="0 8.658 15.886 22.386 25.271999 32.5 35.386002 42.613998 53.443001 59.943001 66.443001 73.670998 77.272003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3453">Basidiomycota</tspan></text>
-<text
-             transform="translate(446,78.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3455"><tspan
-               x="0 8.658 15.886 22.386 28.886 31.771999 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 86.657997 93.886002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3457">Pucciniomycotina</tspan></text>
-<text
-             transform="translate(591,78.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3459"><tspan
-               x="0 8.658 12.259 16.587999 23.816 30.316 33.917 36.803001 44.030998 46.917 49.803001 57.030998 67.860001 74.360001 80.860001 88.087997 91.689003 98.917 105.417"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3461">Atractiellomycetes </tspan></text>
-<text
-             transform="translate(3,99.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3463"><tspan
-               x="0 9.3859997 12.272 19.5 26.728001 33.956001 38.285 41.886002 49.113998 56.341999 59.943001 66.443001 73.670998"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3465">Diaporthe <tspan
-   style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan3877">sp.</tspan></tspan></text>
-<text
-             transform="translate(243,99.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3467"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3469">MC4</tspan></text>
-<text
-             transform="translate(344,99.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3471"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3473">Ascomycota</tspan></text>
-<text
-             transform="translate(446,99.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3475"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3477">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,99.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3479"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3481">Sordariomycetes</tspan></text>
-<text
-             transform="translate(3,120.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3483"><tspan
-               x="0 8.658 11.544 18.771999 25.271999 28.872999 36.101002 43.328999 46.215 53.443001 57.043999 67.873001 70.759003 73.644997 76.530998 83.759003 88.087997"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3485">Plectania milleri</tspan></text>
-<text
-             transform="translate(243,120.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3487"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3489">MC5</tspan></text>
-<text
-             transform="translate(344,120.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3491"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3493">Ascomycota</tspan></text>
-<text
-             transform="translate(446,120.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3495"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3497">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,120.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3499"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 80.886002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3501">Pezizomycetes</tspan></text>
-<text
-             transform="translate(3,141.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3503"><tspan
-               x="0 7.9299998 12.259 19.487 30.316 37.543999 41.145 48.373001 54.873001 58.473999 64.973999 72.202003 76.530998 83.030998 85.917 92.417 99.644997 102.531 109.759"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3505">Trametes versicolor</tspan></text>
-<text
-             transform="translate(243,141.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3507"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3509">MC6</tspan></text>
-<text
-             transform="translate(344,141.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3511"><tspan
-               x="0 8.658 15.886 22.386 25.271999 32.5 35.386002 42.613998 53.443001 59.943001 66.443001 73.670998 77.272003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3513">Basidiomycota</tspan></text>
-<text
-             transform="translate(446,141.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3515"><tspan
-               x="0 8.658 15.886 23.114 27.443001 30.329 36.828999 44.056999 54.886002 61.386002 67.886002 75.113998 78.714996 81.600998 88.829002 96.056999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3517">Agaricomycotina </tspan></text>
-<text
-             transform="translate(591,141.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3519"><tspan
-               x="0 8.658 15.886 23.114 27.443001 30.329 36.828999 44.056999 54.886002 61.386002 67.886002 75.113998 78.714996 85.943001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3521">Agaricomycetes</tspan></text>
-<text
-             transform="translate(3,162.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3523"><tspan
-               x="0 7.2280002 14.456 23.841999 26.728001 33.956001 37.556999 40.443001 47.671001 51.271999 58.5 65 68.600998 75.829002 80.157997 83.043999 90.272003 93.873001 98.202003 106.86 109.746 113.347 120.575 124.904 132.132 139.36 143.689 146.575 153.80299 157.40401 160.28999 167.51801 171.119 178.347 184.847 188.448 195.67599 200.005 202.89101 210.119 214.448"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3525">Lewia infectoria (Alternaria infectoria) </tspan></text>
-<text
-             transform="translate(243,162.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3527"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3529">MC7</tspan></text>
-<text
-             transform="translate(344,162.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3531"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3533">Ascomycota</tspan></text>
-<text
-             transform="translate(446,162.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3535"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3537">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,162.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3539"><tspan
-               x="0 9.3859997 16.614 20.215 27.443001 30.329 37.556999 44.785 52.013 62.841999 69.342003 75.842003 83.07 86.670998 93.899002 100.399"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3541">Dothideomycetes </tspan></text>
-<text
-             transform="translate(3,183.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3543"><tspan
-               x="0 9.3859997 16.614 27.443001 34.671001 37.556999 44.785 49.113998 52 59.228001 62.828999 70.056999 77.285004 83.785004 91.013 93.899002 100.399 107.627 111.228"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3545">Ramularia eucalypti</tspan></text>
-<text
-             transform="translate(243,183.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3547"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3549">MC8</tspan></text>
-<text
-             transform="translate(344,183.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3551"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3553">Ascomycota</tspan></text>
-<text
-             transform="translate(446,183.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3555"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3557">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,183.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3559"><tspan
-               x="0 9.3859997 16.614 20.215 27.443001 30.329 37.556999 44.785 52.013 62.841999 69.342003 75.842003 83.07 86.670998 93.899002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3561">Dothideomycetes</tspan></text>
-<text
-             transform="translate(3,205.19385)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3563"><tspan
-               x="0 9.3859997 16.614 20.215 27.443001 30.329 37.556999 44.785 52.013 62.841999 69.342003 75.842003 83.07 86.670998 93.899002 100.399 104 110.5 117.728"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3565">Dothideomycetes sp.</tspan></text>
-<text
-             transform="translate(243,207.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3567"><tspan
-               x="0 10.829 20.215"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3569">MC9</tspan></text>
-<text
-             transform="translate(344,207.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3571"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3573">Ascomycota</tspan></text>
-<text
-             transform="translate(446,207.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3575"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3577">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,207.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3579"><tspan
-               x="0 9.3859997 16.614 20.215 27.443001 30.329 37.556999 44.785 52.013 62.841999 69.342003 75.842003 83.07 86.670998 93.899002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3581">Dothideomycetes</tspan></text>
-<text
-             transform="translate(3,228.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3583"><tspan
-               x="0 9.3859997 16.614 23.841999 26.728001 33.956001 40.456001 47.683998 54.911999 58.513 65.740997 69.342003 75.842003 83.07"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3585">Coniocheta <tspan
-   style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan3863">sp.</tspan></tspan></text>
-<text
-             transform="translate(243,228.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3587"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3589">MC10</tspan></text>
-<text
-             transform="translate(344,228.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3591"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3593">Ascomycota</tspan></text>
-<text
-             transform="translate(446,228.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3595"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3597">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,228.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3599"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3601">Sordariomycetes</tspan></text>
-<text
-             transform="translate(3,249.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3603"><tspan
-               x="0 8.658 15.886 23.114 26 32.5 35.386002 38.271999 41.158001 44.043999 51.271999 62.101002 65.702003 72.202003 79.43"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3605">Penicillium <tspan
-   style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan3865">sp.</tspan></tspan></text>
-<text
-             transform="translate(243,249.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3607"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3609">MC11</tspan></text>
-<text
-             transform="translate(344,249.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3611"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3613">Ascomycota</tspan></text>
-<text
-             transform="translate(446,249.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3615"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3617">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,249.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3619"><tspan
-               x="0 8.658 15.886 20.215 27.443001 31.044001 33.93 41.158001 51.987 58.487 64.987 72.214996 75.816002 83.043999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3621">Eurotiomycetes</tspan></text>
-<text
-             transform="translate(3,270.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3623"><tspan
-               x="0 8.658 15.886 23.114 26 32.5 35.386002 38.271999 41.158001 44.043999 51.271999 62.101002 65.702003 72.93 80.157997 87.386002 94.613998 101.114 104 107.601 114.829 118.43 125.658"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3625">Penicillium nodusitatum</tspan></text>
-<text
-             transform="translate(243,270.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3627"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3629">MC12</tspan></text>
-<text
-             transform="translate(344,270.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3631"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3633">Ascomycota</tspan></text>
-<text
-             transform="translate(446,270.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3635"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3637">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,270.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3639"><tspan
-               x="0 8.658 15.886 20.215 27.443001 31.044001 33.93 41.158001 51.987 58.487 64.987 72.214996 75.816002 83.043999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3641">Eurotiomycetes</tspan></text>
-<text
-             transform="translate(3,291.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3643"><tspan
-               x="0 9.3859997 16.614 20.943001 31.771999 39 46.228001 53.456001 64.285004 71.513 75.113998 81.613998 88.842003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3645">Hormonema <tspan
-   style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan3867">sp.</tspan></tspan></text>
-<text
-             transform="translate(243,291.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3647"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3649">MC13</tspan></text>
-<text
-             transform="translate(344,291.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3651"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3653">Ascomycota</tspan></text>
-<text
-             transform="translate(446,291.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3655"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3657">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,291.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3659"><tspan
-               x="0 9.3859997 16.614 20.215 27.443001 30.329 37.556999 44.785 52.013 62.841999 69.342003 75.842003 83.07 86.670998 93.899002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3661">Dothideomycetes</tspan></text>
-<text
-             transform="translate(3,312.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3663"><tspan
-               x="0 10.101 17.329 24.556999 27.443001 34.671001 41.171001 44.771999 52 62.828999 70.056999 73.657997 80.157997 87.386002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3665">Ophiostoma <tspan
-   style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan3871">sp.</tspan></tspan></text>
-<text
-             transform="translate(243,312.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3667"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3669">MC14</tspan></text>
-<text
-             transform="translate(344,312.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3671"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3673">Ascomycota</tspan></text>
-<text
-             transform="translate(446,312.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3675"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3677">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,312.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3679"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3681">Sordariomycetes</tspan></text>
-<text
-             transform="translate(3,333.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3683"><tspan
-               x="0 8.658 15.886 22.386 25.271999 28.158001 35.386002 41.886002 45.487 48.373001 54.873001 58.473999 65.702003 69.303001 75.803001 83.030998"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3685">Phyllosticta <tspan
-   style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
-   id="tspan3873">sp.</tspan></tspan></text>
-<text
-             transform="translate(243,333.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3687"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3689">MC15</tspan></text>
-<text
-             transform="translate(344,333.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3691"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3693">Ascomycota</tspan></text>
-<text
-             transform="translate(446,333.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3695"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3697">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,333.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3699"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3701">Sordariomycetes</tspan></text>
-<text
-             transform="translate(3,354.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3703"><tspan
-               x="0 8.658 15.158 18.044001 25.271999 29.601 32.487 39.715 43.316002 50.543999 53.43 60.658001 64.987 67.873001 75.100998 82.329002"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3705">Xylaria nigripes</tspan></text>
-<text
-             transform="translate(243,354.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3707"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3709">MC16</tspan></text>
-<text
-             transform="translate(344,354.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3711"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3713">Ascomycota</tspan></text>
-<text
-             transform="translate(446,354.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3715"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3717">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,354.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3719"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3721">Sordariomycetes</tspan></text>
-<text
-             transform="translate(3,375.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3723"><tspan
-               x="0 8.658 15.886 18.771999 25.271999 32.5 39 46.228001 52.728001 59.228001 66.456001 73.683998 78.013 85.240997 96.07 102.57 109.07 116.298 122.798 126.399 133.627 140.855 151.68401 158.912"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3725">Shizosaccharomyces pombe</tspan></text>
-<text
-             transform="translate(243,375.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3727"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3729">MC17</tspan></text>
-<text
-             transform="translate(344,375.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3731"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3733">Ascomycota</tspan></text>
-<text
-             transform="translate(446,375.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3735"><tspan
-               x="0 7.9299998 15.158 22.386 29.614 33.943001 36.828999 44.056999 51.285 62.113998 68.613998 75.113998 82.342003 85.943001 88.829002 96.056999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3737">Taphrinomycotina</tspan></text>
-<text
-             transform="translate(591,375.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3739"><tspan
-               x="0 8.658 15.158 22.386 25.271999 31.771999 39 45.5 52.728001 59.228001 65.727997 72.956001 80.183998 84.513 91.740997 102.57 109.07 115.57 122.798 126.399 133.627"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3741">Schizosaccharomycetes</tspan></text>
-<text
-             transform="translate(3,396.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3743"><tspan
-               x="0 8.658 15.886 22.386 28.886 36.113998 43.341999 47.671001 54.898998 65.727997 72.227997 78.727997 85.956001 92.456001 96.056999 102.557 109.785 114.114 121.342 127.842 130.728 137.228 140.114 147.342"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3745">Saccharomyces cerevisiae</tspan></text>
-<text
-             transform="translate(243,396.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3747"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3749">MC18</tspan></text>
-<text
-             transform="translate(344,396.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3751"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3753">Ascomycota</tspan></text>
-<text
-             transform="translate(446,396.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3755"><tspan
-               x="0 8.658 15.886 22.386 28.886 36.113998 43.341999 47.671001 54.898998 65.727997 72.227997 78.727997 85.956001 89.556999 92.443001 99.670998 106.899"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3757">Saccharomycotina </tspan></text>
-<text
-             transform="translate(591,396.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3759"><tspan
-               x="0 8.658 15.886 22.386 28.886 36.113998 43.341999 47.671001 54.898998 65.727997 72.227997 78.727997 85.956001 89.556999 96.785004"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3761">Saccharomycetes</tspan></text>
-<text
-             transform="translate(3,417.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3763"><tspan
-               x="0 9.3859997 16.614 27.443001 34.671001 41.898998 44.785 52.013 55.613998 62.113998 69.342003 73.670998 80.899002 88.126999 95.355003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3765">Nemania serpens</tspan></text>
-<text
-             transform="translate(243,417.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3767"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3769">MC19</tspan></text>
-<text
-             transform="translate(344,417.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3771"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3773">Ascomycota</tspan></text>
-<text
-             transform="translate(446,417.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3775"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3777">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,417.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3779"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3781">Sordariomycetes</tspan></text>
-<text
-             transform="translate(3,438.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3783"><tspan
-               x="0 8.658 15.158 18.044001 20.93 28.158001 34.658001 41.158001 48.386002 55.613998 59.215 65.714996 72.214996 79.443001 86.670998 93.899002 100.399 106.899 114.127 121.355"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3785">Psilocybe cyanescens</tspan></text>
-<text
-             transform="translate(243,438.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3787"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3789">MC20</tspan></text>
-<text
-             transform="translate(344,438.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3791"><tspan
-               x="0 8.658 15.886 22.386 25.271999 32.5 35.386002 42.613998 53.443001 59.943001 66.443001 73.670998 77.272003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3793">Basidiomycota</tspan></text>
-<text
-             transform="translate(446,438.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3795"><tspan
-               x="0 8.658 15.886 23.114 27.443001 30.329 36.828999 44.056999 54.886002 61.386002 67.886002 75.113998 78.714996 81.600998 88.829002 96.056999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3797">Agaricomycotina </tspan></text>
-<text
-             transform="translate(591,438.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3799"><tspan
-               x="0 8.658 15.886 23.114 27.443001 30.329 36.828999 44.056999 54.886002 61.386002 67.886002 75.113998 78.714996 85.943001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3801">Agaricomycetes</tspan></text>
-<text
-             transform="translate(3,459.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3803"><tspan
-               x="0 8.658 15.886 18.771999 25.271999 32.5 35.386002 42.613998 49.841999 53.443001 59.943001 66.443001 69.329002 75.829002 83.056999 86.657997 89.543999 96.043999 103.272"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3805">Epichloe sylvaticum</tspan></text>
-<text
-             transform="translate(243,459.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3807"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3809">MC22</tspan></text>
-<text
-             transform="translate(344,459.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3811"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3813">Ascomycota</tspan></text>
-<text
-             transform="translate(446,459.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3815"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3817">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,459.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3819"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3821">Sordariomycetes</tspan></text>
-<text
-             transform="translate(3,480.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3823"><tspan
-               x="0 10.829 18.056999 24.556999 31.785 36.113998 39.715 44.043999 51.271999 57.771999 65 75.829002 83.056999 89.556999 96.785004"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3825">Mucor racemosus</tspan></text>
-<text
-             transform="translate(243,480.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3827"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3829">MC23</tspan></text>
-<text
-             transform="translate(344,480.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3831"><tspan
-               x="0 10.829 18.056999 24.556999 31.785 36.113998 43.341999 54.171001 60.671001 67.170998 74.399002 78"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3833">Mucoromycota</tspan></text>
-<text
-             transform="translate(446,480.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3835"><tspan
-               x="0 10.829 18.056999 24.556999 31.785 36.113998 43.341999 54.171001 60.671001 67.170998 74.399002 78 80.886002 88.113998 95.342003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3837">Mucoromycotina </tspan></text>
-<text
-             transform="translate(591,480.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3839"><tspan
-               x="0 4.329 15.158 22.386 28.886 36.113998 40.443001 47.671001 50.556999 57.785 64.285004"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3841">(Mucorales)</tspan></text>
-<text
-             transform="translate(3,501.24512)"
-             style="font-style:italic;font-variant:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3843"><tspan
-               x="0 9.3859997 15.886 23.114 30.341999 36.841999 43.341999 46.228001 53.456001 60.683998"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3845">Hypoxylon notatum<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-   id="tspan3875" /></tspan></text>
-<text
-             transform="translate(243,501.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3847"><tspan
-               x="0 10.829 20.215 27.443001"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3849">MC24</tspan></text>
-<text
-             transform="translate(344,501.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3851"><tspan
-               x="0 8.658 15.158 21.658001 28.886 39.715 46.215 52.715 59.943001 63.543999"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3853">Ascomycota</tspan></text>
-<text
-             transform="translate(446,501.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3855"><tspan
-               x="0 8.658 15.886 22.386 25.271999 31.771999 39 49.828999 56.328999 62.828999 70.056999 73.657997 76.543999 83.772003"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3857">Pezizomycotina</tspan></text>
-<text
-             transform="translate(591,501.24512)"
-             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="text3859"><tspan
-               x="0 8.658 15.886 20.215 27.443001 34.671001 39 41.886002 49.113998 59.943001 66.443001 72.943001 80.170998 83.772003 91"
-               y="0"
-               sodipodi:role="line"
-               id="tspan3861">Sordariomycetes</tspan></text>
-</g></g></g></g></svg>
+     transform="matrix(1.25,0,0,-1.25,-108.125,708.4375)"><path
+       inkscape:connector-curvature="0"
+       id="path3381"
+       style="fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:11.47371292;stroke-dasharray:none;stroke-opacity:1"
+       d="m 94.5,542.625 603,0" /><text
+       id="text3383"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-546.56616"><tspan
+         id="tspan3385"
+         sodipodi:role="line"
+         y="-546.56616"
+         x="97.5 103.9935 107.24025 112.66125 118.08225 123.50325 128.37825 133.79926 139.22025 141.92101 147.8685 153.28951 158.16451">Proposed Taxa</tspan></text>
+<text
+       id="text3387"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-546.56616"><tspan
+         id="tspan3389"
+         sodipodi:role="line"
+         y="-546.56616"
+         x="277.5 285.62177 292.66125">MC#</tspan></text>
+<text
+       id="text3391"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-546.56616"><tspan
+         id="tspan3393"
+         sodipodi:role="line"
+         y="-546.56616"
+         x="353.25 359.7435 365.16449 370.03949 372.20401 377.625">Phylum</tspan></text>
+<text
+       id="text3395"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-546.56616"><tspan
+         id="tspan3397"
+         sodipodi:role="line"
+         y="-546.56616"
+         x="429.75 436.2435 441.66449 447.08551 450.33224 455.75327 461.17426 466.04926 468.21375 473.63477">Sub-phylum</tspan></text>
+<text
+       id="text3399"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-546.56616"><tspan
+         id="tspan3401"
+         sodipodi:role="line"
+         y="-546.56616"
+         x="538.5 545.53949 547.70398 553.125 558 562.875">Class </tspan></text>
+<text
+       id="text3403"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-530.81616"><tspan
+         id="tspan3405"
+         sodipodi:role="line"
+         y="-530.81616"
+         x="97.5 103.9935 109.4145 114.8355 120.2565 125.6775 130.55251 133.79926 138.67426 144.09525 146.79599 152.217 157.638 163.05901 167.93401 170.63475 176.05576 181.47675 186.89775 192.31876 200.44049 205.8615 211.2825 216.70351 218.86801">Phaeocryptopus gaeumannii</tspan></text>
+<text
+       id="text3407"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-530.81616"><tspan
+         id="tspan3409"
+         sodipodi:role="line"
+         y="-530.81616"
+         x="277.5 285.62177 292.66125">MC1</tspan></text>
+<text
+       id="text3411"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-530.81616"><tspan
+         id="tspan3413"
+         sodipodi:role="line"
+         y="-530.81616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3415"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-530.81616"><tspan
+         id="tspan3417"
+         sodipodi:role="line"
+         y="-530.81616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3419"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-530.81616"><tspan
+         id="tspan3421"
+         sodipodi:role="line"
+         y="-530.81616"
+         x="538.5 545.53949 550.96051 553.66125 559.08228 561.24677 566.66772 572.08875 577.50977 585.63147 590.50653 595.38153 600.80249 603.50323 608.92426">Dothideomycetes</tspan></text>
+<text
+       id="text3423"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-515.06616"><tspan
+         id="tspan3425"
+         sodipodi:role="line"
+         y="-515.06616"
+         x="97.5 104.5395 109.9605 115.3815 120.8025 126.2235 131.6445 136.5195 138.68401 140.8485 146.2695 151.69049 154.39125 159.81226 165.23325 168.48 173.355 178.776 182.02275 184.18726">Rhabdocline parkerii</tspan></text>
+<text
+       id="text3427"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-515.06616"><tspan
+         id="tspan3429"
+         sodipodi:role="line"
+         y="-515.06616"
+         x="277.5 285.62177 292.66125">MC2</tspan></text>
+<text
+       id="text3431"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-515.06616"><tspan
+         id="tspan3433"
+         sodipodi:role="line"
+         y="-515.06616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3435"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-515.06616"><tspan
+         id="tspan3437"
+         sodipodi:role="line"
+         y="-515.06616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3439"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-515.06616"><tspan
+         id="tspan3441"
+         sodipodi:role="line"
+         y="-515.06616"
+         x="538.5 543.92102 549.34198 554.763 557.46375 559.62823 565.04926 573.17102 578.04602 582.92102 588.34198 591.04272 596.46375">Leotiomycetes</tspan></text>
+<text
+       id="text3443"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-499.31616"><tspan
+         id="tspan3445"
+         sodipodi:role="line"
+         y="-499.31616"
+         x="97.5 103.9935 106.69425 109.941 115.362 120.237 122.93775 125.10225 130.52325 132.68774 134.85225 140.27325 142.43774 147.85875 152.73375 155.43451 160.30951 165.7305">Atractiellales sp.</tspan></text>
+<text
+       id="text3447"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-499.31616"><tspan
+         id="tspan3449"
+         sodipodi:role="line"
+         y="-499.31616"
+         x="277.5 285.62177 292.66125">MC3</tspan></text>
+<text
+       id="text3451"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-499.31616"><tspan
+         id="tspan3453"
+         sodipodi:role="line"
+         y="-499.31616"
+         x="353.25 359.7435 365.16449 370.03949 372.20401 377.625 379.78949 385.21051 393.33224 398.20724 403.08224 408.50323 411.20401">Basidiomycota</tspan></text>
+<text
+       id="text3455"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-499.31616"><tspan
+         id="tspan3457"
+         sodipodi:role="line"
+         y="-499.31616"
+         x="429.75 436.2435 441.66449 446.53949 451.41449 453.57901 459 461.16449 466.58551 474.70724 479.58224 484.45724 489.87823 492.57901 494.7435 500.16449">Pucciniomycotina</tspan></text>
+<text
+       id="text3459"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-499.31616"><tspan
+         id="tspan3461"
+         sodipodi:role="line"
+         y="-499.31616"
+         x="538.5 544.99353 547.69427 550.94098 556.362 561.237 563.93774 566.10223 571.52325 573.68774 575.85223 581.27325 589.39502 594.27002 599.14502 604.56598 607.26672 612.68774 617.56274">Atractiellomycetes </tspan></text>
+<text
+       id="text3463"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-483.56616"><tspan
+         id="tspan3465"
+         sodipodi:role="line"
+         y="-483.56616"
+         x="97.5 104.5395 106.704 112.125 117.546 122.967 126.21375 128.91451 134.33549 139.7565 142.45724 147.33224 152.75325">Diaporthe <tspan
+   id="tspan3877"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">sp.</tspan></tspan></text>
+<text
+       id="text3467"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-483.56616"><tspan
+         id="tspan3469"
+         sodipodi:role="line"
+         y="-483.56616"
+         x="277.5 285.62177 292.66125">MC4</tspan></text>
+<text
+       id="text3471"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-483.56616"><tspan
+         id="tspan3473"
+         sodipodi:role="line"
+         y="-483.56616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3475"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-483.56616"><tspan
+         id="tspan3477"
+         sodipodi:role="line"
+         y="-483.56616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3479"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-483.56616"><tspan
+         id="tspan3481"
+         sodipodi:role="line"
+         y="-483.56616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       id="text3483"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-467.81616"><tspan
+         id="tspan3485"
+         sodipodi:role="line"
+         y="-467.81616"
+         x="97.5 103.9935 106.158 111.579 116.454 119.15475 124.57575 129.99675 132.16125 137.58224 140.283 148.40475 150.56924 152.73375 154.89825 160.31924 163.56599">Plectania milleri</tspan></text>
+<text
+       id="text3487"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-467.81616"><tspan
+         id="tspan3489"
+         sodipodi:role="line"
+         y="-467.81616"
+         x="277.5 285.62177 292.66125">MC5</tspan></text>
+<text
+       id="text3491"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-467.81616"><tspan
+         id="tspan3493"
+         sodipodi:role="line"
+         y="-467.81616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3495"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-467.81616"><tspan
+         id="tspan3497"
+         sodipodi:role="line"
+         y="-467.81616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3499"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-467.81616"><tspan
+         id="tspan3501"
+         sodipodi:role="line"
+         y="-467.81616"
+         x="538.5 544.99353 550.41449 555.28949 557.45398 562.32898 567.75 575.87177 580.74677 585.62177 591.04272 593.74347 599.16449">Pezizomycetes</tspan></text>
+<text
+       id="text3503"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-452.06616"><tspan
+         id="tspan3505"
+         sodipodi:role="line"
+         y="-452.06616"
+         x="97.5 103.4475 106.69425 112.11525 120.237 125.658 128.35875 133.77975 138.65475 141.3555 146.2305 151.6515 154.89825 159.77325 161.93774 166.81274 172.23375 174.39825 179.81924">Trametes versicolor</tspan></text>
+<text
+       id="text3507"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-452.06616"><tspan
+         id="tspan3509"
+         sodipodi:role="line"
+         y="-452.06616"
+         x="277.5 285.62177 292.66125">MC6</tspan></text>
+<text
+       id="text3511"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-452.06616"><tspan
+         id="tspan3513"
+         sodipodi:role="line"
+         y="-452.06616"
+         x="353.25 359.7435 365.16449 370.03949 372.20401 377.625 379.78949 385.21051 393.33224 398.20724 403.08224 408.50323 411.20401">Basidiomycota</tspan></text>
+<text
+       id="text3515"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-452.06616"><tspan
+         id="tspan3517"
+         sodipodi:role="line"
+         y="-452.06616"
+         x="429.75 436.2435 441.66449 447.08551 450.33224 452.49677 457.37173 462.79276 470.91449 475.78949 480.66449 486.08551 488.78625 490.95074 496.37177 501.79276">Agaricomycotina </tspan></text>
+<text
+       id="text3519"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-452.06616"><tspan
+         id="tspan3521"
+         sodipodi:role="line"
+         y="-452.06616"
+         x="538.5 544.99353 550.41449 555.83551 559.08228 561.24677 566.12177 571.54272 579.66449 584.53949 589.41449 594.83551 597.53625 602.95728">Agaricomycetes</tspan></text>
+<text
+       id="text3523"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-436.31616"><tspan
+         id="tspan3525"
+         sodipodi:role="line"
+         y="-436.31616"
+         x="97.5 102.921 108.342 115.3815 117.546 122.967 125.66775 127.83225 133.25325 135.95399 141.375 146.25 148.95074 154.37175 157.6185 159.783 165.20401 167.90475 171.1515 177.645 179.80951 182.51025 187.93124 191.17799 196.599 202.02 205.26675 207.43124 212.85225 215.55301 217.7175 223.1385 225.83925 231.26025 236.13525 238.836 244.25699 247.50375 249.66826 255.08925 258.336">Lewia infectoria (Alternaria infectoria) </tspan></text>
+<text
+       id="text3527"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-436.31616"><tspan
+         id="tspan3529"
+         sodipodi:role="line"
+         y="-436.31616"
+         x="277.5 285.62177 292.66125">MC7</tspan></text>
+<text
+       id="text3531"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-436.31616"><tspan
+         id="tspan3533"
+         sodipodi:role="line"
+         y="-436.31616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3535"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-436.31616"><tspan
+         id="tspan3537"
+         sodipodi:role="line"
+         y="-436.31616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3539"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-436.31616"><tspan
+         id="tspan3541"
+         sodipodi:role="line"
+         y="-436.31616"
+         x="538.5 545.53949 550.96051 553.66125 559.08228 561.24677 566.66772 572.08875 577.50977 585.63147 590.50653 595.38153 600.80249 603.50323 608.92426 613.79926">Dothideomycetes </tspan></text>
+<text
+       id="text3543"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-420.56616"><tspan
+         id="tspan3545"
+         sodipodi:role="line"
+         y="-420.56616"
+         x="97.5 104.5395 109.9605 118.08225 123.50325 125.66775 131.08875 134.33549 136.5 141.92101 144.62175 150.04276 155.46375 160.33875 165.75975 167.92426 172.79926 178.22025 180.92099">Ramularia eucalypti</tspan></text>
+<text
+       id="text3547"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-420.56616"><tspan
+         id="tspan3549"
+         sodipodi:role="line"
+         y="-420.56616"
+         x="277.5 285.62177 292.66125">MC8</tspan></text>
+<text
+       id="text3551"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-420.56616"><tspan
+         id="tspan3553"
+         sodipodi:role="line"
+         y="-420.56616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3555"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-420.56616"><tspan
+         id="tspan3557"
+         sodipodi:role="line"
+         y="-420.56616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3559"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-420.56616"><tspan
+         id="tspan3561"
+         sodipodi:role="line"
+         y="-420.56616"
+         x="538.5 545.53949 550.96051 553.66125 559.08228 561.24677 566.66772 572.08875 577.50977 585.63147 590.50653 595.38153 600.80249 603.50323 608.92426">Dothideomycetes</tspan></text>
+<text
+       id="text3563"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-404.10461"><tspan
+         id="tspan3565"
+         sodipodi:role="line"
+         y="-404.10461"
+         x="97.5 104.5395 109.9605 112.66125 118.08225 120.24675 125.66775 131.08875 136.50975 144.6315 149.5065 154.3815 159.80251 162.50325 167.92426 172.79926 175.5 180.375 185.79599">Dothideomycetes sp.</tspan></text>
+<text
+       id="text3567"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-402.56616"><tspan
+         id="tspan3569"
+         sodipodi:role="line"
+         y="-402.56616"
+         x="277.5 285.62177 292.66125">MC9</tspan></text>
+<text
+       id="text3571"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-402.56616"><tspan
+         id="tspan3573"
+         sodipodi:role="line"
+         y="-402.56616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3575"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-402.56616"><tspan
+         id="tspan3577"
+         sodipodi:role="line"
+         y="-402.56616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3579"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-402.56616"><tspan
+         id="tspan3581"
+         sodipodi:role="line"
+         y="-402.56616"
+         x="538.5 545.53949 550.96051 553.66125 559.08228 561.24677 566.66772 572.08875 577.50977 585.63147 590.50653 595.38153 600.80249 603.50323 608.92426">Dothideomycetes</tspan></text>
+<text
+       id="text3583"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-386.81616"><tspan
+         id="tspan3585"
+         sodipodi:role="line"
+         y="-386.81616"
+         x="97.5 104.5395 109.9605 115.3815 117.546 122.967 127.842 133.263 138.68401 141.38475 146.80576 149.5065 154.3815 159.80251">Coniocheta <tspan
+   id="tspan3863"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">sp.</tspan></tspan></text>
+<text
+       id="text3587"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-386.81616"><tspan
+         id="tspan3589"
+         sodipodi:role="line"
+         y="-386.81616"
+         x="277.5 285.62177 292.66125 298.08224">MC10</tspan></text>
+<text
+       id="text3591"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-386.81616"><tspan
+         id="tspan3593"
+         sodipodi:role="line"
+         y="-386.81616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3595"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-386.81616"><tspan
+         id="tspan3597"
+         sodipodi:role="line"
+         y="-386.81616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3599"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-386.81616"><tspan
+         id="tspan3601"
+         sodipodi:role="line"
+         y="-386.81616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       id="text3603"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-371.06616"><tspan
+         id="tspan3605"
+         sodipodi:role="line"
+         y="-371.06616"
+         x="97.5 103.9935 109.4145 114.8355 117 121.875 124.03951 126.204 128.3685 130.533 135.95399 144.07574 146.7765 151.6515 157.07249">Penicillium <tspan
+   id="tspan3865"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">sp.</tspan></tspan></text>
+<text
+       id="text3607"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-371.06616"><tspan
+         id="tspan3609"
+         sodipodi:role="line"
+         y="-371.06616"
+         x="277.5 285.62177 292.66125 298.08224">MC11</tspan></text>
+<text
+       id="text3611"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-371.06616"><tspan
+         id="tspan3613"
+         sodipodi:role="line"
+         y="-371.06616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3615"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-371.06616"><tspan
+         id="tspan3617"
+         sodipodi:role="line"
+         y="-371.06616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3619"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-371.06616"><tspan
+         id="tspan3621"
+         sodipodi:role="line"
+         y="-371.06616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 561.78302 563.94751 569.36853 577.49023 582.36523 587.24023 592.66125 595.362 600.78302">Eurotiomycetes</tspan></text>
+<text
+       id="text3623"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-355.31616"><tspan
+         id="tspan3625"
+         sodipodi:role="line"
+         y="-355.31616"
+         x="97.5 103.9935 109.4145 114.8355 117 121.875 124.03951 126.204 128.3685 130.533 135.95399 144.07574 146.7765 152.19749 157.6185 163.03951 168.46049 173.33549 175.5 178.20074 183.62175 186.32249 191.7435">Penicillium nodusitatum</tspan></text>
+<text
+       id="text3627"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-355.31616"><tspan
+         id="tspan3629"
+         sodipodi:role="line"
+         y="-355.31616"
+         x="277.5 285.62177 292.66125 298.08224">MC12</tspan></text>
+<text
+       id="text3631"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-355.31616"><tspan
+         id="tspan3633"
+         sodipodi:role="line"
+         y="-355.31616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3635"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-355.31616"><tspan
+         id="tspan3637"
+         sodipodi:role="line"
+         y="-355.31616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3639"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-355.31616"><tspan
+         id="tspan3641"
+         sodipodi:role="line"
+         y="-355.31616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 561.78302 563.94751 569.36853 577.49023 582.36523 587.24023 592.66125 595.362 600.78302">Eurotiomycetes</tspan></text>
+<text
+       id="text3643"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-339.56616"><tspan
+         id="tspan3645"
+         sodipodi:role="line"
+         y="-339.56616"
+         x="97.5 104.5395 109.9605 113.20725 121.329 126.75 132.17101 137.592 145.71375 151.13475 153.83549 158.71049 164.1315">Hormonema <tspan
+   id="tspan3867"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">sp.</tspan></tspan></text>
+<text
+       id="text3647"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-339.56616"><tspan
+         id="tspan3649"
+         sodipodi:role="line"
+         y="-339.56616"
+         x="277.5 285.62177 292.66125 298.08224">MC13</tspan></text>
+<text
+       id="text3651"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-339.56616"><tspan
+         id="tspan3653"
+         sodipodi:role="line"
+         y="-339.56616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3655"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-339.56616"><tspan
+         id="tspan3657"
+         sodipodi:role="line"
+         y="-339.56616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3659"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-339.56616"><tspan
+         id="tspan3661"
+         sodipodi:role="line"
+         y="-339.56616"
+         x="538.5 545.53949 550.96051 553.66125 559.08228 561.24677 566.66772 572.08875 577.50977 585.63147 590.50653 595.38153 600.80249 603.50323 608.92426">Dothideomycetes</tspan></text>
+<text
+       id="text3663"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-323.81616"><tspan
+         id="tspan3665"
+         sodipodi:role="line"
+         y="-323.81616"
+         x="97.5 105.07575 110.49675 115.91775 118.08225 123.50325 128.37825 131.07899 136.5 144.62175 150.04276 152.7435 157.6185 163.03951">Ophiostoma <tspan
+   id="tspan3871"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">sp.</tspan></tspan></text>
+<text
+       id="text3667"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-323.81616"><tspan
+         id="tspan3669"
+         sodipodi:role="line"
+         y="-323.81616"
+         x="277.5 285.62177 292.66125 298.08224">MC14</tspan></text>
+<text
+       id="text3671"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-323.81616"><tspan
+         id="tspan3673"
+         sodipodi:role="line"
+         y="-323.81616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3675"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-323.81616"><tspan
+         id="tspan3677"
+         sodipodi:role="line"
+         y="-323.81616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3679"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-323.81616"><tspan
+         id="tspan3681"
+         sodipodi:role="line"
+         y="-323.81616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       id="text3683"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-308.06616"><tspan
+         id="tspan3685"
+         sodipodi:role="line"
+         y="-308.06616"
+         x="97.5 103.9935 109.4145 114.2895 116.454 118.6185 124.03951 128.91451 131.61525 133.77975 138.65475 141.3555 146.7765 149.47725 154.35225 159.77325">Phyllosticta <tspan
+   id="tspan3873"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">sp.</tspan></tspan></text>
+<text
+       id="text3687"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-308.06616"><tspan
+         id="tspan3689"
+         sodipodi:role="line"
+         y="-308.06616"
+         x="277.5 285.62177 292.66125 298.08224">MC15</tspan></text>
+<text
+       id="text3691"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-308.06616"><tspan
+         id="tspan3693"
+         sodipodi:role="line"
+         y="-308.06616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3695"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-308.06616"><tspan
+         id="tspan3697"
+         sodipodi:role="line"
+         y="-308.06616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3699"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-308.06616"><tspan
+         id="tspan3701"
+         sodipodi:role="line"
+         y="-308.06616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       id="text3703"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-292.31616"><tspan
+         id="tspan3705"
+         sodipodi:role="line"
+         y="-292.31616"
+         x="97.5 103.9935 108.8685 111.033 116.454 119.70075 121.86525 127.28625 129.987 135.408 137.57249 142.9935 146.24025 148.40475 153.82574 159.24675">Xylaria nigripes</tspan></text>
+<text
+       id="text3707"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-292.31616"><tspan
+         id="tspan3709"
+         sodipodi:role="line"
+         y="-292.31616"
+         x="277.5 285.62177 292.66125 298.08224">MC16</tspan></text>
+<text
+       id="text3711"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-292.31616"><tspan
+         id="tspan3713"
+         sodipodi:role="line"
+         y="-292.31616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3715"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-292.31616"><tspan
+         id="tspan3717"
+         sodipodi:role="line"
+         y="-292.31616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3719"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-292.31616"><tspan
+         id="tspan3721"
+         sodipodi:role="line"
+         y="-292.31616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       id="text3723"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-276.56616"><tspan
+         id="tspan3725"
+         sodipodi:role="line"
+         y="-276.56616"
+         x="97.5 103.9935 109.4145 111.579 116.454 121.875 126.75 132.17101 137.04601 141.92101 147.342 152.763 156.00975 161.43076 169.55251 174.42751 179.30251 184.7235 189.5985 192.29926 197.72025 203.14125 211.263 216.68401">Shizosaccharomyces pombe</tspan></text>
+<text
+       id="text3727"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-276.56616"><tspan
+         id="tspan3729"
+         sodipodi:role="line"
+         y="-276.56616"
+         x="277.5 285.62177 292.66125 298.08224">MC17</tspan></text>
+<text
+       id="text3731"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-276.56616"><tspan
+         id="tspan3733"
+         sodipodi:role="line"
+         y="-276.56616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3735"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-276.56616"><tspan
+         id="tspan3737"
+         sodipodi:role="line"
+         y="-276.56616"
+         x="429.75 435.69751 441.1185 446.53949 451.96051 455.20724 457.37173 462.79276 468.21375 476.33551 481.21051 486.08551 491.5065 494.20724 496.37177 501.79276">Taphrinomycotina</tspan></text>
+<text
+       id="text3739"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-276.56616"><tspan
+         id="tspan3741"
+         sodipodi:role="line"
+         y="-276.56616"
+         x="538.5 544.99353 549.86853 555.28949 557.45398 562.32898 567.75 572.625 578.04602 582.92102 587.79602 593.21698 598.638 601.88477 607.30573 615.42749 620.30249 625.17749 630.59851 633.29926 638.72028">Schizosaccharomycetes</tspan></text>
+<text
+       id="text3743"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-260.81616"><tspan
+         id="tspan3745"
+         sodipodi:role="line"
+         y="-260.81616"
+         x="97.5 103.9935 109.4145 114.2895 119.1645 124.58549 130.0065 133.25325 138.67426 146.79599 151.67099 156.54599 161.967 166.842 169.54276 174.41776 179.83875 183.08549 188.5065 193.3815 195.54599 200.42099 202.58549 208.0065">Saccharomyces cerevisiae</tspan></text>
+<text
+       id="text3747"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-260.81616"><tspan
+         id="tspan3749"
+         sodipodi:role="line"
+         y="-260.81616"
+         x="277.5 285.62177 292.66125 298.08224">MC18</tspan></text>
+<text
+       id="text3751"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-260.81616"><tspan
+         id="tspan3753"
+         sodipodi:role="line"
+         y="-260.81616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3755"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-260.81616"><tspan
+         id="tspan3757"
+         sodipodi:role="line"
+         y="-260.81616"
+         x="429.75 436.2435 441.66449 446.53949 451.41449 456.83551 462.2565 465.50327 470.92426 479.04599 483.92099 488.79599 494.21701 496.91776 499.08224 504.50323 509.92426">Saccharomycotina </tspan></text>
+<text
+       id="text3759"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-260.81616"><tspan
+         id="tspan3761"
+         sodipodi:role="line"
+         y="-260.81616"
+         x="538.5 544.99353 550.41449 555.28949 560.16449 565.58551 571.00647 574.25323 579.67426 587.79602 592.67102 597.54602 602.96698 605.66772 611.08875">Saccharomycetes</tspan></text>
+<text
+       id="text3763"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-245.06616"><tspan
+         id="tspan3765"
+         sodipodi:role="line"
+         y="-245.06616"
+         x="97.5 104.5395 109.9605 118.08225 123.50325 128.92426 131.08875 136.50975 139.21049 144.08549 149.5065 152.75325 158.17426 163.59525 169.01625">Nemania serpens</tspan></text>
+<text
+       id="text3767"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-245.06616"><tspan
+         id="tspan3769"
+         sodipodi:role="line"
+         y="-245.06616"
+         x="277.5 285.62177 292.66125 298.08224">MC19</tspan></text>
+<text
+       id="text3771"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-245.06616"><tspan
+         id="tspan3773"
+         sodipodi:role="line"
+         y="-245.06616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3775"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-245.06616"><tspan
+         id="tspan3777"
+         sodipodi:role="line"
+         y="-245.06616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3779"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-245.06616"><tspan
+         id="tspan3781"
+         sodipodi:role="line"
+         y="-245.06616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       id="text3783"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-229.31613"><tspan
+         id="tspan3785"
+         sodipodi:role="line"
+         y="-229.31613"
+         x="97.5 103.9935 108.8685 111.033 113.1975 118.6185 123.4935 128.3685 133.78951 139.21049 141.91125 146.78625 151.66125 157.08224 162.50325 167.92426 172.79926 177.67426 183.09525 188.51625">Psilocybe cyanescens</tspan></text>
+<text
+       id="text3787"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-229.31616"><tspan
+         id="tspan3789"
+         sodipodi:role="line"
+         y="-229.31616"
+         x="277.5 285.62177 292.66125 298.08224">MC20</tspan></text>
+<text
+       id="text3791"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-229.31616"><tspan
+         id="tspan3793"
+         sodipodi:role="line"
+         y="-229.31616"
+         x="353.25 359.7435 365.16449 370.03949 372.20401 377.625 379.78949 385.21051 393.33224 398.20724 403.08224 408.50323 411.20401">Basidiomycota</tspan></text>
+<text
+       id="text3795"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-229.31616"><tspan
+         id="tspan3797"
+         sodipodi:role="line"
+         y="-229.31616"
+         x="429.75 436.2435 441.66449 447.08551 450.33224 452.49677 457.37173 462.79276 470.91449 475.78949 480.66449 486.08551 488.78625 490.95074 496.37177 501.79276">Agaricomycotina </tspan></text>
+<text
+       id="text3799"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-229.31616"><tspan
+         id="tspan3801"
+         sodipodi:role="line"
+         y="-229.31616"
+         x="538.5 544.99353 550.41449 555.83551 559.08228 561.24677 566.12177 571.54272 579.66449 584.53949 589.41449 594.83551 597.53625 602.95728">Agaricomycetes</tspan></text>
+<text
+       id="text3803"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-213.56616"><tspan
+         id="tspan3805"
+         sodipodi:role="line"
+         x="97.5"
+         y="-213.56616" /></text>
+<text
+       id="text3807"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-213.56616"><tspan
+         id="tspan3809"
+         sodipodi:role="line"
+         y="-213.56616"
+         x="277.5 285.62177 292.66125 298.08224">MC22</tspan></text>
+<text
+       id="text3811"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-213.56616"><tspan
+         id="tspan3813"
+         sodipodi:role="line"
+         y="-213.56616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3815"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-213.56616"><tspan
+         id="tspan3817"
+         sodipodi:role="line"
+         y="-213.56616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3819"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-213.56616"><tspan
+         id="tspan3821"
+         sodipodi:role="line"
+         y="-213.56616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       id="text3823"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-197.81616"><tspan
+         id="tspan3825"
+         sodipodi:role="line"
+         y="-197.81616"
+         x="97.5 105.62175 111.04275 115.91775 121.33875 124.58549 127.28625 130.533 135.95399 140.82899 146.25 154.37175 159.79276 164.66776 170.08875">Mucor racemosus</tspan></text>
+<text
+       id="text3827"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-197.81616"><tspan
+         id="tspan3829"
+         sodipodi:role="line"
+         y="-197.81616"
+         x="277.5 285.62177 292.66125 298.08224">MC23</tspan></text>
+<text
+       id="text3831"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-197.81616"><tspan
+         id="tspan3833"
+         sodipodi:role="line"
+         y="-197.81616"
+         x="353.25 361.37177 366.79276 371.66776 377.08875 380.33551 385.7565 393.87827 398.75327 403.62823 409.04926 411.75">Mucoromycota</tspan></text>
+<text
+       id="text3835"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-197.81616"><tspan
+         id="tspan3837"
+         sodipodi:role="line"
+         y="-197.81616"
+         x="429.75 437.87177 443.29276 448.16776 453.58875 456.83551 462.2565 470.37827 475.25327 480.12823 485.54926 488.25 490.41449 495.83551 501.2565">Mucoromycotina </tspan></text>
+<text
+       id="text3839"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-197.81616"><tspan
+         id="tspan3841"
+         sodipodi:role="line"
+         y="-197.81616"
+         x="538.5 541.74677 549.86853 555.28949 560.16449 565.58551 568.83228 574.25323 576.41772 581.83875 586.71375">(Mucorales)</tspan></text>
+<text
+       id="text3843"
+       style="font-style:italic;font-variant:normal;font-size:9.75px;font-family:Arial;-inkscape-font-specification:Arial-ItalicMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="97.5"
+       y="-182.06616"><tspan
+         id="tspan3845"
+         sodipodi:role="line"
+         y="-182.06616"
+         x="97.5 104.5395 109.4145 114.8355 120.2565 125.1315 130.0065 132.17101 137.592 143.013">Hypoxylon notatum<tspan
+   id="tspan3875"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial" /></tspan></text>
+<text
+       id="text3847"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="277.5"
+       y="-182.06616"><tspan
+         id="tspan3849"
+         sodipodi:role="line"
+         y="-182.06616"
+         x="277.5 285.62177 292.66125 298.08224">MC24</tspan></text>
+<text
+       id="text3851"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="353.25"
+       y="-182.06616"><tspan
+         id="tspan3853"
+         sodipodi:role="line"
+         y="-182.06616"
+         x="353.25 359.7435 364.6185 369.4935 374.91449 383.03625 387.91125 392.78625 398.20724 400.90799">Ascomycota</tspan></text>
+<text
+       id="text3855"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="429.75"
+       y="-182.06616"><tspan
+         id="tspan3857"
+         sodipodi:role="line"
+         y="-182.06616"
+         x="429.75 436.2435 441.66449 446.53949 448.70401 453.57901 459 467.12173 471.99673 476.87173 482.29276 484.9935 487.15799 492.57901">Pezizomycotina</tspan></text>
+<text
+       id="text3859"
+       style="font-variant:normal;font-weight:normal;font-size:9.75px;font-family:ArialMT;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="scale(1,-1)"
+       x="538.5"
+       y="-182.06616"><tspan
+         id="tspan3861"
+         sodipodi:role="line"
+         y="-182.06616"
+         x="538.5 544.99353 550.41449 553.66125 559.08228 564.50323 567.75 569.91449 575.33551 583.45728 588.33228 593.20728 598.62823 601.32898 606.75">Sordariomycetes</tspan></text>
+<text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="107.29618"
+       y="-152.56734"
+       id="text5146"
+       sodipodi:linespacing="125%"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan5148"
+         x="107.29618"
+         y="-152.56734" /></text>
+<text
+       xml:space="preserve"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75px;line-height:125%;font-family:'Liberation Serif';-inkscape-font-specification:'Liberation Serif';text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       x="97.5"
+       y="-213.38762"
+       id="text5150"
+       sodipodi:linespacing="125%"
+       transform="scale(1,-1)"><tspan
+         sodipodi:role="line"
+         id="tspan5152"
+         x="97.5"
+         y="-213.38762"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Epichloë sylvaticum</tspan></text>
+</g></svg>
