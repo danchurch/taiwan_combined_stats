@@ -13,7 +13,10 @@
    version="1.1"
    id="svg4658"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="wooddists.svg">
+   sodipodi:docname="wooddists.svg"
+   inkscape:export-filename="/home/daniel/Documents/taiwan/method_paper/taiwan_combined_stats/paper_graphics/bioinfo/wooddists.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata4899">
     <rdf:RDF>
@@ -33,7 +36,7 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1301"
      inkscape:window-height="744"
@@ -41,7 +44,7 @@
      showgrid="false"
      showborder="true"
      inkscape:zoom="0.5738095"
-     inkscape:cx="635.83601"
+     inkscape:cx="670.7621"
      inkscape:cy="130.86713"
      inkscape:window-x="65"
      inkscape:window-y="24"
