@@ -1,0 +1,56 @@
+Project: BioI-6098_OConnor_34875
+Project directory: P:\Data\BioI-6098\BioI-6098_OConnor_34875\
+Number of Reads: 48; Average quality: 58.9
+Trim quality value (window=20, threshold): 20
+Number of HQ reads: 46; Average quality: 61.5; Average length: 592
+
+                Read   Read Read   Trim   Trim
+Name            Length HQ   Q Ave. Length Q Ave.
+Sample10_ITS1-F 1142   548  31.8   543    65.8
+Sample10_ITS4   1358   547  26.6   548    65
+Sample11_ITS1-F 1299   558  27     547    62.8
+Sample11_ITS4   1357   561  27.2   553    65.7
+Sample12_ITS1-F 1369   571  28.2   550    57
+Sample12_ITS4   1360   572  27.1   567    64.2
+Sample13_ITS1-F 1369   572  26.7   561    57.1
+Sample13_ITS4   1360   565  27.1   558    64.9
+Sample14_ITS1-F 1362   630  27.9   621    60.1
+Sample14_ITS4   1330   636  31     622    65.3
+Sample15_ITS1-F 1159   620  35.5   612    66.1
+Sample15_ITS4   1161   619  33.5   610    62.5
+Sample16_ITS1-F 1365   547  26.7   541    66.2
+Sample16_ITS4   1141   558  31.9   560    64.4
+Sample17_ITS1-F 1363   526  20.1   694    32.7
+Sample17_ITS4   1341   570  22.1   834    30.9
+Sample18_ITS1-F 1414   801  36     801    62.9
+Sample18_ITS4   1410   812  36.1   812    62.3
+Sample19_ITS1-F 1248   555  29.4   547    65.9
+Sample19_ITS4   1145   562  32.3   569    64.5
+Sample1_ITS1-F  1393   112  12.2   66     39.8
+Sample1_ITS4    1404   555  25.8   502    55
+Sample20_ITS1-F 1359   653  32.1   646    66.4
+Sample20_ITS4   1170   659  37.2   659    65.6
+Sample21_ITS1-F 1178   143  9.23   0      0
+Sample21_ITS4   1167   80   8.34   0      0
+Sample22_ITS1-F 1295   565  27.8   562    63.3
+Sample22_ITS4   1359   574  27.4   578    64
+Sample23_ITS1-F 1362   600  27.8   599    62.2
+Sample23_ITS4   1367   596  27     583    61.8
+Sample24_ITS1-F 1151   586  33.2   577    65
+Sample24_ITS4   1360   592  28.5   592    64.8
+Sample2_ITS1-F  1325   826  38.5   797    57
+Sample2_ITS4    1351   875  38.1   878    55.8
+Sample3_ITS1-F  1158   605  34.6   596    66
+Sample3_ITS4    1360   612  26.3   611    58
+Sample4_ITS1-F  1362   557  26.8   550    65.1
+Sample4_ITS4    1145   555  31.6   539    65.6
+Sample5_ITS1-F  1360   611  29.8   603    66
+Sample5_ITS4    1363   613  28.7   617    62.7
+Sample6_ITS1-F  1357   597  29.1   584    66.4
+Sample6_ITS4    1401   598  26.4   590    61.5
+Sample7_ITS1-F  1360   569  27.8   559    66.3
+Sample7_ITS4    1363   580  27.8   581    64.7
+Sample8_ITS1-F  1361   503  24.6   499    65.9
+Sample8_ITS4    1358   508  24.6   506    65.2
+Sample9_ITS1-F  1362   554  26.9   545    65.8
+Sample9_ITS4    1370   559  25.9   562    62.5

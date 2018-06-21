@@ -1,0 +1,141 @@
+## let's try to rebuild our old stats pipeline. 
+
+## in one week. 
+
+## shit.
+
+## start with controls, cleanup of biom table
+
+## to startup:
+
+## biomsetup.R
+##############################
+
+library('phyloseq')
+library('DESeq2')
+library('vegan')
+library('cooccur')
+library('igraph')
+library('ecodist')
+library('ade4')
+library('png')
+
+biom95 <- import_biom('combo_otu_wMeta.biom', parseFunction=parse_taxonomy_greengenes)
+
+neg95 <- subset_samples(biom95, sample_names(biom95)=='Neg')
+
+##############################
+
+source("biomsetup.R")
+
+## start looking for tag switching
+
+reads <- taxa_sums(neg95)[taxa_sums(neg95) > 0]
+
+reads <- sort(reads, decreasing = TRUE)
+sink('neg95names.txt') ## read out these OTUs so we can use them in python env
+names(reads)
+sink()
+
+sed 's/\[.*\]//g' neg95names.txt |sed 's/^\s*//g' | sed 's/\s\+/,/g' | sed '$s/,$/\)/' | sed '1s/\"OTU/mcseq=\(\"OTU/' > neg95list.txt
+
+## python script to blast our negative controls against our positive control 
+## sequences:
+
+## MCseq.py
+## make sure line breaks are removed from fastas
+
+with open('otus_95_combo_nolb.fasta', 'r') as zoop:
+        refseq = zoop.readlines()
+
+with open('mcseq.txt', 'w') as goop:
+        for j,otu in enumerate(mcseq):
+                for i,line in enumerate(refseq):
+                        if otu in line:
+                                goop.write(line)
+                                goop.write(refseq[i+1])
+
+
+##############
+
+cat neg95list.txt MCseq.py > makeMCseq.py
+
+cat neg95list.txt MCseq.py 
+
+python3 makeMCseq.py
+
+grep "OTU" neg95list.txt 
+
+grep -o "OTU" neg95list.txt | wc -l ## 43
+
+grep "^>" mcseq.txt | wc -l ## 43
+
+## check in bash:
+
+aa=(OTU167:Dc-X OTU315:4w OTU306:Dc-PosG OTU386:Dc-PosG\
+OTU187:Dc-PosG OTU891:1w OTU762:Dc-X OTU1214:9w \
+OTU1747:11w OTU164:Dc-PosG OTU1332:11w OTU2003:Neg \
+OTU560:Dc-PosG OTU1444:49w OTU256:Dc-X OTU1432:2w \
+OTU1549:104w OTU6852:Neg OTU417:1w OTU84:38w \
+OTU1599:9w OTU2831:5w OTU46:60w OTU2115:131w \
+OTU119:Dc-PosG OTU220:Dc-PosG OTU235:Dc-PosG OTU264:Dc-PosG\
+OTU1183:36w OTU64:1w OTU409:4w OTU437:1w \
+OTU18:9w OTU414:13w OTU655:1w OTU2029:2w \
+OTU250:4w OTU7329:38w OTU925:133w OTU1496:23w \
+OTU588:32w OTU1888:25w OTU972:130w)
+
+for i in ${aa[@]}; do
+echo $i
+grep $i otus_95_combo_nolb.fasta
+done
+
+## looks like a comma missing, or something like that:
+
+## OTU386:Dc-PosGOTU187:Dc-PosG
+## OTU264:Dc-PosGOTU1183:36w
+
+## had to fix these manually. 
+
+## anyway, onward...
+
+aa=$(find . -type f -name "BioI-6098_OConnor_34875.seq.txt")
+
+## Shell kernel
+## reformat, blast
+
+sed '/^>/ s/;size=.*//' mcseq.txt | sed '/^>/ s/;size=.*//' mcseq.txt > mockseqs_Neg95.fasta
+
+blastn -query mockseqs_Neg95.fasta -db mcsanger.fasta -out mcblast_Neg95.txt -num_descriptions 3 -num_alignments 3
+blastn -query mockseqs_Neg95.fasta -db mcsanger.fasta -out mcblast_Neg95.csv -outfmt 10 -max_target_seqs 1
+sed '1 i\qseqid,sseqid,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore' mcblast_Neg95.csv -i
+sed 's/_ITS[1,4],/,/g' mcblast_Neg95.csv -i
+sed 's/Sample//g' mcblast_Neg95.csv -i
+
+R
+
+source("biomsetup.R")
+
+blast <- read.csv("mcblast_Neg95.csv", stringsAsFactors=FALSE)
+goodblast <- blast[blast$pident > 94 & blast$length > 90,]
+
+reads <- taxa_sums(neg95)[taxa_sums(neg95) > 0]
+reads <- sort(reads, decreasing = TRUE)
+Neg95.gen <- tax_table(neg95)[names(reads),6] ## genus, from initial tax assignments
+Neg95.gen[is.na(Neg95.gen)] <- "NoID"
+Neg95.species <- tax_table(neg95)[names(reads),7] ## species, from initial tax assignments
+Neg95.species[is.na(Neg95.species)] <- "NoID"
+member <- names(reads) %in% goodblast$qseqid ## membership in mock community (probably tag-switchers)
+MC <- vector(length = length(reads)); MC[] <- 0 ## empty vector, for MC sample #, filled below
+
+Neg95bar <- data.frame(reads, member, MC, Neg95.gen, Neg95.species, stringsAsFactors=FALSE) ## dataframe
+
+##fill the mock community sample number by querying our csv from blast results
+
+colnames(Neg95bar)[1] <- "reads"
+for (i in 1:nrow(Neg95bar)){
+        if (rownames(Neg95bar)[i] %in% goodblast$qseqid) {
+                search <- grep(rownames(Neg95bar)[i], goodblast$qseqid)
+                Neg95bar$MC[i] <- goodblast$sseqid[search]
+        }
+    }
+
