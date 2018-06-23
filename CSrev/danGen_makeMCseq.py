@@ -17,7 +17,7 @@ mcseq=("OTU256:Dc-X","OTU306:Dc-PosG","OTU119:Dc-PosG","OTU220:Dc-PosG",
 with open('otus_95_combo_nolb.fasta', 'r') as zoop:
         refseq = zoop.readlines()
 
-with open('mcblast_dangen95.csv', 'w') as goop:
+with open('seqs_dangen95.fasta', 'w') as goop:
         for j,otu in enumerate(mcseq):
                 for i,line in enumerate(refseq):
                         if otu in line:

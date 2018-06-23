@@ -1,0 +1,3086 @@
+BLASTN 2.2.31+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: mcsanger.fasta
+           45 sequences; 27,165 total letters
+
+
+
+Query= OTU256:Dc-X
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample6_ITS4 TRIM QUALITY: 20                                       340     1e-96
+  Sample6_ITS1-F TRIM QUALITY: 20                                     340     1e-96
+
+
+> Sample6_ITS4 TRIM QUALITY: 20
+Length=590
+
+ Score = 340 bits (184),  Expect = 1e-96
+ Identities = 184/184 (100%), Gaps = 0/184 (0%)
+ Strand=Plus/Minus
+
+Query  1    ACGAGTTTTGAAACGAGTTGTAGCTGGCCTTCCGAGGCATGTGCACGCTCTGCTCATCCA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  535  ACGAGTTTTGAAACGAGTTGTAGCTGGCCTTCCGAGGCATGTGCACGCTCTGCTCATCCA  476
+
+Query  61   CTCTACCCCTGTGCACTTACTGTAGGTTGGCGTGGGCTCCTTAACGGGAGCATTCTGCCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  475  CTCTACCCCTGTGCACTTACTGTAGGTTGGCGTGGGCTCCTTAACGGGAGCATTCTGCCG  416
+
+Query  121  GCCTATGTATACTACAAACACTTTAAAGTATCAGAATGTAAACGCGTCTAACGCATCTAT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  415  GCCTATGTATACTACAAACACTTTAAAGTATCAGAATGTAAACGCGTCTAACGCATCTAT  356
+
+Query  181  AATA  184
+            ||||
+Sbjct  355  AATA  352
+
+
+> Sample6_ITS1-F TRIM QUALITY: 20
+Length=584
+
+ Score = 340 bits (184),  Expect = 1e-96
+ Identities = 184/184 (100%), Gaps = 0/184 (0%)
+ Strand=Plus/Plus
+
+Query  1    ACGAGTTTTGAAACGAGTTGTAGCTGGCCTTCCGAGGCATGTGCACGCTCTGCTCATCCA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4    ACGAGTTTTGAAACGAGTTGTAGCTGGCCTTCCGAGGCATGTGCACGCTCTGCTCATCCA  63
+
+Query  61   CTCTACCCCTGTGCACTTACTGTAGGTTGGCGTGGGCTCCTTAACGGGAGCATTCTGCCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64   CTCTACCCCTGTGCACTTACTGTAGGTTGGCGTGGGCTCCTTAACGGGAGCATTCTGCCG  123
+
+Query  121  GCCTATGTATACTACAAACACTTTAAAGTATCAGAATGTAAACGCGTCTAACGCATCTAT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  124  GCCTATGTATACTACAAACACTTTAAAGTATCAGAATGTAAACGCGTCTAACGCATCTAT  183
+
+Query  181  AATA  184
+            ||||
+Sbjct  184  AATA  187
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4476810
+
+
+Query= OTU119:Dc-PosG
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample1_ITS4 TRIM QUALITY: 20                                       261     7e-73
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 261 bits (141),  Expect = 7e-73
+ Identities = 143/144 (99%), Gaps = 0/144 (0%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGGG  60
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |
+Sbjct  434  CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGTG  375
+
+Query  61   GCGACCCTGCCGCCACGGCGGCGCGGCGCCCCCGAAGGCCATCAAACACTGCATCATTGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  374  GCGACCCTGCCGCCACGGCGGCGCGGCGCCCCCGAAGGCCATCAAACACTGCATCATTGC  315
+
+Query  121  GTCGGAGTTAAAGTAAATCAAATA  144
+            ||||||||||||||||||||||||
+Sbjct  314  GTCGGAGTTAAAGTAAATCAAATA  291
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3449550
+
+
+Query= OTU106:Dc-PosG
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample10_ITS4 TRIM QUALITY: 20                                      322     4e-91
+  Sample10_ITS1-F TRIM QUALITY: 20                                    322     4e-91
+
+
+> Sample10_ITS4 TRIM QUALITY: 20
+Length=548
+
+ Score = 322 bits (174),  Expect = 4e-91
+ Identities = 174/174 (100%), Gaps = 0/174 (0%)
+ Strand=Plus/Minus
+
+Query  1    CAAGAAGCCGAAAGGCTACTTCAAACCATCGCGAACTCGTCCAAGTTGCTTCGGCGGCGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  482  CAAGAAGCCGAAAGGCTACTTCAAACCATCGCGAACTCGTCCAAGTTGCTTCGGCGGCGC  423
+
+Query  61   GGCACCCCTTAACGGGGGCGCCGCAGCCCTGCCTCTCCGGAGGTTCGGGGCGCCCGCCGG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  422  GGCACCCCTTAACGGGGGCGCCGCAGCCCTGCCTCTCCGGAGGTTCGGGGCGCCCGCCGG  363
+
+Query  121  AGGTACGAAACTCTGTATTATAGTGGCATCTCTGAGTATAAAACAAATAAGTTA  174
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  362  AGGTACGAAACTCTGTATTATAGTGGCATCTCTGAGTATAAAACAAATAAGTTA  309
+
+
+> Sample10_ITS1-F TRIM QUALITY: 20
+Length=543
+
+ Score = 322 bits (174),  Expect = 4e-91
+ Identities = 174/174 (100%), Gaps = 0/174 (0%)
+ Strand=Plus/Plus
+
+Query  1    CAAGAAGCCGAAAGGCTACTTCAAACCATCGCGAACTCGTCCAAGTTGCTTCGGCGGCGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  9    CAAGAAGCCGAAAGGCTACTTCAAACCATCGCGAACTCGTCCAAGTTGCTTCGGCGGCGC  68
+
+Query  61   GGCACCCCTTAACGGGGGCGCCGCAGCCCTGCCTCTCCGGAGGTTCGGGGCGCCCGCCGG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  69   GGCACCCCTTAACGGGGGCGCCGCAGCCCTGCCTCTCCGGAGGTTCGGGGCGCCCGCCGG  128
+
+Query  121  AGGTACGAAACTCTGTATTATAGTGGCATCTCTGAGTATAAAACAAATAAGTTA  174
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  129  AGGTACGAAACTCTGTATTATAGTGGCATCTCTGAGTATAAAACAAATAAGTTA  182
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4245600
+
+
+Query= OTU386:Dc-PosG
+
+Length=175
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample19_ITS4 TRIM QUALITY: 20                                      324     1e-91
+  Sample19_ITS1-F TRIM QUALITY: 20                                    324     1e-91
+
+
+> Sample19_ITS4 TRIM QUALITY: 20
+Length=569
+
+ Score = 324 bits (175),  Expect = 1e-91
+ Identities = 175/175 (100%), Gaps = 0/175 (0%)
+ Strand=Plus/Minus
+
+Query  1    CAGAGTTACCAAAACTCCCAAACCCATGTGAACATACCTCGCGTTGCCTCGGCAGGTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  513  CAGAGTTACCAAAACTCCCAAACCCATGTGAACATACCTCGCGTTGCCTCGGCAGGTGGC  454
+
+Query  61   GTCCTACCCCGTGAGTCCTACCCTGTAGGACCTACCCGGTAGGCGACCCTGCCGACGGCC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  453  GTCCTACCCCGTGAGTCCTACCCTGTAGGACCTACCCGGTAGGCGACCCTGCCGACGGCC  394
+
+Query  121  CCCGAAACTCTGTTTTTATAGCATTGGACTTCTGACAAGATAACTAAATAAGTTA  175
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  393  CCCGAAACTCTGTTTTTATAGCATTGGACTTCTGACAAGATAACTAAATAAGTTA  339
+
+
+> Sample19_ITS1-F TRIM QUALITY: 20
+Length=547
+
+ Score = 324 bits (175),  Expect = 1e-91
+ Identities = 175/175 (100%), Gaps = 0/175 (0%)
+ Strand=Plus/Plus
+
+Query  1    CAGAGTTACCAAAACTCCCAAACCCATGTGAACATACCTCGCGTTGCCTCGGCAGGTGGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    CAGAGTTACCAAAACTCCCAAACCCATGTGAACATACCTCGCGTTGCCTCGGCAGGTGGC  64
+
+Query  61   GTCCTACCCCGTGAGTCCTACCCTGTAGGACCTACCCGGTAGGCGACCCTGCCGACGGCC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   GTCCTACCCCGTGAGTCCTACCCTGTAGGACCTACCCGGTAGGCGACCCTGCCGACGGCC  124
+
+Query  121  CCCGAAACTCTGTTTTTATAGCATTGGACTTCTGACAAGATAACTAAATAAGTTA  175
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  CCCGAAACTCTGTTTTTATAGCATTGGACTTCTGACAAGATAACTAAATAAGTTA  179
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4272135
+
+
+Query= OTU306:Dc-PosG
+
+Length=176
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample9_ITS4 TRIM QUALITY: 20                                       326     3e-92
+  Sample9_ITS1-F TRIM QUALITY: 20                                     326     3e-92
+
+
+> Sample9_ITS4 TRIM QUALITY: 20
+Length=562
+
+ Score = 326 bits (176),  Expect = 3e-92
+ Identities = 176/176 (100%), Gaps = 0/176 (0%)
+ Strand=Plus/Minus
+
+Query  1    AAGAGAAAGGACGAAAGTCCAACCTCCAACCCTTTGTTTTAAACCACTAGTTGCCTTGCC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  504  AAGAGAAAGGACGAAAGTCCAACCTCCAACCCTTTGTTTTAAACCACTAGTTGCCTTGCC  445
+
+Query  61   TTATGTCGGTTGACTGAGGCGTGGGGAAACCTGCGTCGCTTTTCATGCCGGCCTCTAGGG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  444  TTATGTCGGTTGACTGAGGCGTGGGGAAACCTGCGTCGCTTTTCATGCCGGCCTCTAGGG  385
+
+Query  121  CAATGGACCATTAAACTCGAATATCAGTGTAGTCTGAGAAAAAATTCAATGAATTA  176
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  384  CAATGGACCATTAAACTCGAATATCAGTGTAGTCTGAGAAAAAATTCAATGAATTA  329
+
+
+> Sample9_ITS1-F TRIM QUALITY: 20
+Length=545
+
+ Score = 326 bits (176),  Expect = 3e-92
+ Identities = 176/176 (100%), Gaps = 0/176 (0%)
+ Strand=Plus/Plus
+
+Query  1    AAGAGAAAGGACGAAAGTCCAACCTCCAACCCTTTGTTTTAAACCACTAGTTGCCTTGCC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    AAGAGAAAGGACGAAAGTCCAACCTCCAACCCTTTGTTTTAAACCACTAGTTGCCTTGCC  64
+
+Query  61   TTATGTCGGTTGACTGAGGCGTGGGGAAACCTGCGTCGCTTTTCATGCCGGCCTCTAGGG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   TTATGTCGGTTGACTGAGGCGTGGGGAAACCTGCGTCGCTTTTCATGCCGGCCTCTAGGG  124
+
+Query  121  CAATGGACCATTAAACTCGAATATCAGTGTAGTCTGAGAAAAAATTCAATGAATTA  176
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  CAATGGACCATTAAACTCGAATATCAGTGTAGTCTGAGAAAAAATTCAATGAATTA  180
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4298670
+
+
+Query= OTU264:Dc-PosG
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample16_ITS4 TRIM QUALITY: 20                                      333     2e-94
+  Sample16_ITS1-F TRIM QUALITY: 20                                    333     2e-94
+
+
+> Sample16_ITS4 TRIM QUALITY: 20
+Length=560
+
+ Score = 333 bits (180),  Expect = 2e-94
+ Identities = 180/180 (100%), Gaps = 0/180 (0%)
+ Strand=Plus/Minus
+
+Query  1    AAGAGTTTACTACAACTCCCAAACCCATGTGAACATACCTTCTGTTGCCTCGGCAGGTCG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  502  AAGAGTTTACTACAACTCCCAAACCCATGTGAACATACCTTCTGTTGCCTCGGCAGGTCG  443
+
+Query  61   TGTAGGACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  442  TGTAGGACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCT  383
+
+Query  121  GCCGGTGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  382  GCCGGTGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  323
+
+
+> Sample16_ITS1-F TRIM QUALITY: 20
+Length=541
+
+ Score = 333 bits (180),  Expect = 2e-94
+ Identities = 180/180 (100%), Gaps = 0/180 (0%)
+ Strand=Plus/Plus
+
+Query  1    AAGAGTTTACTACAACTCCCAAACCCATGTGAACATACCTTCTGTTGCCTCGGCAGGTCG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    AAGAGTTTACTACAACTCCCAAACCCATGTGAACATACCTTCTGTTGCCTCGGCAGGTCG  64
+
+Query  61   TGTAGGACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   TGTAGGACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCT  124
+
+Query  121  GCCGGTGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  GCCGGTGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  184
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4370850
+
+
+Query= OTU407:Dc-PosG
+
+Length=193
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample7_ITS4 TRIM QUALITY: 20                                       357     1e-101
+  Sample7_ITS1-F TRIM QUALITY: 20                                     357     1e-101
+
+
+> Sample7_ITS4 TRIM QUALITY: 20
+Length=581
+
+ Score = 357 bits (193),  Expect = 1e-101
+ Identities = 193/193 (100%), Gaps = 0/193 (0%)
+ Strand=Plus/Minus
+
+Query  1    CACAATAACAAGGCGGGCTGGACACCCCCCGCTGGGCACTGCTTCACGGCGTGCGCGGCG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  524  CACAATAACAAGGCGGGCTGGACACCCCCCGCTGGGCACTGCTTCACGGCGTGCGCGGCG  465
+
+Query  61   GGGCCGGCCCTGCTGAATTATTCACCCGTGTCTTTTGCGTACTTCTTGTTTCCTGGGTGG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  464  GGGCCGGCCCTGCTGAATTATTCACCCGTGTCTTTTGCGTACTTCTTGTTTCCTGGGTGG  405
+
+Query  121  GCTCGCCCGCCCTCAGGACCAACCACAAACCTTTTGCAATAGCAATCAGCGTCAGTAACA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  404  GCTCGCCCGCCCTCAGGACCAACCACAAACCTTTTGCAATAGCAATCAGCGTCAGTAACA  345
+
+Query  181  ACGTAATTAATTA  193
+            |||||||||||||
+Sbjct  344  ACGTAATTAATTA  332
+
+
+> Sample7_ITS1-F TRIM QUALITY: 20
+Length=559
+
+ Score = 357 bits (193),  Expect = 1e-101
+ Identities = 193/193 (100%), Gaps = 0/193 (0%)
+ Strand=Plus/Plus
+
+Query  1    CACAATAACAAGGCGGGCTGGACACCCCCCGCTGGGCACTGCTTCACGGCGTGCGCGGCG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    CACAATAACAAGGCGGGCTGGACACCCCCCGCTGGGCACTGCTTCACGGCGTGCGCGGCG  64
+
+Query  61   GGGCCGGCCCTGCTGAATTATTCACCCGTGTCTTTTGCGTACTTCTTGTTTCCTGGGTGG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   GGGCCGGCCCTGCTGAATTATTCACCCGTGTCTTTTGCGTACTTCTTGTTTCCTGGGTGG  124
+
+Query  121  GCTCGCCCGCCCTCAGGACCAACCACAAACCTTTTGCAATAGCAATCAGCGTCAGTAACA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  GCTCGCCCGCCCTCAGGACCAACCACAAACCTTTTGCAATAGCAATCAGCGTCAGTAACA  184
+
+Query  181  ACGTAATTAATTA  193
+            |||||||||||||
+Sbjct  185  ACGTAATTAATTA  197
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4715220
+
+
+Query= OTU191:Dc-PosG
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample14_ITS4 TRIM QUALITY: 20                                      364     7e-104
+  Sample14_ITS1-F TRIM QUALITY: 20                                    364     7e-104
+
+
+> Sample14_ITS4 TRIM QUALITY: 20
+Length=622
+
+ Score = 364 bits (197),  Expect = 7e-104
+ Identities = 197/197 (100%), Gaps = 0/197 (0%)
+ Strand=Plus/Minus
+
+Query  1    CAGAGTTTTCAACTCCCAACCCTTGCGAACCGTACCCCGTTCTGTTCTCGTTGCTTCTGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  566  CAGAGTTTTCAACTCCCAACCCTTGCGAACCGTACCCCGTTCTGTTCTCGTTGCTTCTGG  507
+
+Query  61   CGGGAGGGGAGGGGCGCGTCCTTCGGGGCGCGCCTCTCTCTCCCAGGTCCCTTCGGGGCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  506  CGGGAGGGGAGGGGCGCGTCCTTCGGGGCGCGCCTCTCTCTCCCAGGTCCCTTCGGGGCG  447
+
+Query  121  CCCGCCAGCGGCCGCGAGCCGCCTGAACCTTTTTTGAACCAGTAACGAACCGTCTGAGCA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  446  CCCGCCAGCGGCCGCGAGCCGCCTGAACCTTTTTTGAACCAGTAACGAACCGTCTGAGCA  387
+
+Query  181  ACAAACAAAAACAGCCA  197
+            |||||||||||||||||
+Sbjct  386  ACAAACAAAAACAGCCA  370
+
+
+> Sample14_ITS1-F TRIM QUALITY: 20
+Length=621
+
+ Score = 364 bits (197),  Expect = 7e-104
+ Identities = 197/197 (100%), Gaps = 0/197 (0%)
+ Strand=Plus/Plus
+
+Query  1    CAGAGTTTTCAACTCCCAACCCTTGCGAACCGTACCCCGTTCTGTTCTCGTTGCTTCTGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4    CAGAGTTTTCAACTCCCAACCCTTGCGAACCGTACCCCGTTCTGTTCTCGTTGCTTCTGG  63
+
+Query  61   CGGGAGGGGAGGGGCGCGTCCTTCGGGGCGCGCCTCTCTCTCCCAGGTCCCTTCGGGGCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64   CGGGAGGGGAGGGGCGCGTCCTTCGGGGCGCGCCTCTCTCTCCCAGGTCCCTTCGGGGCG  123
+
+Query  121  CCCGCCAGCGGCCGCGAGCCGCCTGAACCTTTTTTGAACCAGTAACGAACCGTCTGAGCA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  124  CCCGCCAGCGGCCGCGAGCCGCCTGAACCTTTTTTGAACCAGTAACGAACCGTCTGAGCA  183
+
+Query  181  ACAAACAAAAACAGCCA  197
+            |||||||||||||||||
+Sbjct  184  ACAAACAAAAACAGCCA  200
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4821180
+
+
+Query= OTU270:Dc-PosG
+
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample12_ITS4 TRIM QUALITY: 20                                      329     2e-93
+  Sample12_ITS1-F TRIM QUALITY: 20                                    329     2e-93
+
+
+> Sample12_ITS4 TRIM QUALITY: 20
+Length=567
+
+ Score = 329 bits (178),  Expect = 2e-93
+ Identities = 178/178 (100%), Gaps = 0/178 (0%)
+ Strand=Plus/Minus
+
+Query  1    CCGAGTGCGGGTCCCCTCGCGGGGCCCAACCTCCCACCCGTGTCTACCGTCACCTGTTGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  501  CCGAGTGCGGGTCCCCTCGCGGGGCCCAACCTCCCACCCGTGTCTACCGTCACCTGTTGC  442
+
+Query  61   TTcggcgggcccgccttcgtgccgccggggggccctctgcgcccccgggcccgcgcccgc  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  441  TTCGGCGGGCCCGCCTTCGTGCCGCCGGGGGGCCCTCTGCGCCCCCGGGCCCGCGCCCGC  382
+
+Query  121  cgAGGACTCTAGGAACACTGAATGAAGGATGCCGTCTGAGTCAACGACACAATCGTTA  178
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  381  CGAGGACTCTAGGAACACTGAATGAAGGATGCCGTCTGAGTCAACGACACAATCGTTA  324
+
+
+> Sample12_ITS1-F TRIM QUALITY: 20
+Length=550
+
+ Score = 329 bits (178),  Expect = 2e-93
+ Identities = 178/178 (100%), Gaps = 0/178 (0%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTGCGGGTCCCCTCGCGGGGCCCAACCTCCCACCCGTGTCTACCGTCACCTGTTGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    CCGAGTGCGGGTCCCCTCGCGGGGCCCAACCTCCCACCCGTGTCTACCGTCACCTGTTGC  62
+
+Query  61   TTcggcgggcccgccttcgtgccgccggggggccctctgcgcccccgggcccgcgcccgc  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   TTCGGCGGGCCCGCCTTCGTGCCGCCGGGGGGCCCTCTGCGCCCCCGGGCCCGCGCCCGC  122
+
+Query  121  cgAGGACTCTAGGAACACTGAATGAAGGATGCCGTCTGAGTCAACGACACAATCGTTA  178
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  CGAGGACTCTAGGAACACTGAATGAAGGATGCCGTCTGAGTCAACGACACAATCGTTA  180
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4351740
+
+
+Query= OTU271:Dc-PosG
+
+Length=209
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample24_ITS4 TRIM QUALITY: 20                                      387     2e-110
+  Sample24_ITS1-F TRIM QUALITY: 20                                    387     2e-110
+
+
+> Sample24_ITS4 TRIM QUALITY: 20
+Length=592
+
+ Score = 387 bits (209),  Expect = 2e-110
+ Identities = 209/209 (100%), Gaps = 0/209 (0%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTTCTAAAAAACTCCCAACCCTTTGTGAATTATACCCCAGTTGCCTCGGCGTCGAG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  537  CTGAGTTCTAAAAAACTCCCAACCCTTTGTGAATTATACCCCAGTTGCCTCGGCGTCGAG  478
+
+Query  61   CGAGTCCCCTGCTGGAGAGCTACCTTGGAGTCACCTACCCTGTAGACGGCTACCCTGGAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  477  CGAGTCCCCTGCTGGAGAGCTACCTTGGAGTCACCTACCCTGTAGACGGCTACCCTGGAG  418
+
+Query  121  CTACCCTGTAGTGGCACTTCCGCGTCGCCGGTGGACTATCTAACTCTTATATGTATAGTG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  417  CTACCCTGTAGTGGCACTTCCGCGTCGCCGGTGGACTATCTAACTCTTATATGTATAGTG  358
+
+Query  181  TATCTCTGAATTCTTTAACAAAATAGTTA  209
+            |||||||||||||||||||||||||||||
+Sbjct  357  TATCTCTGAATTCTTTAACAAAATAGTTA  329
+
+
+> Sample24_ITS1-F TRIM QUALITY: 20
+Length=577
+
+ Score = 387 bits (209),  Expect = 2e-110
+ Identities = 209/209 (100%), Gaps = 0/209 (0%)
+ Strand=Plus/Plus
+
+Query  1    CTGAGTTCTAAAAAACTCCCAACCCTTTGTGAATTATACCCCAGTTGCCTCGGCGTCGAG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    CTGAGTTCTAAAAAACTCCCAACCCTTTGTGAATTATACCCCAGTTGCCTCGGCGTCGAG  62
+
+Query  61   CGAGTCCCCTGCTGGAGAGCTACCTTGGAGTCACCTACCCTGTAGACGGCTACCCTGGAG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   CGAGTCCCCTGCTGGAGAGCTACCTTGGAGTCACCTACCCTGTAGACGGCTACCCTGGAG  122
+
+Query  121  CTACCCTGTAGTGGCACTTCCGCGTCGCCGGTGGACTATCTAACTCTTATATGTATAGTG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  CTACCCTGTAGTGGCACTTCCGCGTCGCCGGTGGACTATCTAACTCTTATATGTATAGTG  182
+
+Query  181  TATCTCTGAATTCTTTAACAAAATAGTTA  209
+            |||||||||||||||||||||||||||||
+Sbjct  183  TATCTCTGAATTCTTTAACAAAATAGTTA  211
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5139060
+
+
+Query= OTU220:Dc-PosG
+
+Length=168
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample22_ITS4 TRIM QUALITY: 20                                      311     8e-88
+  Sample22_ITS1-F TRIM QUALITY: 20                                    311     8e-88
+
+
+> Sample22_ITS4 TRIM QUALITY: 20
+Length=578
+
+ Score = 311 bits (168),  Expect = 8e-88
+ Identities = 168/168 (100%), Gaps = 0/168 (0%)
+ Strand=Plus/Minus
+
+Query  1    CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCGGGCA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  512  CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCGGGCA  453
+
+Query  61   CGGCCGCGGACGCCCCCTCGCGGGGGCACCGGGGCCAGGCGCCCGCCGGAGGACCCAAAC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  452  CGGCCGCGGACGCCCCCTCGCGGGGGCACCGGGGCCAGGCGCCCGCCGGAGGACCCAAAC  393
+
+Query  121  CCTTCTGTATTTTCTTACGCATGTCTGAGTGGATTTACAAATAAATCA  168
+            ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  392  CCTTCTGTATTTTCTTACGCATGTCTGAGTGGATTTACAAATAAATCA  345
+
+
+> Sample22_ITS1-F TRIM QUALITY: 20
+Length=562
+
+ Score = 311 bits (168),  Expect = 8e-88
+ Identities = 168/168 (100%), Gaps = 0/168 (0%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCGGGCA  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  15   CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCGGGCA  74
+
+Query  61   CGGCCGCGGACGCCCCCTCGCGGGGGCACCGGGGCCAGGCGCCCGCCGGAGGACCCAAAC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  75   CGGCCGCGGACGCCCCCTCGCGGGGGCACCGGGGCCAGGCGCCCGCCGGAGGACCCAAAC  134
+
+Query  121  CCTTCTGTATTTTCTTACGCATGTCTGAGTGGATTTACAAATAAATCA  168
+            ||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  135  CCTTCTGTATTTTCTTACGCATGTCTGAGTGGATTTACAAATAAATCA  182
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4086390
+
+
+Query= OTU258:Dc-PosG
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample13_ITS4 TRIM QUALITY: 20                                      333     2e-94
+  Sample13_ITS1-F TRIM QUALITY: 20                                    333     2e-94
+
+
+> Sample13_ITS4 TRIM QUALITY: 20
+Length=558
+
+ Score = 333 bits (180),  Expect = 2e-94
+ Identities = 180/180 (100%), Gaps = 0/180 (0%)
+ Strand=Plus/Minus
+
+Query  1    AAGAGATAGGGTCTTCACGGCCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  492  AAGAGATAGGGTCTTCACGGCCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGC  433
+
+Query  61   TTTGGCGGGACCGTCTCGGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  432  TTTGGCGGGACCGTCTCGGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCA  373
+
+Query  121  GAGTCCAACCAAACTCTTGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  372  GAGTCCAACCAAACTCTTGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  313
+
+
+> Sample13_ITS1-F TRIM QUALITY: 20
+Length=561
+
+ Score = 333 bits (180),  Expect = 2e-94
+ Identities = 180/180 (100%), Gaps = 0/180 (0%)
+ Strand=Plus/Plus
+
+Query  1    AAGAGATAGGGTCTTCACGGCCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  3    AAGAGATAGGGTCTTCACGGCCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGC  62
+
+Query  61   TTTGGCGGGACCGTCTCGGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  63   TTTGGCGGGACCGTCTCGGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCA  122
+
+Query  121  GAGTCCAACCAAACTCTTGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  123  GAGTCCAACCAAACTCTTGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  182
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4370850
+
+
+Query= OTU526:Dc-PosG
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample5_ITS4 TRIM QUALITY: 20                                       429     3e-123
+  Sample5_ITS1-F TRIM QUALITY: 20                                     429     3e-123
+
+
+> Sample5_ITS4 TRIM QUALITY: 20
+Length=617
+
+ Score = 429 bits (232),  Expect = 3e-123
+ Identities = 232/232 (100%), Gaps = 0/232 (0%)
+ Strand=Plus/Minus
+
+Query  1    TCTATTCATGACATACAGGAGTGCAACAGCCCTCTGGGGCTCCTTAAATGGTGACCCCCC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  562  TCTATTCATGACATACAGGAGTGCAACAGCCCTCTGGGGCTCCTTAAATGGTGACCCCCC  503
+
+Query  61   TGTGGACACGCCCTGTACGCTCATTGACATCCCATCTGTGTATATGACTTCTGTTGCTTC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  502  TGTGGACACGCCCTGTACGCTCATTGACATCCCATCTGTGTATATGACTTCTGTTGCTTC  443
+
+Query  121  CCGCAAGGGGGACGCTTGGGTTTAAAACCCCTAGCGTTAGCCTGCGGGGAGGAAAACATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  442  CCGCAAGGGGGACGCTTGGGTTTAAAACCCCTAGCGTTAGCCTGCGGGGAGGAAAACATA  383
+
+Query  181  AACTCTGTTTGTTGTATTGTCAGTCTGAGTGGTTATCACATAAAACAAGTTA  232
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  382  AACTCTGTTTGTTGTATTGTCAGTCTGAGTGGTTATCACATAAAACAAGTTA  331
+
+
+> Sample5_ITS1-F TRIM QUALITY: 20
+Length=603
+
+ Score = 429 bits (232),  Expect = 3e-123
+ Identities = 232/232 (100%), Gaps = 0/232 (0%)
+ Strand=Plus/Plus
+
+Query  1    TCTATTCATGACATACAGGAGTGCAACAGCCCTCTGGGGCTCCTTAAATGGTGACCCCCC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    TCTATTCATGACATACAGGAGTGCAACAGCCCTCTGGGGCTCCTTAAATGGTGACCCCCC  64
+
+Query  61   TGTGGACACGCCCTGTACGCTCATTGACATCCCATCTGTGTATATGACTTCTGTTGCTTC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   TGTGGACACGCCCTGTACGCTCATTGACATCCCATCTGTGTATATGACTTCTGTTGCTTC  124
+
+Query  121  CCGCAAGGGGGACGCTTGGGTTTAAAACCCCTAGCGTTAGCCTGCGGGGAGGAAAACATA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  CCGCAAGGGGGACGCTTGGGTTTAAAACCCCTAGCGTTAGCCTGCGGGGAGGAAAACATA  184
+
+Query  181  AACTCTGTTTGTTGTATTGTCAGTCTGAGTGGTTATCACATAAAACAAGTTA  232
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  185  AACTCTGTTTGTTGTATTGTCAGTCTGAGTGGTTATCACATAAAACAAGTTA  236
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5748330
+
+
+Query= OTU235:Dc-PosG
+
+Length=217
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample20_ITS4 TRIM QUALITY: 20                                      401     6e-115
+  Sample20_ITS1-F TRIM QUALITY: 20                                    401     6e-115
+
+
+> Sample20_ITS4 TRIM QUALITY: 20
+Length=659
+
+ Score = 401 bits (217),  Expect = 6e-115
+ Identities = 217/217 (100%), Gaps = 0/217 (0%)
+ Strand=Plus/Minus
+
+Query  1    TTGAATAACTTTGGCGTGGTTGTAGCTGGTCCTCTCGGGGGCATGTGCTCGCCCGTCATC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  605  TTGAATAACTTTGGCGTGGTTGTAGCTGGTCCTCTCGGGGGCATGTGCTCGCCCGTCATC  546
+
+Query  61   TTTATATCTCCACCTGTGCACCTTTTGTAGACGTTGAAACTGGATAGGAGAGGGACTTGT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  545  TTTATATCTCCACCTGTGCACCTTTTGTAGACGTTGAAACTGGATAGGAGAGGGACTTGT  486
+
+Query  121  CCTTCAAGTTGAAGGATTTTTCGGCGCTCTACGTTTTCATATACCCCAAAGAATGTAACA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  485  CCTTCAAGTTGAAGGATTTTTCGGCGCTCTACGTTTTCATATACCCCAAAGAATGTAACA  426
+
+Query  181  GAATGTATCTTATGGCTTTATGCCTATAAACTATATA  217
+            |||||||||||||||||||||||||||||||||||||
+Sbjct  425  GAATGTATCTTATGGCTTTATGCCTATAAACTATATA  389
+
+
+> Sample20_ITS1-F TRIM QUALITY: 20
+Length=646
+
+ Score = 401 bits (217),  Expect = 6e-115
+ Identities = 217/217 (100%), Gaps = 0/217 (0%)
+ Strand=Plus/Plus
+
+Query  1    TTGAATAACTTTGGCGTGGTTGTAGCTGGTCCTCTCGGGGGCATGTGCTCGCCCGTCATC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    TTGAATAACTTTGGCGTGGTTGTAGCTGGTCCTCTCGGGGGCATGTGCTCGCCCGTCATC  64
+
+Query  61   TTTATATCTCCACCTGTGCACCTTTTGTAGACGTTGAAACTGGATAGGAGAGGGACTTGT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   TTTATATCTCCACCTGTGCACCTTTTGTAGACGTTGAAACTGGATAGGAGAGGGACTTGT  124
+
+Query  121  CCTTCAAGTTGAAGGATTTTTCGGCGCTCTACGTTTTCATATACCCCAAAGAATGTAACA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  CCTTCAAGTTGAAGGATTTTTCGGCGCTCTACGTTTTCATATACCCCAAAGAATGTAACA  184
+
+Query  181  GAATGTATCTTATGGCTTTATGCCTATAAACTATATA  217
+            |||||||||||||||||||||||||||||||||||||
+Sbjct  185  GAATGTATCTTATGGCTTTATGCCTATAAACTATATA  221
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5350980
+
+
+Query= OTU560:Dc-PosG
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample4_ITS4 TRIM QUALITY: 20                                       333     2e-94
+  Sample4_ITS1-F TRIM QUALITY: 20                                     333     2e-94
+
+
+> Sample4_ITS4 TRIM QUALITY: 20
+Length=539
+
+ Score = 333 bits (180),  Expect = 2e-94
+ Identities = 180/180 (100%), Gaps = 0/180 (0%)
+ Strand=Plus/Minus
+
+Query  1    TTGGAACGCGCTCACGCGCATCCAGACAACCCTTTGTGAACTTATACCTATACTGTTGCC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  485  TTGGAACGCGCTCACGCGCATCCAGACAACCCTTTGTGAACTTATACCTATACTGTTGCC  426
+
+Query  61   TCGGCGTCAGGCTGGCTCCCCTCGGGGGGTCCCTCACCTCGGTGAGGAGCAGGCCCGCCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  425  TCGGCGTCAGGCTGGCTCCCCTCGGGGGGTCCCTCACCTCGGTGAGGAGCAGGCCCGCCG  366
+
+Query  121  GCGGCCAAGTTAACTCTTGTTTTTACACTGAAACTCTGAGaaaaaaacaaaaaTGAATCA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  365  GCGGCCAAGTTAACTCTTGTTTTTACACTGAAACTCTGAGAAAAAAACAAAAATGAATCA  306
+
+
+> Sample4_ITS1-F TRIM QUALITY: 20
+Length=550
+
+ Score = 333 bits (180),  Expect = 2e-94
+ Identities = 180/180 (100%), Gaps = 0/180 (0%)
+ Strand=Plus/Plus
+
+Query  1    TTGGAACGCGCTCACGCGCATCCAGACAACCCTTTGTGAACTTATACCTATACTGTTGCC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    TTGGAACGCGCTCACGCGCATCCAGACAACCCTTTGTGAACTTATACCTATACTGTTGCC  64
+
+Query  61   TCGGCGTCAGGCTGGCTCCCCTCGGGGGGTCCCTCACCTCGGTGAGGAGCAGGCCCGCCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   TCGGCGTCAGGCTGGCTCCCCTCGGGGGGTCCCTCACCTCGGTGAGGAGCAGGCCCGCCG  124
+
+Query  121  GCGGCCAAGTTAACTCTTGTTTTTACACTGAAACTCTGAGaaaaaaacaaaaaTGAATCA  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  GCGGCCAAGTTAACTCTTGTTTTTACACTGAAACTCTGAGAAAAAAACAAAAATGAATCA  184
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4370850
+
+
+Query= OTU164:Dc-PosG
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample8_ITS4 TRIM QUALITY: 20                                       265     5e-74
+  Sample8_ITS1-F TRIM QUALITY: 20                                     265     5e-74
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 265 bits (143),  Expect = 5e-74
+ Identities = 143/143 (100%), Gaps = 0/143 (0%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  451  CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  392
+
+Query  61   GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  391  GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  332
+
+Query  121  CGGAGTATAAAGTTAATTTAATA  143
+            |||||||||||||||||||||||
+Sbjct  331  CGGAGTATAAAGTTAATTTAATA  309
+
+
+> Sample8_ITS1-F TRIM QUALITY: 20
+Length=499
+
+ Score = 265 bits (143),  Expect = 5e-74
+ Identities = 143/143 (100%), Gaps = 0/143 (0%)
+ Strand=Plus/Plus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  11   CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  70
+
+Query  61   GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  71   GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  130
+
+Query  121  CGGAGTATAAAGTTAATTTAATA  143
+            |||||||||||||||||||||||
+Sbjct  131  CGGAGTATAAAGTTAATTTAATA  153
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3423015
+
+
+Query= OTU608:Dc-PosG
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample11_ITS4 TRIM QUALITY: 20                                      322     4e-91
+  Sample11_ITS1-F TRIM QUALITY: 20                                    322     4e-91
+
+
+> Sample11_ITS4 TRIM QUALITY: 20
+Length=553
+
+ Score = 322 bits (174),  Expect = 4e-91
+ Identities = 174/174 (100%), Gaps = 0/174 (0%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGCCCCTCGGGGTCCAACCTCCCACCCGTGTTTAACGTACCTTGTTGCTTc  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  487  CTGAGTGAGGGCCCCTCGGGGTCCAACCTCCCACCCGTGTTTAACGTACCTTGTTGCTTC  428
+
+Query  61   ggcgggcccgcctcacggccgccggggggcatccgcccccgggcccgcgcccgccgAAGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  427  GGCGGGCCCGCCTCACGGCCGCCGGGGGGCATCCGCCCCCGGGCCCGCGCCCGCCGAAGC  368
+
+Query  121  CACCTGTGAACGCTGTCTGAAGTATGCAGTCTGAGACAATTATTAAATTAATTA  174
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  367  CACCTGTGAACGCTGTCTGAAGTATGCAGTCTGAGACAATTATTAAATTAATTA  314
+
+
+> Sample11_ITS1-F TRIM QUALITY: 20
+Length=547
+
+ Score = 322 bits (174),  Expect = 4e-91
+ Identities = 174/174 (100%), Gaps = 0/174 (0%)
+ Strand=Plus/Plus
+
+Query  1    CTGAGTGAGGGCCCCTCGGGGTCCAACCTCCCACCCGTGTTTAACGTACCTTGTTGCTTc  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  4    CTGAGTGAGGGCCCCTCGGGGTCCAACCTCCCACCCGTGTTTAACGTACCTTGTTGCTTC  63
+
+Query  61   ggcgggcccgcctcacggccgccggggggcatccgcccccgggcccgcgcccgccgAAGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  64   GGCGGGCCCGCCTCACGGCCGCCGGGGGGCATCCGCCCCCGGGCCCGCGCCCGCCGAAGC  123
+
+Query  121  CACCTGTGAACGCTGTCTGAAGTATGCAGTCTGAGACAATTATTAAATTAATTA  174
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  124  CACCTGTGAACGCTGTCTGAAGTATGCAGTCTGAGACAATTATTAAATTAATTA  177
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4245600
+
+
+Query= OTU733:Dc-PosG
+
+Length=208
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample23_ITS4 TRIM QUALITY: 20                                      385     6e-110
+  Sample23_ITS1-F TRIM QUALITY: 20                                    379     3e-108
+
+
+> Sample23_ITS4 TRIM QUALITY: 20
+Length=583
+
+ Score = 385 bits (208),  Expect = 6e-110
+ Identities = 208/208 (100%), Gaps = 0/208 (0%)
+ Strand=Plus/Minus
+
+Query  1    AATAATCAATAATCTTGGCTTGTCCATTATTATCTATTTACTGTGAACTGTATTATTATT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  528  AATAATCAATAATCTTGGCTTGTCCATTATTATCTATTTACTGTGAACTGTATTATTATT  469
+
+Query  61   TGACGTTTGAGGGATGTTCCAATGTTATAAGGATAGACATTGGAGATGTTAACCGAGTCA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  468  TGACGTTTGAGGGATGTTCCAATGTTATAAGGATAGACATTGGAGATGTTAACCGAGTCA  409
+
+Query  121  TAATCAGGTTTAGGCCTGGTATCCTATTATTATTTACCAAATGAATTCAGAATTAATATT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  408  TAATCAGGTTTAGGCCTGGTATCCTATTATTATTTACCAAATGAATTCAGAATTAATATT  349
+
+Query  181  GTAACATAGACCTAAAAAATCTATAAAA  208
+            ||||||||||||||||||||||||||||
+Sbjct  348  GTAACATAGACCTAAAAAATCTATAAAA  321
+
+
+> Sample23_ITS1-F TRIM QUALITY: 20
+Length=599
+
+ Score = 379 bits (205),  Expect = 3e-108
+ Identities = 208/209 (99%), Gaps = 1/209 (0%)
+ Strand=Plus/Plus
+
+Query  1    AATAATCAATAATCT-TGGCTTGTCCATTATTATCTATTTACTGTGAACTGTATTATTAT  59
+            ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    AATAATCAATAATCTNTGGCTTGTCCATTATTATCTATTTACTGTGAACTGTATTATTAT  64
+
+Query  60   TTGACGTTTGAGGGATGTTCCAATGTTATAAGGATAGACATTGGAGATGTTAACCGAGTC  119
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   TTGACGTTTGAGGGATGTTCCAATGTTATAAGGATAGACATTGGAGATGTTAACCGAGTC  124
+
+Query  120  ATAATCAGGTTTAGGCCTGGTATCCTATTATTATTTACCAAATGAATTCAGAATTAATAT  179
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  ATAATCAGGTTTAGGCCTGGTATCCTATTATTATTTACCAAATGAATTCAGAATTAATAT  184
+
+Query  180  TGTAACATAGACCTAAAAAATCTATAAAA  208
+            |||||||||||||||||||||||||||||
+Sbjct  185  TGTAACATAGACCTAAAAAATCTATAAAA  213
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5112570
+
+
+Query= OTU358:Dc-PosG
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample15_ITS4 TRIM QUALITY: 20                                      446     3e-128
+  Sample15_ITS1-F TRIM QUALITY: 20                                    446     3e-128
+
+
+> Sample15_ITS4 TRIM QUALITY: 20
+Length=610
+
+ Score = 446 bits (241),  Expect = 3e-128
+ Identities = 241/241 (100%), Gaps = 0/241 (0%)
+ Strand=Plus/Minus
+
+Query  1    CTGAACTAGTAATTCTCTGAAAGGTCGCCGGTACCCGGTCCCCCCTAAACAAGGGGGCCG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  553  CTGAACTAGTAATTCTCTGAAAGGTCGCCGGTACCCGGTCCCCCCTAAACAAGGGGGCCG  494
+
+Query  61   GGGAAGGTCCTCTCACACCCTTGTGTACCTTACCATGTTGCTTTGGCGGGCCGACCCGGT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  493  GGGAAGGTCCTCTCACACCCTTGTGTACCTTACCATGTTGCTTTGGCGGGCCGACCCGGT  434
+
+Query  121  TTCGACCCGGGCGGCCGGCGCCCCCAGCCCTCACCGGCCAGGACGTCAGGCTAAGCGCCC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  433  TTCGACCCGGGCGGCCGGCGCCCCCAGCCCTCACCGGCCAGGACGTCAGGCTAAGCGCCC  374
+
+Query  181  GCCAGTATACAAAACTCCAGCGATTATTTCGTGCAGTTCTGATAAATTATTCAATTAATT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  373  GCCAGTATACAAAACTCCAGCGATTATTTCGTGCAGTTCTGATAAATTATTCAATTAATT  314
+
+Query  241  A  241
+            |
+Sbjct  313  A  313
+
+
+> Sample15_ITS1-F TRIM QUALITY: 20
+Length=612
+
+ Score = 446 bits (241),  Expect = 3e-128
+ Identities = 241/241 (100%), Gaps = 0/241 (0%)
+ Strand=Plus/Plus
+
+Query  1    CTGAACTAGTAATTCTCTGAAAGGTCGCCGGTACCCGGTCCCCCCTAAACAAGGGGGCCG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    CTGAACTAGTAATTCTCTGAAAGGTCGCCGGTACCCGGTCCCCCCTAAACAAGGGGGCCG  64
+
+Query  61   GGGAAGGTCCTCTCACACCCTTGTGTACCTTACCATGTTGCTTTGGCGGGCCGACCCGGT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   GGGAAGGTCCTCTCACACCCTTGTGTACCTTACCATGTTGCTTTGGCGGGCCGACCCGGT  124
+
+Query  121  TTCGACCCGGGCGGCCGGCGCCCCCAGCCCTCACCGGCCAGGACGTCAGGCTAAGCGCCC  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  TTCGACCCGGGCGGCCGGCGCCCCCAGCCCTCACCGGCCAGGACGTCAGGCTAAGCGCCC  184
+
+Query  181  GCCAGTATACAAAACTCCAGCGATTATTTCGTGCAGTTCTGATAAATTATTCAATTAATT  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  185  GCCAGTATACAAAACTCCAGCGATTATTTCGTGCAGTTCTGATAAATTATTCAATTAATT  244
+
+Query  241  A  241
+            |
+Sbjct  245  A  245
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5986740
+
+
+Query= OTU826:Dc-PosG
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample3_ITS4 TRIM QUALITY: 20                                       291     9e-82
+  Sample3_ITS1-F TRIM QUALITY: 20                                     291     9e-82
+
+
+> Sample3_ITS4 TRIM QUALITY: 20
+Length=611
+
+ Score = 291 bits (157),  Expect = 9e-82
+ Identities = 157/157 (100%), Gaps = 0/157 (0%)
+ Strand=Plus/Minus
+
+Query  1    GTGAATAATGGGGACTCTTAATTGGGCCCCGCCTTCTCACTTACCATACACCAGTGCAAT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  555  GTGAATAATGGGGACTCTTAATTGGGCCCCGCCTTCTCACTTACCATACACCAGTGCAAT  496
+
+Query  61   GTCTTGGGTCGATGAAAGCCGCTCCGGCGGTGACTAGTCTTCCCTCCTTTACATTTCAAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  495  GTCTTGGGTCGATGAAAGCCGCTCCGGCGGTGACTAGTCTTCCCTCCTTTACATTTCAAA  436
+
+Query  121  ACCAAGTCATCAGAATGTGAAACTATTTAACAAAATA  157
+            |||||||||||||||||||||||||||||||||||||
+Sbjct  435  ACCAAGTCATCAGAATGTGAAACTATTTAACAAAATA  399
+
+
+> Sample3_ITS1-F TRIM QUALITY: 20
+Length=596
+
+ Score = 291 bits (157),  Expect = 9e-82
+ Identities = 157/157 (100%), Gaps = 0/157 (0%)
+ Strand=Plus/Plus
+
+Query  1    GTGAATAATGGGGACTCTTAATTGGGCCCCGCCTTCTCACTTACCATACACCAGTGCAAT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    GTGAATAATGGGGACTCTTAATTGGGCCCCGCCTTCTCACTTACCATACACCAGTGCAAT  64
+
+Query  61   GTCTTGGGTCGATGAAAGCCGCTCCGGCGGTGACTAGTCTTCCCTCCTTTACATTTCAAA  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   GTCTTGGGTCGATGAAAGCCGCTCCGGCGGTGACTAGTCTTCCCTCCTTTACATTTCAAA  124
+
+Query  121  ACCAAGTCATCAGAATGTGAAACTATTTAACAAAATA  157
+            |||||||||||||||||||||||||||||||||||||
+Sbjct  125  ACCAAGTCATCAGAATGTGAAACTATTTAACAAAATA  161
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3794505
+
+
+Query= OTU1153:Dc-PosI
+
+Length=361
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample18_ITS4 TRIM QUALITY: 20                                      667     0.0  
+  Sample18_ITS1-F TRIM QUALITY: 20                                    667     0.0  
+
+
+> Sample18_ITS4 TRIM QUALITY: 20
+Length=812
+
+ Score = 667 bits (361),  Expect = 0.0
+ Identities = 361/361 (100%), Gaps = 0/361 (0%)
+ Strand=Plus/Minus
+
+Query  1    AAGAAATTTAATAATTTTGAAAATGGAtttttttGTTTTGGCAAGAGCATGAGAGCTTTT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  761  AAGAAATTTAATAATTTTGAAAATGGATTTTTTTGTTTTGGCAAGAGCATGAGAGCTTTT  702
+
+Query  61   ACTGGGCAAGAAGACAAGAGATGGAGAGTCCAGCCGGGCCTGCGCTTAAGTGCGCGGTCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  701  ACTGGGCAAGAAGACAAGAGATGGAGAGTCCAGCCGGGCCTGCGCTTAAGTGCGCGGTCT  642
+
+Query  121  TGCTAGGCTTGTAAGTTTCTTTCTTGCTATTCCAAACGGTGAGAGATTTCTGTGCTTTTG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  641  TGCTAGGCTTGTAAGTTTCTTTCTTGCTATTCCAAACGGTGAGAGATTTCTGTGCTTTTG  582
+
+Query  181  TTATAGGACAATTAAAACCGTTTCAATACAACACACTGTGGAGTTTTCATATCTTTGCAA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  581  TTATAGGACAATTAAAACCGTTTCAATACAACACACTGTGGAGTTTTCATATCTTTGCAA  522
+
+Query  241  CTTTTTCTTTGGGCATTCGAGCAATCGGGGCCCAGAGGTAACAAACACAAACAATTTTAT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  521  CTTTTTCTTTGGGCATTCGAGCAATCGGGGCCCAGAGGTAACAAACACAAACAATTTTAT  462
+
+Query  301  CTATTCATTAAATTTTTGTCAAAAACAAGAATTTTCGTAACTGGAAATTTTAAAATATTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  461  CTATTCATTAAATTTTTGTCAAAAACAAGAATTTTCGTAACTGGAAATTTTAAAATATTA  402
+
+Query  361  A  361
+            |
+Sbjct  401  A  401
+
+
+> Sample18_ITS1-F TRIM QUALITY: 20
+Length=801
+
+ Score = 667 bits (361),  Expect = 0.0
+ Identities = 361/361 (100%), Gaps = 0/361 (0%)
+ Strand=Plus/Plus
+
+Query  1    AAGAAATTTAATAATTTTGAAAATGGAtttttttGTTTTGGCAAGAGCATGAGAGCTTTT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  5    AAGAAATTTAATAATTTTGAAAATGGATTTTTTTGTTTTGGCAAGAGCATGAGAGCTTTT  64
+
+Query  61   ACTGGGCAAGAAGACAAGAGATGGAGAGTCCAGCCGGGCCTGCGCTTAAGTGCGCGGTCT  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  65   ACTGGGCAAGAAGACAAGAGATGGAGAGTCCAGCCGGGCCTGCGCTTAAGTGCGCGGTCT  124
+
+Query  121  TGCTAGGCTTGTAAGTTTCTTTCTTGCTATTCCAAACGGTGAGAGATTTCTGTGCTTTTG  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  125  TGCTAGGCTTGTAAGTTTCTTTCTTGCTATTCCAAACGGTGAGAGATTTCTGTGCTTTTG  184
+
+Query  181  TTATAGGACAATTAAAACCGTTTCAATACAACACACTGTGGAGTTTTCATATCTTTGCAA  240
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  185  TTATAGGACAATTAAAACCGTTTCAATACAACACACTGTGGAGTTTTCATATCTTTGCAA  244
+
+Query  241  CTTTTTCTTTGGGCATTCGAGCAATCGGGGCCCAGAGGTAACAAACACAAACAATTTTAT  300
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  245  CTTTTTCTTTGGGCATTCGAGCAATCGGGGCCCAGAGGTAACAAACACAAACAATTTTAT  304
+
+Query  301  CTATTCATTAAATTTTTGTCAAAAACAAGAATTTTCGTAACTGGAAATTTTAAAATATTA  360
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  305  CTATTCATTAAATTTTTGTCAAAAACAAGAATTTTCGTAACTGGAAATTTTAAAATATTA  364
+
+Query  361  A  361
+            |
+Sbjct  365  A  365
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 9165540
+
+
+Query= OTU4210:Dc-PosG
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample8_ITS4 TRIM QUALITY: 20                                       204     1e-55
+  Sample8_ITS1-F TRIM QUALITY: 20                                     204     1e-55
+  Sample1_ITS4 TRIM QUALITY: 20                                       165     5e-44
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 204 bits (110),  Expect = 1e-55
+ Identities = 120/125 (96%), Gaps = 0/125 (0%)
+ Strand=Plus/Minus
+
+Query  19   CCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGGGGCGACCCTGCCGCTTCGC  78
+            |||||||||||||||||||||||  | | |||||||| ||||||||||||||||||||||
+Sbjct  433  CCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCGC  374
+
+Query  79   GGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATT  138
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  373  GGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATT  314
+
+Query  139  TAATA  143
+            |||||
+Sbjct  313  TAATA  309
+
+
+> Sample8_ITS1-F TRIM QUALITY: 20
+Length=499
+
+ Score = 204 bits (110),  Expect = 1e-55
+ Identities = 120/125 (96%), Gaps = 0/125 (0%)
+ Strand=Plus/Plus
+
+Query  19   CCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGGGGCGACCCTGCCGCTTCGC  78
+            |||||||||||||||||||||||  | | |||||||| ||||||||||||||||||||||
+Sbjct  29   CCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCGC  88
+
+Query  79   GGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATT  138
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  89   GGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATT  148
+
+Query  139  TAATA  143
+            |||||
+Sbjct  149  TAATA  153
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 165 bits (89),  Expect = 5e-44
+ Identities = 124/140 (89%), Gaps = 5/140 (4%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGGG  60
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |
+Sbjct  434  CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGTG  375
+
+Query  61   GCGACCCTGCCGCTTCG-CGGCATT-C-CCCCCGAAGGTCATCAAAACACTGCATTCTTA  117
+            |||||||||||||  || ||||    | |||||||||| ||||||| ||||||||  || 
+Sbjct  374  GCGACCCTGCCGCCACGGCGGCGCGGCGCCCCCGAAGGCCATCAAA-CACTGCATCATTG  316
+
+Query  118  CGTCGGAGTATAAAGTTAAT  137
+            ||||||||| |||||| |||
+Sbjct  315  CGTCGGAGT-TAAAGTAAAT  297
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3423015
+
+
+Query= OTU3674:Dc-PosG
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample1_ITS4 TRIM QUALITY: 20                                       200     1e-54
+  Sample8_ITS4 TRIM QUALITY: 20                                       171     1e-45
+  Sample8_ITS1-F TRIM QUALITY: 20                                     171     1e-45
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 200 bits (108),  Expect = 1e-54
+ Identities = 120/126 (95%), Gaps = 0/126 (0%)
+ Strand=Plus/Minus
+
+Query  19   CCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCCACGG  78
+            |||||||||||||||||||||||  | | |||||||| || |||||||||||||||||||
+Sbjct  416  CCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGTGGCGACCCTGCCGCCACGG  357
+
+Query  79   CGGCGCGGCGCCCCCGAAGGCCATCAAACACTGCATCATTGCGTCGGAGTTAAAGTAAAT  138
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  356  CGGCGCGGCGCCCCCGAAGGCCATCAAACACTGCATCATTGCGTCGGAGTTAAAGTAAAT  297
+
+Query  139  CAAATA  144
+            ||||||
+Sbjct  296  CAAATA  291
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 171 bits (92),  Expect = 1e-45
+ Identities = 125/140 (89%), Gaps = 5/140 (4%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  451  CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  392
+
+Query  61   GCGACCCTGCCGCCACGGCGGCGCGGCGCCCCCGAAGGCCATCAAA-CACTGCATCATTG  119
+            |||||||||||||  || ||||    | |||||||||| ||||||| ||||||||  || 
+Sbjct  391  GCGACCCTGCCGCTTCG-CGGCATT-C-CCCCCGAAGGTCATCAAAACACTGCATTCTTA  335
+
+Query  120  CGTCGGAGT-TAAAGTAAAT  138
+            ||||||||| |||||| |||
+Sbjct  334  CGTCGGAGTATAAAGTTAAT  315
+
+
+> Sample8_ITS1-F TRIM QUALITY: 20
+Length=499
+
+ Score = 171 bits (92),  Expect = 1e-45
+ Identities = 125/140 (89%), Gaps = 5/140 (4%)
+ Strand=Plus/Plus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  11   CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  70
+
+Query  61   GCGACCCTGCCGCCACGGCGGCGCGGCGCCCCCGAAGGCCATCAAA-CACTGCATCATTG  119
+            |||||||||||||  || ||||    | |||||||||| ||||||| ||||||||  || 
+Sbjct  71   GCGACCCTGCCGCTTCG-CGGCATT-C-CCCCCGAAGGTCATCAAAACACTGCATTCTTA  127
+
+Query  120  CGTCGGAGT-TAAAGTAAAT  138
+            ||||||||| |||||| |||
+Sbjct  128  CGTCGGAGTATAAAGTTAAT  147
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3449550
+
+
+Query= OTU12510:PosG
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample8_ITS4 TRIM QUALITY: 20                                       219     4e-60
+  Sample8_ITS1-F TRIM QUALITY: 20                                     219     4e-60
+  Sample1_ITS4 TRIM QUALITY: 20                                       135     4e-35
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 219 bits (118),  Expect = 4e-60
+ Identities = 131/137 (96%), Gaps = 2/137 (1%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  451  CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  392
+
+Query  61   GCGACCCTGCCGCTTCGCGGCATTCCCCC-GAAGGTCATCAAAACACTGCATCATTGCGT  119
+            ||||||||||||||||||||||||||||| ||||||||||||||||||||||  || |||
+Sbjct  391  GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  332
+
+Query  120  CGGAGT-TAAAGTAAAT  135
+            |||||| |||||| |||
+Sbjct  331  CGGAGTATAAAGTTAAT  315
+
+
+> Sample8_ITS1-F TRIM QUALITY: 20
+Length=499
+
+ Score = 219 bits (118),  Expect = 4e-60
+ Identities = 131/137 (96%), Gaps = 2/137 (1%)
+ Strand=Plus/Plus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  11   CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  70
+
+Query  61   GCGACCCTGCCGCTTCGCGGCATT-CCCCCGAAGGTCATCAAAACACTGCATCATTGCGT  119
+            |||||||||||||||||||||||| |||||||||||||||||||||||||||  || |||
+Sbjct  71   GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  130
+
+Query  120  CGGAGT-TAAAGTAAAT  135
+            |||||| |||||| |||
+Sbjct  131  CGGAGTATAAAGTTAAT  147
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 135 bits (73),  Expect = 4e-35
+ Identities = 110/127 (87%), Gaps = 5/127 (4%)
+ Strand=Plus/Minus
+
+Query  19   CCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCG-  77
+            |||||||||||||||||||||||  | | |||||||| || ||||||||||||||  || 
+Sbjct  416  CCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGTGGCGACCCTGCCGCCACGG  357
+
+Query  78   C-G-GC-ATTCCCCCGAAGGTCATCAAAACACTGCATCATTGCGTCGGAGTTAAAGTAAA  134
+            | | ||    |||||||||| ||||||| |||||||||||||||||||||||||||||||
+Sbjct  356  CGGCGCGGCGCCCCCGAAGGCCATCAAA-CACTGCATCATTGCGTCGGAGTTAAAGTAAA  298
+
+Query  135  TCAAATA  141
+            |||||||
+Sbjct  297  TCAAATA  291
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3369945
+
+
+Query= OTU3183:Dc-PosG
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample8_ITS4 TRIM QUALITY: 20                                       213     2e-58
+  Sample8_ITS1-F TRIM QUALITY: 20                                     213     2e-58
+  Sample1_ITS4 TRIM QUALITY: 20                                       152     4e-40
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 213 bits (115),  Expect = 2e-58
+ Identities = 130/137 (95%), Gaps = 2/137 (1%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  451  CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  392
+
+Query  61   GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGCCATCAAA-CACTGCATCATTGCGT  119
+            ||||||||||||||||||||||||||||||||||| ||||||| ||||||||  || |||
+Sbjct  391  GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  332
+
+Query  120  CGGAGT-TAAAGTAAAT  135
+            |||||| |||||| |||
+Sbjct  331  CGGAGTATAAAGTTAAT  315
+
+
+> Sample8_ITS1-F TRIM QUALITY: 20
+Length=499
+
+ Score = 213 bits (115),  Expect = 2e-58
+ Identities = 130/137 (95%), Gaps = 2/137 (1%)
+ Strand=Plus/Plus
+
+Query  1    CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  11   CTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGG  70
+
+Query  61   GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGCCATCAAA-CACTGCATCATTGCGT  119
+            ||||||||||||||||||||||||||||||||||| ||||||| ||||||||  || |||
+Sbjct  71   GCGACCCTGCCGCTTCGCGGCATTCCCCCCGAAGGTCATCAAAACACTGCATTCTTACGT  130
+
+Query  120  CGGAGT-TAAAGTAAAT  135
+            |||||| |||||| |||
+Sbjct  131  CGGAGTATAAAGTTAAT  147
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 152 bits (82),  Expect = 4e-40
+ Identities = 112/126 (89%), Gaps = 3/126 (2%)
+ Strand=Plus/Minus
+
+Query  19   CCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCG-  77
+            |||||||||||||||||||||||  | | |||||||| || ||||||||||||||  || 
+Sbjct  416  CCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGTGGCGACCCTGCCGCCACGG  357
+
+Query  78   CGGC-ATTC-CCCCCGAAGGCCATCAAACACTGCATCATTGCGTCGGAGTTAAAGTAAAT  135
+            ||||    | ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  356  CGGCGCGGCGCCCCCGAAGGCCATCAAACACTGCATCATTGCGTCGGAGTTAAAGTAAAT  297
+
+Query  136  CAAATA  141
+            ||||||
+Sbjct  296  CAAATA  291
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3369945
+
+
+Query= OTU3723:Dc-PosG
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample1_ITS4 TRIM QUALITY: 20                                       219     4e-60
+  Sample8_ITS4 TRIM QUALITY: 20                                       156     3e-41
+  Sample8_ITS1-F TRIM QUALITY: 20                                     156     3e-41
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 219 bits (118),  Expect = 4e-60
+ Identities = 133/140 (95%), Gaps = 2/140 (1%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGGG  60
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |
+Sbjct  434  CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGTG  375
+
+Query  61   GCGACCCTGCCGCCACGGCGGCGCGGCGCCCCCGAAGGCCATCAAAACACTGCATTCTTA  120
+            |||||||||||||||||||||||||||||||||||||||||||||| ||||||||  || 
+Sbjct  374  GCGACCCTGCCGCCACGGCGGCGCGGCGCCCCCGAAGGCCATCAAA-CACTGCATCATTG  316
+
+Query  121  CGTCGGAGTATAAAGTTAAT  140
+            ||||||||| |||||| |||
+Sbjct  315  CGTCGGAGT-TAAAGTAAAT  297
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 156 bits (84),  Expect = 3e-41
+ Identities = 114/128 (89%), Gaps = 3/128 (2%)
+ Strand=Plus/Minus
+
+Query  19   CCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGGGGCGACCCTGCCGCCACGG  78
+            |||||||||||||||||||||||  | | |||||||| |||||||||||||||||  || 
+Sbjct  433  CCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCG-  375
+
+Query  79   CGGCGCGGCGCCCCCGAAGGCCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTA  138
+            ||||    | |||||||||| |||||||||||||||||||||||||||||||||||||||
+Sbjct  374  CGGC-ATTC-CCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTA  317
+
+Query  139  ATTTAATA  146
+            ||||||||
+Sbjct  316  ATTTAATA  309
+
+
+> Sample8_ITS1-F TRIM QUALITY: 20
+Length=499
+
+ Score = 156 bits (84),  Expect = 3e-41
+ Identities = 114/128 (89%), Gaps = 3/128 (2%)
+ Strand=Plus/Plus
+
+Query  19   CCGACCTCCAACCCTTTGTGAACCAAACTTGTTGCTTCGGGGGCGACCCTGCCGCCACGG  78
+            |||||||||||||||||||||||  | | |||||||| |||||||||||||||||  || 
+Sbjct  29   CCGACCTCCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCG-  87
+
+Query  79   CGGCGCGGCGCCCCCGAAGGCCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTA  138
+            ||||    | |||||||||| |||||||||||||||||||||||||||||||||||||||
+Sbjct  88   CGGC-ATTC-CCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTA  145
+
+Query  139  ATTTAATA  146
+            ||||||||
+Sbjct  146  ATTTAATA  153
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3502620
+
+
+Query= OTU4453:Dc-PosG
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample2_ITS4 TRIM QUALITY: 20                                       265     5e-74
+  Sample2_ITS1-F TRIM QUALITY: 20                                     265     5e-74
+
+
+> Sample2_ITS4 TRIM QUALITY: 20
+Length=878
+
+ Score = 265 bits (143),  Expect = 5e-74
+ Identities = 143/143 (100%), Gaps = 0/143 (0%)
+ Strand=Plus/Minus
+
+Query  1    CCGAGTTTCTTGCCCTAACGGGTAGATCCTCCCACCCTTGTGTATTTATACCATGTTGCT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  463  CCGAGTTTCTTGCCCTAACGGGTAGATCCTCCCACCCTTGTGTATTTATACCATGTTGCT  404
+
+Query  61   TTGGCGCCTTCAGGCCTCGCGGCCCGGCGCCAAAGGCCCTAAACTCTGTTAATAACTGTC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  403  TTGGCGCCTTCAGGCCTCGCGGCCCGGCGCCAAAGGCCCTAAACTCTGTTAATAACTGTC  344
+
+Query  121  GTCTGAGTACTATATAATAGTTA  143
+            |||||||||||||||||||||||
+Sbjct  343  GTCTGAGTACTATATAATAGTTA  321
+
+
+> Sample2_ITS1-F TRIM QUALITY: 20
+Length=797
+
+ Score = 265 bits (143),  Expect = 5e-74
+ Identities = 143/143 (100%), Gaps = 0/143 (0%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTTCTTGCCCTAACGGGTAGATCCTCCCACCCTTGTGTATTTATACCATGTTGCT  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  498  CCGAGTTTCTTGCCCTAACGGGTAGATCCTCCCACCCTTGTGTATTTATACCATGTTGCT  557
+
+Query  61   TTGGCGCCTTCAGGCCTCGCGGCCCGGCGCCAAAGGCCCTAAACTCTGTTAATAACTGTC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  558  TTGGCGCCTTCAGGCCTCGCGGCCCGGCGCCAAAGGCCCTAAACTCTGTTAATAACTGTC  617
+
+Query  121  GTCTGAGTACTATATAATAGTTA  143
+            |||||||||||||||||||||||
+Sbjct  618  GTCTGAGTACTATATAATAGTTA  640
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3423015
+
+
+Query= OTU298:2w
+
+Length=214
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5271510
+
+
+Query= OTU87:17w
+
+Length=177
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4325205
+
+
+Query= OTU12516:PosI
+
+Length=170
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample4_ITS4 TRIM QUALITY: 20                                       250     2e-69
+  Sample4_ITS1-F TRIM QUALITY: 20                                     250     2e-69
+  Sample22_ITS4 TRIM QUALITY: 20                                      104     1e-25
+
+
+> Sample4_ITS4 TRIM QUALITY: 20
+Length=539
+
+ Score = 250 bits (135),  Expect = 2e-69
+ Identities = 148/154 (96%), Gaps = 2/154 (1%)
+ Strand=Plus/Minus
+
+Query  18   AACCC-CTGTGGACTTATACCTTTTACTGTTGCCTCGGCGTCAGGCTGGCTCCCCTCGGG  76
+            |||||  |||| ||||||||||  ||||||||||||||||||||||||||||||||||||
+Sbjct  458  AACCCTTTGTGAACTTATACCT-ATACTGTTGCCTCGGCGTCAGGCTGGCTCCCCTCGGG  400
+
+Query  77   GGGTCCCTCACCTCGGTGAGGAACAGGCCCGCCGGCGGCCAAGTTAACTCTTGTTTTTAC  136
+            |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||
+Sbjct  399  GGGTCCCTCACCTCGGTGAGGAGCAGGCCCGCCGGCGGCCAAGTTAACTCTTGTTTTTAC  340
+
+Query  137  ACTGAAACTCTGAGaaaaaaacaaaaaTGAATCA  170
+            ||||||||||||||||||||||||||||||||||
+Sbjct  339  ACTGAAACTCTGAGAAAAAAACAAAAATGAATCA  306
+
+
+> Sample4_ITS1-F TRIM QUALITY: 20
+Length=550
+
+ Score = 250 bits (135),  Expect = 2e-69
+ Identities = 148/154 (96%), Gaps = 2/154 (1%)
+ Strand=Plus/Plus
+
+Query  18   AACCC-CTGTGGACTTATACCTTTTACTGTTGCCTCGGCGTCAGGCTGGCTCCCCTCGGG  76
+            |||||  |||| ||||||||| | ||||||||||||||||||||||||||||||||||||
+Sbjct  32   AACCCTTTGTGAACTTATACC-TATACTGTTGCCTCGGCGTCAGGCTGGCTCCCCTCGGG  90
+
+Query  77   GGGTCCCTCACCTCGGTGAGGAACAGGCCCGCCGGCGGCCAAGTTAACTCTTGTTTTTAC  136
+            |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||
+Sbjct  91   GGGTCCCTCACCTCGGTGAGGAGCAGGCCCGCCGGCGGCCAAGTTAACTCTTGTTTTTAC  150
+
+Query  137  ACTGAAACTCTGAGaaaaaaacaaaaaTGAATCA  170
+            ||||||||||||||||||||||||||||||||||
+Sbjct  151  ACTGAAACTCTGAGAAAAAAACAAAAATGAATCA  184
+
+
+> Sample22_ITS4 TRIM QUALITY: 20
+Length=578
+
+ Score = 104 bits (56),  Expect = 1e-25
+ Identities = 56/56 (100%), Gaps = 0/56 (0%)
+ Strand=Plus/Minus
+
+Query  1    CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCG  56
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  512  CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCG  457
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4139460
+
+
+Query= OTU1183:36w
+
+Length=144
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3449550
+
+
+Query= OTU98:2w
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3847575
+
+
+Query= OTU41:1w
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3582225
+
+
+Query= OTU249:1w
+
+Length=89
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1990125
+
+
+Query= OTU410:37w
+
+Length=167
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4059855
+
+
+Query= OTU84:38w
+
+Length=220
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample9_ITS4 TRIM QUALITY: 20                                       58.4    1e-11
+  Sample13_ITS4 TRIM QUALITY: 20                                      58.4    1e-11
+  Sample18_ITS4 TRIM QUALITY: 20                                      56.5    5e-11
+
+
+> Sample9_ITS4 TRIM QUALITY: 20
+Length=562
+
+ Score = 58.4 bits (31),  Expect = 1e-11
+ Identities = 31/31 (100%), Gaps = 0/31 (0%)
+ Strand=Plus/Minus
+
+Query  27   tAGGTGAACCTGCGGAAGGATCATTAAAGAG  57
+            |||||||||||||||||||||||||||||||
+Sbjct  530  TAGGTGAACCTGCGGAAGGATCATTAAAGAG  500
+
+
+> Sample13_ITS4 TRIM QUALITY: 20
+Length=558
+
+ Score = 58.4 bits (31),  Expect = 1e-11
+ Identities = 36/38 (95%), Gaps = 1/38 (3%)
+ Strand=Plus/Minus
+
+Query  27   tAGGTGAACCTGCGGAAGGATCATTAAAGAG-TGGGGT  63
+            ||||||||||||||||||||||||||||||| | ||||
+Sbjct  518  TAGGTGAACCTGCGGAAGGATCATTAAAGAGATAGGGT  481
+
+
+> Sample18_ITS4 TRIM QUALITY: 20
+Length=812
+
+ Score = 56.5 bits (30),  Expect = 5e-11
+ Identities = 30/30 (100%), Gaps = 0/30 (0%)
+ Strand=Plus/Minus
+
+Query  27   tAGGTGAACCTGCGGAAGGATCATTAAAGA  56
+            ||||||||||||||||||||||||||||||
+Sbjct  787  TAGGTGAACCTGCGGAAGGATCATTAAAGA  758
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5430450
+
+
+Query= OTU1520:30w
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3476085
+
+
+Query= OTU8984:Dc-PosG
+
+Length=135
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3210735
+
+
+Query= OTU8986:Dc-PosG
+
+Length=177
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample13_ITS4 TRIM QUALITY: 20                                      296     2e-83
+  Sample13_ITS1-F TRIM QUALITY: 20                                    296     2e-83
+  Sample1_ITS4 TRIM QUALITY: 20                                       63.9    3e-13
+
+
+> Sample13_ITS4 TRIM QUALITY: 20
+Length=558
+
+ Score = 296 bits (160),  Expect = 2e-83
+ Identities = 162/163 (99%), Gaps = 0/163 (0%)
+ Strand=Plus/Minus
+
+Query  15   CGGTCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGCTTTGGCGGGACCGTCTC  74
+            ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  475  CGGCCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGCTTTGGCGGGACCGTCTC  416
+
+Query  75   GGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCAGAGTCCAACCAAACTCT  134
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  415  GGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCAGAGTCCAACCAAACTCT  356
+
+Query  135  TGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  177
+            |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  355  TGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  313
+
+
+> Sample13_ITS1-F TRIM QUALITY: 20
+Length=561
+
+ Score = 296 bits (160),  Expect = 2e-83
+ Identities = 162/163 (99%), Gaps = 0/163 (0%)
+ Strand=Plus/Plus
+
+Query  15   CGGTCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGCTTTGGCGGGACCGTCTC  74
+            ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  20   CGGCCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGCTTTGGCGGGACCGTCTC  79
+
+Query  75   GGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCAGAGTCCAACCAAACTCT  134
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  80   GGTCTCCGAGCGCACTAACCTTCGGGTTGGTGAGTGCCCGCCAGAGTCCAACCAAACTCT  139
+
+Query  135  TGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  177
+            |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  140  TGTATTAAACCAGTCGTCTGAGTATAAAATTTTAATTAAATTA  182
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 63.9 bits (34),  Expect = 3e-13
+ Identities = 59/70 (84%), Gaps = 5/70 (7%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTCTGTTGTTAAAACTACCTTGTTGCTTT  60
+            ||||||||||||||||||||||||||||||||| ||| |  ||  | | |||||||||| 
+Sbjct  434  CTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTTGT-G--AAC-CAAACTTGTTGCTTC  379
+
+Query  61   GGCGG-GACC  69
+            || || ||||
+Sbjct  378  GGTGGCGACC  369
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4325205
+
+
+Query= OTU7914:Dc-PosG
+
+Length=165
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4006785
+
+
+Query= OTU9035:Dc-PosG
+
+Length=196
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4794690
+
+
+Query= OTU10988:PosG
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample8_ITS4 TRIM QUALITY: 20                                       219     4e-60
+  Sample8_ITS1-F TRIM QUALITY: 20                                     219     4e-60
+  Sample24_ITS4 TRIM QUALITY: 20                                      62.1    7e-13
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 219 bits (118),  Expect = 4e-60
+ Identities = 118/118 (100%), Gaps = 0/118 (0%)
+ Strand=Plus/Minus
+
+Query  19   CCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCGCGGCATTC  78
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  426  CCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCGCGGCATTC  367
+
+Query  79   CCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATTTAATA  136
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  366  CCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATTTAATA  309
+
+
+> Sample8_ITS1-F TRIM QUALITY: 20
+Length=499
+
+ Score = 219 bits (118),  Expect = 4e-60
+ Identities = 118/118 (100%), Gaps = 0/118 (0%)
+ Strand=Plus/Plus
+
+Query  19   CCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCGCGGCATTC  78
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  36   CCAACCCTTTGTGAACGCATCATGTTGCTTTGGGGGCGACCCTGCCGCTTCGCGGCATTC  95
+
+Query  79   CCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATTTAATA  136
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  96   CCCCCGAAGGTCATCAAAACACTGCATTCTTACGTCGGAGTATAAAGTTAATTTAATA  153
+
+
+> Sample24_ITS4 TRIM QUALITY: 20
+Length=592
+
+ Score = 62.1 bits (33),  Expect = 7e-13
+ Identities = 33/33 (100%), Gaps = 0/33 (0%)
+ Strand=Plus/Minus
+
+Query  1    CTGAGTTCTAAAAAACTCCCAACCCTTTGTGAA  33
+            |||||||||||||||||||||||||||||||||
+Sbjct  537  CTGAGTTCTAAAAAACTCCCAACCCTTTGTGAA  505
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3237270
+
+
+Query= OTU9833:Dc-PosI
+
+Length=159
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3847575
+
+
+Query= OTU186:1w
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3555690
+
+
+Query= OTU471:5w
+
+Length=146
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3502620
+
+
+Query= OTU192:1w
+
+Length=146
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3502620
+
+
+Query= OTU28:2w
+
+Length=142
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3396480
+
+
+Query= OTU1216:1w
+
+Length=150
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3608760
+
+
+Query= OTU958:19w
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3529155
+
+
+Query= OTU338:1w
+
+Length=145
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3476085
+
+
+Query= OTU1292:32w
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3582225
+
+
+Query= OTU18:9w
+
+Length=144
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3449550
+
+
+Query= OTU6703:17w
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3661830
+
+
+Query= OTU2954:1w
+
+Length=218
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5377470
+
+
+Query= OTU161:2w
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3661830
+
+
+Query= OTU387:2w
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3555690
+
+
+Query= OTU2446:2w
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample19_ITS4 TRIM QUALITY: 20                                      113     2e-28
+  Sample19_ITS1-F TRIM QUALITY: 20                                    113     2e-28
+
+
+> Sample19_ITS4 TRIM QUALITY: 20
+Length=569
+
+ Score = 113 bits (61),  Expect = 2e-28
+ Identities = 135/169 (80%), Gaps = 12/169 (7%)
+ Strand=Plus/Minus
+
+Query  12   AACTCCCAAACCCATGTGAACATACCTCATGTTGCCTCGGCAGGTCGCG-CC-CCCTCGT  69
+            ||||||||||||||||||||||||||||  ||||||||||||||| ||| ||  || |||
+Sbjct  501  AACTCCCAAACCCATGTGAACATACCTCGCGTTGCCTCGGCAGGTGGCGTCCTACCCCGT  442
+
+Query  70   AGGCCCTACCCTGTAAGGCTTACCCGGAAGGCGCGGGTACTCCTGCCGGCGGCCCACGAA  129
+              | ||||||||||| | | ||||||| |||||     || ||||||| |||||| ||||
+Sbjct  441  GAGTCCTACCCTGTAGGACCTACCCGGTAGGCG-----AC-CCTGCCGACGGCCCCCGAA  388
+
+Query  130  ACTCTGTCTC-ATCG--TTGAA-TTCTGAACCTATAACTAAATAAGTTA  174
+            ||||||| |  || |  ||| | ||||||    ||||||||||||||||
+Sbjct  387  ACTCTGTTTTTATAGCATTGGACTTCTGACAAGATAACTAAATAAGTTA  339
+
+
+> Sample19_ITS1-F TRIM QUALITY: 20
+Length=547
+
+ Score = 113 bits (61),  Expect = 2e-28
+ Identities = 135/169 (80%), Gaps = 12/169 (7%)
+ Strand=Plus/Plus
+
+Query  12   AACTCCCAAACCCATGTGAACATACCTCATGTTGCCTCGGCAGGTCGCG-CC-CCCTCGT  69
+            ||||||||||||||||||||||||||||  ||||||||||||||| ||| ||  || |||
+Sbjct  17   AACTCCCAAACCCATGTGAACATACCTCGCGTTGCCTCGGCAGGTGGCGTCCTACCCCGT  76
+
+Query  70   AGGCCCTACCCTGTAAGGCTTACCCGGAAGGCGCGGGTACTCCTGCCGGCGGCCCACGAA  129
+              | ||||||||||| | | ||||||| |||||     || ||||||| |||||| ||||
+Sbjct  77   GAGTCCTACCCTGTAGGACCTACCCGGTAGGCG-----AC-CCTGCCGACGGCCCCCGAA  130
+
+Query  130  ACTCTGTCTC-ATCG--TTGAA-TTCTGAACCTATAACTAAATAAGTTA  174
+            ||||||| |  || |  ||| | ||||||    ||||||||||||||||
+Sbjct  131  ACTCTGTTTTTATAGCATTGGACTTCTGACAAGATAACTAAATAAGTTA  179
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4245600
+
+
+Query= OTU1279:15w
+
+Length=188
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4582770
+
+
+Query= OTU2202:3w
+
+Length=148
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3555690
+
+
+Query= OTU5187:68w
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3635295
+
+
+Query= OTU250:4w
+
+Length=191
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4662240
+
+
+Query= OTU1599:9w
+
+Length=209
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample1_ITS4 TRIM QUALITY: 20                                       119     6e-30
+  Sample8_ITS4 TRIM QUALITY: 20                                       86.1    6e-20
+
+
+> Sample1_ITS4 TRIM QUALITY: 20
+Length=502
+
+ Score = 119 bits (64),  Expect = 6e-30
+ Identities = 83/92 (90%), Gaps = 1/92 (1%)
+ Strand=Plus/Minus
+
+Query  37   AGGTGAACCTGCGGAGGGATCATTACTGAGTGAGGGTTTCGGCCCGACCTCCAACCCATT  96
+            |||||||||||||||||||||||||||||||||||| ||||| |||||||||||||| ||
+Sbjct  459  AGGTGAACCTGCGGAGGGATCATTACTGAGTGAGGGCTTCGGTCCGACCTCCAACCCTTT  400
+
+Query  97   GTTGACCAACACCTGTTGCCTCGGGGGCGACC  128
+            ||  ||||| || |||||| |||| |||||||
+Sbjct  399  GTGAACCAA-ACTTGTTGCTTCGGTGGCGACC  369
+
+
+> Sample8_ITS4 TRIM QUALITY: 20
+Length=506
+
+ Score = 86.1 bits (46),  Expect = 6e-20
+ Identities = 78/93 (84%), Gaps = 3/93 (3%)
+ Strand=Plus/Minus
+
+Query  37   AGGTGAACCTGCGGAGGGATCATTACTGAGTGAGGGTTTCGGCCCGACCTCCAACCCATT  96
+            ||||||||||||||||||||||||||||||||||||      ||||||||||||||| ||
+Sbjct  476  AGGTGAACCTGCGGAGGGATCATTACTGAGTGAGGGAGCAATCCCGACCTCCAACCCTTT  417
+
+Query  97   GTTGAC-CAACACCTGTTGCCTCGGGGGCGACC  128
+            ||  || || ||  |||||| | ||||||||||
+Sbjct  416  GTGAACGCATCA--TGTTGCTTTGGGGGCGACC  386
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 5139060
+
+
+Query= OTU1973:131w
+
+Length=186
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4529790
+
+
+Query= OTU3711:17w
+
+Length=153
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3688365
+
+
+Query= OTU1612:18w
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3635295
+
+
+Query= OTU6688:19w
+
+Length=173
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample11_ITS4 TRIM QUALITY: 20                                      206     4e-56
+  Sample11_ITS1-F TRIM QUALITY: 20                                    206     4e-56
+
+
+> Sample11_ITS4 TRIM QUALITY: 20
+Length=553
+
+ Score = 206 bits (111),  Expect = 4e-56
+ Identities = 149/167 (89%), Gaps = 3/167 (2%)
+ Strand=Plus/Minus
+
+Query  3    GAGTGAGGG-CCCTCTGGGTCCAACCTCCCACCCATGTTTATTGTACCTTGTTGCTTCGG  61
+            ||||||||| ||||| |||||||||||||||||| ||||||  |||||||||||||||||
+Sbjct  485  GAGTGAGGGCCCCTCGGGGTCCAACCTCCCACCCGTGTTTAACGTACCTTGTTGCTTCGG  426
+
+Query  62   CGGGCCCGCCTCACGGCCGCCGGGGGGCTTCTGCCCTCTGGCCCGCGCCCGCCGAAGACA  121
+            |||||||||||||||||||||||||||| || |||| | |||||||||||||||||| ||
+Sbjct  425  CGGGCCCGCCTCACGGCCGCCGGGGGGCATCCGCCCCCGGGCCCGCGCCCGCCGAAGCCA  366
+
+Query  122  CCATTGAACACTGTCTGAAGATTGCAGTCTGAG-CAATTAGCTAAAT  167
+            ||  ||||| ||||||||||  ||||||||||| ||||||  |||||
+Sbjct  365  CCTGTGAACGCTGTCTGAAGTATGCAGTCTGAGACAATTAT-TAAAT  320
+
+
+> Sample11_ITS1-F TRIM QUALITY: 20
+Length=547
+
+ Score = 206 bits (111),  Expect = 4e-56
+ Identities = 149/167 (89%), Gaps = 3/167 (2%)
+ Strand=Plus/Plus
+
+Query  3    GAGTGAGGG-CCCTCTGGGTCCAACCTCCCACCCATGTTTATTGTACCTTGTTGCTTCGG  61
+            ||||||||| ||||| |||||||||||||||||| ||||||  |||||||||||||||||
+Sbjct  6    GAGTGAGGGCCCCTCGGGGTCCAACCTCCCACCCGTGTTTAACGTACCTTGTTGCTTCGG  65
+
+Query  62   CGGGCCCGCCTCACGGCCGCCGGGGGGCTTCTGCCCTCTGGCCCGCGCCCGCCGAAGACA  121
+            |||||||||||||||||||||||||||| || |||| | |||||||||||||||||| ||
+Sbjct  66   CGGGCCCGCCTCACGGCCGCCGGGGGGCATCCGCCCCCGGGCCCGCGCCCGCCGAAGCCA  125
+
+Query  122  CCATTGAACACTGTCTGAAGATTGCAGTCTGAG-CAATTAGCTAAAT  167
+            ||  ||||| ||||||||||  ||||||||||| ||||||  |||||
+Sbjct  126  CCTGTGAACGCTGTCTGAAGTATGCAGTCTGAGACAATTAT-TAAAT  171
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4219065
+
+
+Query= OTU281:109w
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3661830
+
+
+Query= OTU210:27w
+
+Length=147
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3529155
+
+
+Query= OTU2860:70w
+
+Length=171
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4165995
+
+
+Query= OTU839:57w
+
+Length=116
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2706570
+
+
+Query= OTU2567:130w
+
+Length=189
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4609260
+
+
+Query= OTU12503:PosG
+
+Length=181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Sample16_ITS4 TRIM QUALITY: 20                                      274     1e-76
+  Sample16_ITS1-F TRIM QUALITY: 20                                    274     1e-76
+  Sample22_ITS4 TRIM QUALITY: 20                                      102     5e-25
+
+
+> Sample16_ITS4 TRIM QUALITY: 20
+Length=560
+
+ Score = 274 bits (148),  Expect = 1e-76
+ Identities = 167/175 (95%), Gaps = 6/175 (3%)
+ Strand=Plus/Minus
+
+Query  8    TAC-ACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCAGGTCGTGTAG  66
+            ||| |||||||||||| |||| ||  |||||  || ||||||||||||||||||||||||
+Sbjct  492  TACAACTCCCAAACCCATGTGAAC--ATACC--TT-CTGTTGCCTCGGCAGGTCGTGTAG  438
+
+Query  67   GACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCTGCCGG  126
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  437  GACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCTGCCGG  378
+
+Query  127  TGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  181
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  377  TGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  323
+
+
+> Sample16_ITS1-F TRIM QUALITY: 20
+Length=541
+
+ Score = 274 bits (148),  Expect = 1e-76
+ Identities = 167/175 (95%), Gaps = 6/175 (3%)
+ Strand=Plus/Plus
+
+Query  8    TAC-ACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGCAGGTCGTGTAG  66
+            ||| |||||||||||| |||| ||  |||||  || ||||||||||||||||||||||||
+Sbjct  15   TACAACTCCCAAACCCATGTGAAC--ATACC--TT-CTGTTGCCTCGGCAGGTCGTGTAG  69
+
+Query  67   GACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCTGCCGG  126
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  70   GACCGGTGCAATAAGCCCACAAAGCGGGCTGCCCGGGCCCTCTCACATATAGCCTGCCGG  129
+
+Query  127  TGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  181
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  130  TGGCCTACAAAAACTCTGTCTGAACTTGACTTCTGAAATCATACTTAATAAGTTA  184
+
+
+> Sample22_ITS4 TRIM QUALITY: 20
+Length=578
+
+ Score = 102 bits (55),  Expect = 5e-25
+ Identities = 55/55 (100%), Gaps = 0/55 (0%)
+ Strand=Plus/Minus
+
+Query  1    CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGC  55
+            |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  512  CCGAGTTTACACTCCCAAACCCCTGTGGACTTATACCTTTTACTGTTGCCTCGGC  458
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4397340
+
+
+  Database: mcsanger.fasta
+    Posted date:  Jun 20, 2018  11:54 PM
+  Number of letters in database: 27,165
+  Number of sequences in database:  45
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
