@@ -139,3 +139,122 @@ for (i in 1:nrow(Neg95bar)){
         }
     }
 
+
+source("biomsetup.R")
+
+aa95 <- subset_samples(biom95, sample_names(biom95) == 'PosI')
+danITSreads <- taxa_sums(aa95)[taxa_sums(aa95) > 0]
+danITSreads <- sort(danITSreads, decreasing = TRUE)
+sink('danITSreads.txt') ## read out these OTUs so we can use them in python env
+names(danITSreads)
+sink()
+
+
+## days later, checking on WvsL nms:
+load('nmsmat.rda')
+WvsL <- metaMDS(nmsmat)
+
+## super high separation. I wonder why the separation is so much cleaner this time?
+
+## Maybe because I cleaned up more index bleed by
+## removing the contaminants separately, leaves and 
+## wood at different times. 
+
+## Were we running an analysis based on index bleed?
+
+## look more closely....
+
+
+## make a color vector, leaves green, wood brown:
+color <- NULL
+color[1:91] <- 'brown'
+color[92:214] <- 'green'
+
+plot(WvsL$points, col=color)
+
+## outlier:
+
+identify(WvsL$points)
+
+## 181, which is?
+
+WvsL$points
+
+WvsL$points[181,,drop=FALSE] ## 67leaf, which is...
+
+sample_data(biom95)['67leaf',] ## Machilus thunbergii, as before
+
+## what happened to the other outlier? Maybe it will pop up.
+
+## let's run the NMS without this:
+
+## get two otu tables out, one for all wood samples, one for all leaf samples:
+load('deseq95.rda')
+
+## phyloseq objects
+wood95 <- subset_samples(deseq95, Library=='W')
+leaf95 <- subset_samples(deseq95, Library=='L')
+leaf95_noOut <- prune_samples(sample_names(leaf95) !='67leaf', leaf95)
+## make otu tables
+woodOTU <- otu_table(wood95, taxa_are_rows=TRUE)
+leafOTU_noOut <- otu_table(leaf95_noOut, taxa_are_rows=TRUE)
+dim(woodOTU); dim(leafOTU_noOut)
+nmsmat <- rbind(woodOTU, leafOTU_noOut)
+
+## nope, need to remove that sample after making the matrix...
+
+load('nmsmat.rda')
+
+dim(nmsmat)
+## remove the 67leaf row:
+
+which(rownames(nmsmat) == '67leaf')
+
+nmsmat_noOut <- nmsmat[-181,]
+
+WvsL <- metaMDS(nmsmat_noOut)
+
+color <- NULL
+color[1:91] <- 'brown'
+color[92:214] <- 'green'
+plot(WvsL$points, col=color)
+
+## this means we can't base our analysis on shared reads....
+
+## or we go back and figure out what happened. 
+
+## maybe both - go forward as is, if none of the old 
+## analyses make sense anymore, go back and look at this
+## more closely....
+
+load('leafMDS.rda')
+
+load('deseq95.rda')
+leafbiom  <- subset_samples(deseq95, Library=='L')
+leafOTU <- otu_table(leafbiom)
+leaf <- t(leafOTU@.Data)
+leaf_data <- sample_data(leafbiom)
+samps <- table(leaf_data$Host_genus_species)
+spp <- names(samps)
+
+hostspp <- sapply(leaf_data$Host_genus_species, FUN= function(x){which(spp == x)})
+#spp == sort(unique(leaf_data$Host_genus_species)) ## yup, table function does this
+n <- length(spp)
+palette <- distinctColorPalette(n)
+plot(leafMDS$points,
+        col="black",
+        pch = 21,
+        bg = palette[hostspp]
+)
+
+aa <- identify(leafMDS$points)
+leafMDS$points[aa,,drop=FALSE]
+
+
+################
+
+sample_names(deseq95)
+
+aa  <- subset_samples(deseq95, sample_names(deseq95) != '67leaf')
+
+bb  <- prune_samples(sample_names(deseq95) != '67leaf', deseq95)
