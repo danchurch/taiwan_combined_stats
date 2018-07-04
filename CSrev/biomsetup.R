@@ -1,6 +1,7 @@
 ## biomsetup.R
 ##############################
 
+library('VennDiagram')
 library('phyloseq')
 library('DESeq2')
 library('vegan')

@@ -258,3 +258,22 @@ sample_names(deseq95)
 aa  <- subset_samples(deseq95, sample_names(deseq95) != '67leaf')
 
 bb  <- prune_samples(sample_names(deseq95) != '67leaf', deseq95)
+
+
+
+
+
+
+#############3
+
+## setup the old beast optiplex for cooccur....
+
+scp ./host_woodOTU_mat.rda daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_stats/CSrev/
+
+## get this running while we construct the next cooc
+
+woodcooc <- cooccur(host_woodOTU_mat, spp_names=TRUE) 
+
+## and back to the notebook
+
+scp daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_stats/CSrev/
