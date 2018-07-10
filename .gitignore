@@ -1,1 +1,5 @@
-*.sw*
+otus_95.fasta
+NEwR-2ed_code_data/
+*ipynb_checkpoints*
+*sw?
+*CSrev-checkpoint*
