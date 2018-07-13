@@ -335,4 +335,24 @@ sink("leafCoreTax.txt")
 tax_table(deseq95)[helleaffung,]
 sink()
 
+############### blast the cores #############
+
+## we need to get a better handle on the taxonomy 
+## of our core OTUs. 
+
+## for this we need their sequences...where do these live 
+## again? 
+
+mcseq=("")
+with open('otus_95_combo_nolb.fasta', 'r') as zoop:
+        refseq = zoop.readlines()
+
+with open('seqs_dangen95.fasta', 'w') as goop:
+        for j,otu in enumerate(mcseq):
+                for i,line in enumerate(refseq):
+                        if otu in line:
+                                goop.write(line)
+                                goop.write(refseq[i+1])
+
+
 
