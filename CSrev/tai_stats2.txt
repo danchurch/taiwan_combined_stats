@@ -277,3 +277,62 @@ woodcooc <- cooccur(host_woodOTU_mat, spp_names=TRUE)
 ## and back to the notebook
 
 scp daniel@192.168.1.7:/home/daniel/Documents/submissions/taibioinfo/taiwan_combined_stats/CSrev/
+
+source('biomsetup.R')
+
+load('deseq95.rda')
+woodPA <- subset_samples(deseq95, Library == 'W')
+leafPA <- subset_samples(deseq95, Library == 'L')
+leafOTU <- otu_table(leafPA) ## extract otu table matrix
+leafOTU[leafOTU > 0] <- 1 ## convert to P/A
+leafOTU -> otu_table(leafPA) ## put it back in
+woodOTU <- otu_table(woodPA) ## same with wood
+woodOTU[woodOTU > 0] <- 1
+woodOTU -> otu_table(woodPA)
+leafPA <- prune_taxa(rowSums(otu_table(leafPA)) > 0, leafPA) ## get rid of empty taxa
+woodPA <- prune_taxa(rowSums(otu_table(woodPA)) > 0, woodPA)
+aa <- names(taxa_sums(leafPA))
+bb <- names(taxa_sums(woodPA))
+venn.diagram(list(Leaf = aa, Wood = bb),
+        fill = c("green", "brown"),
+        alpha = c(0.3, 0.7),
+        cex = 2,
+        cat.fontface = 4,
+        fontfamily =3,
+        imagetype = 'png',
+        filename='overallvenn.png',
+        )
+
+
+## how do we get a taxonomic table for our core 
+## fungi?
+
+## leaves:
+
+source('biomsetup.R')
+
+load(file= 'helleaffung.rda')
+load('deseq95.rda')
+
+str(tax_table(deseq95))
+
+tax_table(deseq95)[helleaffung,]
+
+sum(rownames(tax_table(deseq95)) %in% helleaffung)
+
+all(helleaffung %in% rownames(tax_table(deseq95)))
+
+
+rownames(tax_table(deseq95)) %in% helleaffung
+
+tax_table(deseq95)
+
+dim(tax_table(deseq95)[helleaffung,])
+
+## get this into a text file:
+
+sink("leafCoreTax.txt")
+tax_table(deseq95)[helleaffung,]
+sink()
+
+

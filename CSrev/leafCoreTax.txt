@@ -1,0 +1,15 @@
+||Kingdom|Phylum|Class|Order|Family|Genus|Species
+||-------|------|-----|-----|------|-----|-------
+|OTU19:100leaf|Fungi|Ascomycota|Eurotiomycetes|Onygenales|Arthrodermataceae|Arthroderma|Arthroderma_melis_SH007610.07FU
+|OTU202:100leaf|Fungi|Ascomycota|Dothideomycetes|Dothideomycetidae_ord_Incertae_sediStrigulaceae|Strigula|Strigula_smaragdula_SH211054.07FU
+|OTU10:100leaf|Fungi|Ascomycota|Lecanoromycetes|NA|NA|NA|NA
+|OTU17:100leaf|Fungi|Ascomycota|Dothideomycetes|Pleosporales|NA|NA|NA
+|OTU15:100leaf|Fungi|Ascomycota|Lecanoromycetes|NA|NA|NA|NA
+|OTU27:100leaf|Fungi|Ascomycota|Sordariomycetes|Xylariales|Xylariales_fam_Incertae_sedis|Monographella|NA
+|OTU94:114leaf|Fungi|Basidiomycota|Microbotryomycetes|Sporidiobolales|NA|Sporobolomyces|Sporobolomyces_ogasawarensis_SH219192.07FU
+|OTU91:100leaf|Fungi|Glomeromycota|Glomeromycetes|Glomerales|Glomeraceae|NA|NA
+|OTU239:100leaf|Fungi|Ascomycota|Dothideomycetes|Capnodiales|NA|NA|NA
+|OTU16:100leaf|Fungi|Ascomycota|Sordariomycetes|Sordariales|Cephalothecaceae|Cephalotheca|NA
+|OTU199:101leaf|Fungi|Chytridiomycota|NA|NA|NA|NA|NA
+|OTU678:131leaf|Fungi|Ascomycota|(Pezizomycotina)|NA|NA|Phaeoisaria|Phaeoisaria_clematidis_SH218540.07FU
+
