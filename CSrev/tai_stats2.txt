@@ -356,3 +356,42 @@ with open('seqs_dangen95.fasta', 'w') as goop:
 
 
 
+load('deseq95.rda')
+## make our dataframe of spatial coordinates and BC index:
+wood95 <- subset_samples(deseq95, Library == 'W') ## general wood phyloseq obj
+woodHel95 <- subset_samples(wood95, Host_genus_species == 'Helicia_formosana') ## helicia only
+woodXY <- sample_data(woodHel95)[,c('X','Y')] ## get positions
+topo <- readPNG('/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png') ## load scanned image of Fushan Map
+plot(1, type='n',
+        xlim=c(0,500),
+        ylim=c(0,500),
+        xlab = '',
+        ylab = '',
+        asp=1,
+        #main='Helicia formosana leaves, comparison to Hilltop'
+) ##blank plot
+rasterImage(topo,0,0,500,500) ## add raster of our plot
+points(woodXY,
+        pch=21,
+        cex=1.5,
+        bg = 'green',
+        lwd=1.5,
+        )
+
+
+load('deseq95.rda')
+leaf95 <- subset_samples(deseq95, Library == 'L') ## general leaf phyloseq obj
+leafOTU <- t(otu_table(leaf95))
+leafOTU[leafOTU > 0] <- 1
+leafMDS <- metaMDS(leafOTU)
+allBC <- as.matrix(vegdist(leafOTU))[,"72leaf", drop=FALSE]
+allBCroundup <- round(allBC*100+1) ## turn our allBC values into heatmap values
+my_palette2 <- colorRampPalette(c("green","yellow","blue"))(n = 101)
+
+plot(leafMDS$points,
+        pch=21,
+        bg = my_palette2[allBCroundup[,1]],
+        asp=1
+)
+
+identify(leafMDS$points)
