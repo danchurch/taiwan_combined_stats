@@ -1,0 +1,1274 @@
+BLASTN 2.2.31+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: unite.copy.fasta
+           30,695 sequences; 16,853,603 total letters
+
+
+
+Query= OTU19:leafNotChim_100;size=88958;
+
+Length=181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Metarhizium_granulomatis|HM195305|SH192590.07FU|refs|k__Fungi;p...  167     1e-41
+  Ascomycota_sp|EF495097|SH192589.07FU|reps|k__Fungi;p__Ascomycot...  159     2e-39
+  Metarhizium_novozealandicum|DQ385622|SH192584.07FU|reps|k__Fung...  154     9e-38
+  Clavicipitaceae_sp|EU553292|SH195497.07FU|reps|k__Fungi;p__Asco...  147     1e-35
+  Metarhizium_flavoviride|AY624203|SH192592.07FU|reps|k__Fungi;p_...  143     2e-34
+  Hypomyces_sp|KC122874|SH209836.07FU|reps|k__Fungi;p__Ascomycota...  137     9e-33
+  Metarhizium_sp|AB700550|SH192598.07FU|reps|k__Fungi;p__Ascomyco...  134     1e-31
+  Ascomycota_sp|JN559403|SH195504.07FU|reps|k__Fungi;p__Ascomycot...  132     4e-31
+  Hypocreales_sp|EU553283|SH195500.07FU|reps|k__Fungi;p__Ascomyco...  119     3e-27
+  Metarhizium_viride|AY624197|SH192582.07FU|refs|k__Fungi;p__Asco...  117     1e-26
+
+
+> Metarhizium_granulomatis|HM195305|SH192590.07FU|refs|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae;g__Metarhizium;s__Metarhizium_granulomatis
+Length=516
+
+ Score = 167 bits (90),  Expect = 1e-41
+ Identities = 132/150 (88%), Gaps = 11/150 (7%)
+ Strand=Plus/Minus
+
+Query  24   AAAATACAGAAGAGTTTAGGTGTCCTCCGGCGGGCGCCTGGTTCCGGGCGCGG-CGTT-T  81
+            |||||||  ||||||||| | |||| ||||||||||||||||||||||| ||| | ||  
+Sbjct  141  AAAATAC--AAGAGTTTA-G-GTCCCCCGGCGGGCGCCTGGTTCCGGGC-CGGCCCTTGC  87
+
+Query  82   GGCCGCGATTCCGGGGCGAAAAACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCACAGT  141
+            || |  | |||||||||| || ||||||||||||||||||||||||||||||||||||| 
+Sbjct  86   GGGCCTG-TTCCGGGGCG-AAGACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCACAG-  30
+
+Query  142  GGGTTTTGGGAGTTGTAAACTCGGTAATGA  171
+            ||| ||||||||||||||||||||||||||
+Sbjct  29   GGG-TTTGGGAGTTGTAAACTCGGTAATGA  1
+
+
+> Ascomycota_sp|EF495097|SH192589.07FU|reps|k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota_sp
+Length=523
+
+ Score = 159 bits (86),  Expect = 2e-39
+ Identities = 148/176 (84%), Gaps = 12/176 (7%)
+ Strand=Plus/Minus
+
+Query  7    CACTCAGACAAG--CATATAAAATACAGAAGAGTTTAGGTGTCCTCCGGCGGGCGCCTGG  64
+            |||||||||| |   || ||||| | | ||||||||||||  || |||||||||||||||
+Sbjct  167  CACTCAGACATGTAAATGTAAAAAATACAAGAGTTTAGGT--CCCCCGGCGGGCGCCTGG  110
+
+Query  65   TTCCGGGCGCGGCGTTTGGCCGCGATTCCGGGGCGAAAAACCCGCCGAAGCAACGGTAAA  124
+            ||||||||   | |   |  |  | |||||||||| | ||||||||||||||||||||||
+Sbjct  109  TTCCGGGC--AG-G-AAGAACCTG-TTCCGGGGCG-AGAACCCGCCGAAGCAACGGTAAA  56
+
+Query  125  AGGTATAAGTTCACAGTGGGTTTTGGGAGTTGTAAACTCGGTAATGATCCCTCCGC  180
+            |||||||||||||||| ||| ||||||||||||||||||||||||||||| |||||
+Sbjct  55   AGGTATAAGTTCACAG-GGG-TTTGGGAGTTGTAAACTCGGTAATGATCCTTCCGC  2
+
+
+> Metarhizium_novozealandicum|DQ385622|SH192584.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae;g__Metarhizium;s__Metarhizium_novozealandicum
+Length=543
+
+ Score = 154 bits (83),  Expect = 9e-38
+ Identities = 148/177 (84%), Gaps = 14/177 (8%)
+ Strand=Plus/Minus
+
+Query  7    CACTCAGACAAGCA-TA-TAAAATACAGAAGAGTTTAGGTGTCCTCCGGCGGGCGCCTGG  64
+            |||||||||| |||  | ||||| | | ||||||||  | |||| |||||||||||||||
+Sbjct  167  CACTCAGACATGCAAAAGTAAAAAATACAAGAGTTT-TG-GTCCCCCGGCGGGCGCCTGG  110
+
+Query  65   TTCCGGGCGCGGCGTTTG-G-CCGCGATTCCGGGGCGAAAAACCCGCCGAAGCAACGGTA  122
+            |||||||| ||||  | | |  |  | ||||||||||    ||||||||||||||| |||
+Sbjct  109  TTCCGGGC-CGGCTCTCGCGAACCTG-TTCCGGGGCG---GACCCGCCGAAGCAACAGTA  55
+
+Query  123  AAAGGTATAAGTTCACAGTGGGTTTTGGGAGTTGTAAACTCGGTAATGATCCCTCCG  179
+            || ||||||||||||||| ||| ||||||||||||||||||||||||||||||||||
+Sbjct  54   AA-GGTATAAGTTCACAG-GGG-TTTGGGAGTTGTAAACTCGGTAATGATCCCTCCG  1
+
+
+> Clavicipitaceae_sp|EU553292|SH195497.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae;g__unidentified;s__Clavicipitaceae_sp
+Length=533
+
+ Score = 147 bits (79),  Expect = 1e-35
+ Identities = 139/165 (84%), Gaps = 16/165 (10%)
+ Strand=Plus/Minus
+
+Query  24   AAAATACAGAAGAGTTTAGGTGTCCTCCGGCGGGCGCCTGGTTCCGGG--CGC--GG-CG  78
+            |||||||||||||||||  | |||| |||||||||||||| |||||||   ||  || | 
+Sbjct  159  AAAATACAGAAGAGTTT--GAGTCCCCCGGCGGGCGCCTGTTTCCGGGTGGGCAGGGACC  102
+
+Query  79   T-TTGGCCG-C-GATT--CCGGGGCGAAAAACCCGCCGAAGCAACGGTAAAAGGTATAAG  133
+            |   ||||| | | ||  ||||||| || |||||||||||||||| ||||| ||||||||
+Sbjct  101  TGACGGCCGCCTGTTTCCCCGGGGC-AATAACCCGCCGAAGCAACAGTAAA-GGTATAAG  44
+
+Query  134  TTCACAGTGGGTTTTGGGAGTTGTAAACTCGGTAATGATCCCTCC  178
+            ||||||| ||| |||||||||||||||||||||||||||||||||
+Sbjct  43   TTCACAG-GGG-TTTGGGAGTTGTAAACTCGGTAATGATCCCTCC  1
+
+
+> Metarhizium_flavoviride|AY624203|SH192592.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae;g__Metarhizium;s__Metarhizium_flavoviride
+Length=556
+
+ Score = 143 bits (77),  Expect = 2e-34
+ Identities = 127/149 (85%), Gaps = 12/149 (8%)
+ Strand=Plus/Minus
+
+Query  34   AGAGTTTA--GGTGTCCTCCGGCGGGCGCCTGGTTCCGGGCGCGGCGT-TTG-GCCGCGA  89
+            ||||||||  || |||||||||||||||||||||||||||   | | |   | |||  | 
+Sbjct  143  AGAGTTTATCGGGGTCCTCCGGCGGGCGCCTGGTTCCGGGTAGGCCCTAACGAGCC-TG-  86
+
+Query  90   TTCCGGGGCGAAAAACCCGCCGAAGCAACGGTAAAA--GGTATAAGTTCACAGTGGGTTT  147
+            | ||||||||  ||||||||||||||||||||||||  ||||||||||||||| ||| ||
+Sbjct  85   TCCCGGGGCG--AAACCCGCCGAAGCAACGGTAAAAATGGTATAAGTTCACAG-GGG-TT  30
+
+Query  148  TGGGAGTTGTAAACTCGGTAATGATCCCT  176
+            |||||||||||||||||||||||||||||
+Sbjct  29   TGGGAGTTGTAAACTCGGTAATGATCCCT  1
+
+
+> Hypomyces_sp|KC122874|SH209836.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Hypocreaceae;g__Hypomyces;s__Hypomyces_sp
+Length=526
+
+ Score = 137 bits (74),  Expect = 9e-33
+ Identities = 126/150 (84%), Gaps = 8/150 (5%)
+ Strand=Plus/Minus
+
+Query  29   ACAGAAGAGTTTAGGTGTCCTCCGGCGGGCGCCTGGTTCCGGGCGCGGCGTTTGGCCGCG  88
+            |||||||||||| || |||||||||||||||||||| ||||||  |||||   ||||| |
+Sbjct  142  ACAGAAGAGTTT-GG-GTCCTCCGGCGGGCGCCTGGGTCCGGGGCCGGCGCGGGGCCGAG  85
+
+Query  89   ATTCCGGGGCGAAAAACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCACAGTGGGTTTT  148
+               |||||||| |   |||||||| ||||||| | | |||| | ||||||| |||| |||
+Sbjct  84   CGCCCGGGGCGTAT--CCCGCCGAGGCAACGG-AGA-GGTA-AGGTTCACA-TGGGGTTT  31
+
+Query  149  GGGAGTTGTAAACTCGGTAATGATCCCTCC  178
+            ||||||||||||||||||||||||||||||
+Sbjct  30   GGGAGTTGTAAACTCGGTAATGATCCCTCC  1
+
+
+> Metarhizium_sp|AB700550|SH192598.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae;g__Metarhizium;s__Metarhizium_sp
+Length=500
+
+ Score = 134 bits (72),  Expect = 1e-31
+ Identities = 77/79 (97%), Gaps = 1/79 (1%)
+ Strand=Plus/Minus
+
+Query  102  AAACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCACAGTGGGTTTTGGGAGTTGTAAAC  161
+            ||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||
+Sbjct  78   AAACCCGCCGAAGCAACGGTAAA-GGTATAAGTTCACAGGGGGTTTTGGGAGTTGTAAAC  20
+
+Query  162  TCGGTAATGATCCCTCCGC  180
+            |||||||||||||||||||
+Sbjct  19   TCGGTAATGATCCCTCCGC  1
+
+
+> Ascomycota_sp|JN559403|SH195504.07FU|reps|k__Fungi;p__Ascomycota;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Ascomycota_sp
+Length=538
+
+ Score = 132 bits (71),  Expect = 4e-31
+ Identities = 135/163 (83%), Gaps = 15/163 (9%)
+ Strand=Plus/Minus
+
+Query  27   ATACAGAAGAGTTTAGGTGTCCTCCGGCGGGCGCCTGGTTCCGGG--CGC-GGCGTTTGG  83
+            ||||||||||||||  | |||| |||||||||||||| |||||||   || || |  |||
+Sbjct  159  ATACAGAAGAGTTT--GAGTCCCCCGGCGGGCGCCTGTTTCCGGGTGGGCAGGGGCCTGG  102
+
+Query  84   C--C-GC-GA-T-TCCGGGGCGAAAAACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCA  137
+            |  |  | || |  |||||||  |  ||||||||||||||| ||||| ||||||||||||
+Sbjct  101  CGGCACCTGACTCCCCGGGGC-CATGACCCGCCGAAGCAACAGTAAA-GGTATAAGTTCA  44
+
+Query  138  CAGTGGGTTTTGGGAGTTGTAAACTCGGTAATGATCCCTCCGC  180
+            ||| ||| |||||||||||||||||||||||||||||||||||
+Sbjct  43   CAG-GGG-TTTGGGAGTTGTAAACTCGGTAATGATCCCTCCGC  3
+
+
+> Hypocreales_sp|EU553283|SH195500.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__unidentified;g__unidentified;s__Hypocreales_sp
+Length=549
+
+ Score = 119 bits (64),  Expect = 3e-27
+ Identities = 80/87 (92%), Gaps = 3/87 (3%)
+ Strand=Plus/Minus
+
+Query  92   CCGGGGCGAAAAACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCACAGTGGGTTTTGGG  151
+            ||||||| || |||||||||||||||| ||||  ||||||||||||||| ||| ||||||
+Sbjct  84   CCGGGGC-AATAACCCGCCGAAGCAACAGTAA-TGGTATAAGTTCACAG-GGGGTTTGGG  28
+
+Query  152  AGTTGTAAACTCGGTAATGATCCCTCC  178
+            |||||||||||||||||||||||||||
+Sbjct  27   AGTTGTAAACTCGGTAATGATCCCTCC  1
+
+
+> Metarhizium_viride|AY624197|SH192582.07FU|refs|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Clavicipitaceae;g__Metarhizium;s__Metarhizium_viride
+Length=551
+
+ Score = 117 bits (63),  Expect = 1e-26
+ Identities = 109/130 (84%), Gaps = 7/130 (5%)
+ Strand=Plus/Minus
+
+Query  45   GTCCTCCGGCGGGCGCCTGGTTCCGGGCGCGGCGTT-TG-GCCGCGATTCCGGGGCGAAA  102
+            |||| |||||||||||||| ||||||||  | | ||  | |||  |  ||||||||   |
+Sbjct  125  GTCCCCCGGCGGGCGCCTGTTTCCGGGCAGGCCCTTGCGAGCC-TGGCTCCGGGGCCG-A  68
+
+Query  103  AACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCACAGTGGGTTTTGGGAGTTGTAAACT  162
+             |||||||||||||||||||||||||||||||||||| ||| |||| ||||||| |||||
+Sbjct  67   GACCCGCCGAAGCAACGGTAAAAGGTATAAGTTCACA-TGG-TTTT-GGAGTTGAAAACT  11
+
+Query  163  CGGTAATGAT  172
+            ||||||||||
+Sbjct  10   CGGTAATGAT  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2572351767
+
+
+Query= OTU202:leafNotChim_100;size=12834;
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2087002377
+
+
+Query= OTU10:leafNotChim_100;size=250062;
+
+Length=239
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Phyllosticta_ampelicida|HM049170|SH210446.07FU|reps|k__Fungi;p_...  368     4e-102
+  Phyllosticta_aloeicola|KF154280|SH210440.07FU|refs|k__Fungi;p__...  333     1e-91 
+  Guignardia_sp|EU675682|SH198937.07FU|reps|k__Fungi;p__Ascomycot...  309     2e-84 
+  Phyllosticta_styracicola|JX025040|SH210451.07FU|refs|k__Fungi;p...  291     9e-79 
+  Phyllosticta_parthenocissi|EU683672|SH210443.07FU|refs|k__Fungi...  283     1e-76 
+  Phyllosticta_ampelicida|KC193586|SH210430.07FU|refs|k__Fungi;p_...  279     2e-75 
+  Phyllosticta_aristolochiicola|JX486129|SH107086.07FU|refs_singl...  268     4e-72 
+  Phyllosticta_ardisiicola|AB454274|SH198936.07FU|refs|k__Fungi;p...  267     1e-71 
+  Phyllosticta_leucothoicola|AB454370|SH091775.07FU|refs|k__Fungi...  263     2e-70 
+  Phyllosticta_neopyrolae|AB454318|SH244990.07FU|refs_singleton|k...  257     9e-69 
+
+
+> Phyllosticta_ampelicida|HM049170|SH210446.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_ampelicida
+Length=585
+
+ Score = 368 bits (199),  Expect = 4e-102
+ Identities = 229/243 (94%), Gaps = 4/243 (2%)
+ Strand=Plus/Minus
+
+Query  1    TATATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGG  60
+            |||||||||||||||| |||| ||||||||||||||||||||||||  ||||||||||||
+Sbjct  248  TATATCAGGACTTCACAAAATAATCGCTTGAGTTTTGTATACTGGCGAGCACTTAGCCGG  189
+
+Query  61   GCGTCCTGGCC-GGTTA-AGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCC  118
+            ||||||||||| |||||  |||||||||||||||||||||||||||||||||||||||||
+Sbjct  188  GCGTCCTGGCCCGGTTAGGGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCC  129
+
+Query  119  CGCCAAAGCAACATGGTAAGGTACACAAGGGTGGGAAGGG-CTCTTTCCGCCGGCTTTTT  177
+            ||||||||||||||||||||||||||||||||| |||||| ||||||| |||||||||||
+Sbjct  128  CGCCAAAGCAACATGGTAAGGTACACAAGGGTGAGAAGGGGCTCTTTCTGCCGGCTTTTT  69
+
+Query  178  AGGGCCGGCGTACTCGA-TTACCTTTCAAGAGAATTACGTATTTCAGTAATGATCCTTCC  236
+            ||||||| |||||||||   ||||||||||||||||||||||||||||||||||||||||
+Sbjct  68   AGGGCCGACGTACTCGAGAGACCTTTCAAGAGAATTACGTATTTCAGTAATGATCCTTCC  9
+
+Query  237  GCA  239
+            |||
+Sbjct  8    GCA  6
+
+
+> Phyllosticta_aloeicola|KF154280|SH210440.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_aloeicola
+Length=529
+
+ Score = 333 bits (180),  Expect = 1e-91
+ Identities = 210/224 (94%), Gaps = 3/224 (1%)
+ Strand=Plus/Minus
+
+Query  1    TATATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGG  60
+            |||||||||||||||| |||| |||||||||||||||||||||||| ||||||| |||||
+Sbjct  222  TATATCAGGACTTCACAAAATAATCGCTTGAGTTTTGTATACTGGCGGGCACTTGGCCGG  163
+
+Query  61   GCGTCCTGGCCGGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  120
+            ||||||||||||  || |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  162  GCGTCCTGGCCGAGTAGGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  103
+
+Query  121  CCAAAGCAACATGGTAAGGTACACAAGGGTGGGAAGGGCTCTTTCCGCCGGCTTTTTAGG  180
+            ||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||
+Sbjct  102  CCAAAGCAACATGGTAAGGTACACAAGGGTGAGAAGGGCTCTTTCCGCCGGCTTTTGAGG  43
+
+Query  181  GCCGGCGTACTCGATTACCTTTCAAG-AGAATTACGTATTTCAG  223
+             ||| ||||||||||  ||||||||| |||||||||||||||||
+Sbjct  42   TCCGACGTACTCGAT--CCTTTCAAGAAGAATTACGTATTTCAG  1
+
+
+> Guignardia_sp|EU675682|SH198937.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Guignardia;s__Guignardia_sp
+Length=589
+
+ Score = 309 bits (167),  Expect = 2e-84
+ Identities = 215/238 (90%), Gaps = 3/238 (1%)
+ Strand=Plus/Minus
+
+Query  1    TATATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGG  60
+            |||||||||||| ||||  || |||||| ||||||||||||||||| ||| ||| |||||
+Sbjct  237  TATATCAGGACTACACGGGATAATCGCTGGAGTTTTGTATACTGGCGGGCGCTTGGCCGG  178
+
+Query  61   GCGTCCTGGCCGGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  120
+            |||||||||||||| ||||||||| |||||||||||||||||||||||||||||||||||
+Sbjct  177  GCGTCCTGGCCGGTGAAGGCTGGGTGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  118
+
+Query  121  CCAAAGCAACATGGTAAGGTACACAAGGGTGGGAAG-GGCTCTTTCCGCCGGCTTTTTAG  179
+            ||||||||||||||||||||||||||||||| |||| || |||||| |||||| |||| |
+Sbjct  117  CCAAAGCAACATGGTAAGGTACACAAGGGTGAGAAGAGGTTCTTTCGGCCGGCCTTTT-G  59
+
+Query  180  GGCCGGCGTACTCGATTACCTTTCAAGAGAATTACGT-ATTTCAGTAATGATCCTTCC  236
+            ||||||| || ||||  ||||| |||||||||||| | ||||||||||||||||||||
+Sbjct  58   GGCCGGCCTAATCGAAGACCTTCCAAGAGAATTACTTTATTTCAGTAATGATCCTTCC  1
+
+
+> Phyllosticta_styracicola|JX025040|SH210451.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_styracicola
+Length=564
+
+ Score = 291 bits (157),  Expect = 9e-79
+ Identities = 203/225 (90%), Gaps = 4/225 (2%)
+ Strand=Plus/Minus
+
+Query  1    TATATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGG  60
+            |||||||||||||||| |||| |||||||||||||||||  ||||| ||| |||||||||
+Sbjct  223  TATATCAGGACTTCACAAAATAATCGCTTGAGTTTTGTACGCTGGCGGGCGCTTAGCCGG  164
+
+Query  61   GCGTCCTGGCCGGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  120
+            ||||||| ||| |  | |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  163  GCGTCCTAGCCCGCGAGGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  104
+
+Query  121  CCAAAGCAACATGGTAAGGTACACAAGGGTGGGAAGGGCTCTTTCCGCCGGCTTTTTAGG  180
+            |||||||||| |||||||||||||||||||||||||||||||||| ||| |||||| |||
+Sbjct  103  CCAAAGCAACGTGGTAAGGTACACAAGGGTGGGAAGGGCTCTTTCGGCCAGCTTTTGAGG  44
+
+Query  181  GCCGGCGTACTCGATTACCTTTCAAGA-GAATT-ACGTATTTCAG  223
+            ||| || ||||||||  |||||||||| || || |||||||||||
+Sbjct  43   GCCAGCCTACTCGAT--CCTTTCAAGAAGAGTTTACGTATTTCAG  1
+
+
+> Phyllosticta_parthenocissi|EU683672|SH210443.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_parthenocissi
+Length=586
+
+ Score = 283 bits (153),  Expect = 1e-76
+ Identities = 209/235 (89%), Gaps = 7/235 (3%)
+ Strand=Plus/Minus
+
+Query  5    TCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGGGCGT  64
+            |||||||||||| | || |||||||||||||||||||||||| ||| ||| ||| |||||
+Sbjct  231  TCAGGACTTCACAAGATAATCGCTTGAGTTTTGTATACTGGCGGGCGCTTGGCCCGGCGT  172
+
+Query  65   CCTGGCC-GGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCGCCA  123
+            |||||||  |  | ||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  171  CCTGGCCCCGCGAGGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCGCCA  112
+
+Query  124  AAGCAACATGGTAAGGTACACAAGGGTGGGAAGGGCTCTTTCCGCC-GGCTTTTTAGGGC  182
+            ||||||| ||||| |||||||||||||| ||||||||||||| ||| ||||||| | |||
+Sbjct  111  AAGCAACGTGGTAGGGTACACAAGGGTGAGAAGGGCTCTTTCGGCCCGGCTTTTGACGGC  52
+
+Query  183  CGG-CGTACTCGATTACCTTTCAAGAGAATTACGTATTTCAGTAATGATCCTTCC  236
+            ||| ||||||||||  ||||||  |||||||||  ||||||||||||||||||||
+Sbjct  51   CGGGCGTACTCGAT--CCTTTC--GAGAATTACCAATTTCAGTAATGATCCTTCC  1
+
+
+> Phyllosticta_ampelicida|KC193586|SH210430.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_ampelicida
+Length=560
+
+ Score = 279 bits (151),  Expect = 2e-75
+ Identities = 203/227 (89%), Gaps = 7/227 (3%)
+ Strand=Plus/Minus
+
+Query  1    TATATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGG  60
+            ||| ||||||||||||||||| |||||||||||||||||||||||| ||| ||| |||||
+Sbjct  224  TATGTCAGGACTTCACGAAATAATCGCTTGAGTTTTGTATACTGGCGGGCGCTTGGCCGG  165
+
+Query  61   GCGTCCTGGCCGGTTA-AGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCC  119
+            ||||||||||| |  |  ||||||||||||||||||||||||||||||||||||||||||
+Sbjct  164  GCGTCCTGGCCCGCGAGGGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCC  105
+
+Query  120  GCCAAAGCAACATGGTAAGGTACACAAGGGTGGGAAGGGCTCTTTCCGCCGGCTTTTTAG  179
+            |||||||||||||||||||||||||| ||||| ||||||||||||| | |||||||| ||
+Sbjct  104  GCCAAAGCAACATGGTAAGGTACACAGGGGTGAGAAGGGCTCTTTCGGACGGCTTTTCAG  45
+
+Query  180  GGCCGGCGTACTCGATTACCTTTCAAGA-GAA-TTACGTA-TTTCAG  223
+            ||||| | ||||||||  || ||||||| ||| |||| || ||||||
+Sbjct  44   GGCCGCCCTACTCGAT--CCATTCAAGAAGAAATTAC-TAGTTTCAG  1
+
+
+> Phyllosticta_aristolochiicola|JX486129|SH107086.07FU|refs_singleton|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_aristolochiicola
+Length=566
+
+ Score = 268 bits (145),  Expect = 4e-72
+ Identities = 212/242 (88%), Gaps = 14/242 (6%)
+ Strand=Plus/Minus
+
+Query  1    TATATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGG  60
+            ||||||||||||||||  ||| |||||||||||||||||||||||| |||||||||||||
+Sbjct  231  TATATCAGGACTTCACAGAATAATCGCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGG  172
+
+Query  61   GCGTCCTGGCCGGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  171  GCGTCCTGGCCGGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCG  112
+
+Query  121  CCAAAGCAACATGGTAAGGTACACAAGGGTGGGAAGGGCTCTTTCCGCCGGCTTTTTAGG  180
+            |||||||||||| ||  |||||||||||||| ||  || |||||| || |  || || | 
+Sbjct  111  CCAAAGCAACATAGTG-GGTACACAAGGGTGAGAGAGGTTCTTTCGGC-G--TTGTT-GC  57
+
+Query  181  GCCGGCGTACTCGATTACCTTTCA-AGA-GA-ATTACGTATTTCAGTAATGATCCTTCCG  237
+            |||    |||||||  |||||||| ||| |  ||||||  ||||||||||||||||||||
+Sbjct  56   GCC----TACTCGAAGACCTTTCAGAGAAGTTATTACG--TTTCAGTAATGATCCTTCCG  3
+
+Query  238  CA  239
+            ||
+Sbjct  2    CA  1
+
+
+> Phyllosticta_ardisiicola|AB454274|SH198936.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_ardisiicola
+Length=563
+
+ Score = 267 bits (144),  Expect = 1e-71
+ Identities = 210/240 (88%), Gaps = 12/240 (5%)
+ Strand=Plus/Minus
+
+Query  1    TATATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGG  60
+            |||||||||||||||| |||| |||||||||||||||||||||||| |||||||||||| 
+Sbjct  230  TATATCAGGACTTCACAAAATAATCGCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGA  171
+
+Query  61   GCGTCCTGGCC-GGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCC  119
+            |||||||||||  |||  |||||||||||||||||||||||| |||||||||||||||||
+Sbjct  170  GCGTCCTGGCCCTGTTGGGGCTGGGGGCGCCGGCCGCCCGGGCCGAAACCGGGTCGGCCC  111
+
+Query  120  GCCAAAGCAACATGGTAAGGTACACAAGGGTGGGAAGGGCTCTTTCCGCCGGCTTTTTAG  179
+            |||||||||||||||||||||||||||||||||||  || |||||| |||   ||   ||
+Sbjct  110  GCCAAAGCAACATGGTAAGGTACACAAGGGTGGGAGAGGTTCTTTCGGCC---TTGC-AG  55
+
+Query  180  GGCCGGCGTACTCGATTACCTTTCAAGAGAATTACGTATTTCAGTAATGATCCTTCCGCA  239
+              ||    |||||||  ||||||||| || ||||| ||||||||||||||||||||||||
+Sbjct  54   --CC----TACTCGAAGACCTTTCAAAAGGATTAC-TATTTCAGTAATGATCCTTCCGCA  2
+
+
+> Phyllosticta_leucothoicola|AB454370|SH091775.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_leucothoicola
+Length=577
+
+ Score = 263 bits (142),  Expect = 2e-70
+ Identities = 212/244 (87%), Gaps = 11/244 (5%)
+ Strand=Plus/Minus
+
+Query  3    TATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGGGC  62
+            |||||| ||| |||||||| |||||||||||||||||||||||| ||| ||||||| || 
+Sbjct  241  TATCAGAACTGCACGAAATAATCGCTTGAGTTTTGTATACTGGCGGGCGCTTAGCCTGGA  182
+
+Query  63   GTCCTGGCCGGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCGCC  122
+            |||||||||||| | |||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  181  GTCCTGGCCGGTGAGGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCGCC  122
+
+Query  123  AAAGCAACATGGTAAGGTACACAAGGGTGGGA-AGGGCTCTTTCC--GCCGGCTT-TTTA  178
+            ||||||||||||||||||||||||||||| || ||| | ||| ||  |||  ||| ||||
+Sbjct  121  AAAGCAACATGGTAAGGTACACAAGGGTGTGAGAGGAC-CTTCCCCAGCCCCCTTGTTTA  63
+
+Query  179  GGGCCGGC-G--TACTCGATTACCTTTCAAGAGAATTACGTATTTCAGTAATGATCCTTC  235
+            |||  | | |  ||| ||   |||||||| ||||||||| || |||||||||||||||||
+Sbjct  62   GGGGGGACTGGGTAC-CGGCGACCTTTCA-GAGAATTAC-TAGTTCAGTAATGATCCTTC  6
+
+Query  236  CGCA  239
+            ||||
+Sbjct  5    CGCA  2
+
+
+> Phyllosticta_neopyrolae|AB454318|SH244990.07FU|refs_singleton|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_neopyrolae
+Length=577
+
+ Score = 257 bits (139),  Expect = 9e-69
+ Identities = 211/244 (86%), Gaps = 11/244 (5%)
+ Strand=Plus/Minus
+
+Query  3    TATCAGGACTTCACGAAATGATCGCTTGAGTTTTGTATACTGGCAGGCACTTAGCCGGGC  62
+            |||||| ||| |||||||| |||||| ||||||||||||||||| ||| ||||||| | |
+Sbjct  241  TATCAGAACTGCACGAAATAATCGCTGGAGTTTTGTATACTGGCGGGCGCTTAGCCTGAC  182
+
+Query  63   GTCCTGGCCGGTTAAGGCTGGGGGCGCCGGCCGCCCGGGTCGAAACCGGGTCGGCCCGCC  122
+            |||||||||||| | ||||||||||||||||||||||||||||| |||||||||||||||
+Sbjct  181  GTCCTGGCCGGTGAGGGCTGGGGGCGCCGGCCGCCCGGGTCGAAGCCGGGTCGGCCCGCC  122
+
+Query  123  AAAGCAACATGGTAAGGTACACAAGGGTGGGA-AGGGCTCTTTCC-G-CCGGCTT-TTTA  178
+            ||||||||||||||||||||||||||||| || ||| | ||| || | ||  ||| ||||
+Sbjct  121  AAAGCAACATGGTAAGGTACACAAGGGTGTGAGAGGAC-CTTCCCCGGCCCCCTTGTTTA  63
+
+Query  179  GGGCCGGC-G--TACTCGATTACCTTTCAAGAGAATTACGTATTTCAGTAATGATCCTTC  235
+            |||  ||| |  ||| ||   |||||||| ||||||||| || |||||||||||||||||
+Sbjct  62   GGGGGGGCCGGGTAC-CGGCGACCTTTCA-GAGAATTAC-TAGTTCAGTAATGATCCTTC  6
+
+Query  236  CGCA  239
+            ||||
+Sbjct  5    CGCA  2
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3510693921
+
+
+Query= OTU17:leafNotChim_100;size=116774;
+
+Length=254
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3753368616
+
+
+Query= OTU15:leafNotChim_100;size=153790;
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Phyllosticta_capitalensis|JF261465|SH198965.07FU|refs|k__Fungi;...  396     2e-110
+  Phyllosticta_capitalensis|FJ769691|SH191739.07FU|reps|k__Fungi;...  377     6e-105
+  Phyllosticta_capitalensis|JQ317505|SH198971.07FU|reps|k__Fungi;...  368     4e-102
+  Phyllosticta_capitalensis|FJ769696|SH216176.07FU|reps|k__Fungi;...  368     4e-102
+  Phyllosticta_capitalensis|FJ769686|SH216177.07FU|reps|k__Fungi;...  366     1e-101
+  Phyllostictaceae_sp|KC291348|SH216174.07FU|reps|k__Fungi;p__Asc...  348     5e-96 
+  Phyllosticta_capitalensis|JQ317399|SH198966.07FU|reps|k__Fungi;...  340     8e-94 
+  Phyllosticta_capitalensis|JQ317409|SH198967.07FU|reps|k__Fungi;...  340     8e-94 
+  Phyllosticta_capitalensis|JQ317492|SH216175.07FU|reps|k__Fungi;...  329     2e-90 
+  Phyllosticta_capitalensis|JQ317504|SH210450.07FU|reps|k__Fungi;...  329     2e-90 
+
+
+> Phyllosticta_capitalensis|JF261465|SH198965.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=540
+
+ Score = 396 bits (214),  Expect = 2e-110
+ Identities = 214/214 (100%), Gaps = 0/214 (0%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  214  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  155
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  154  CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  95
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  94   CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  35
+
+Query  181  CTGGAACCTTTCAATAGAAGTTATTACATTTCAG  214
+            ||||||||||||||||||||||||||||||||||
+Sbjct  34   CTGGAACCTTTCAATAGAAGTTATTACATTTCAG  1
+
+
+> Phyllosticta_capitalensis|FJ769691|SH191739.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=561
+
+ Score = 377 bits (204),  Expect = 6e-105
+ Identities = 213/217 (98%), Gaps = 1/217 (0%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  226  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  167
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  166  CGTCCTGGCCAGTTAAGGCTGGGCGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  107
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  106  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  47
+
+Query  181  CTGGAACCTTTCAATAGAAGTTATTACATTTCAGTAA  217
+            |||||||||||||||||||||||| ||| |||| |||
+Sbjct  46   CTGGAACCTTTCAATAGAAGTTAT-ACACTTCATTAA  11
+
+
+> Phyllosticta_capitalensis|JQ317505|SH198971.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=560
+
+ Score = 368 bits (199),  Expect = 4e-102
+ Identities = 216/224 (96%), Gaps = 2/224 (1%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  225  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  166
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||| | ||||||||||||||||||||||||||||||||||||
+Sbjct  165  CGTCCTGGCCAGTTAAGGCTGCGCGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  106
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  105  CAAAGCCACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  46
+
+Query  181  CTGGAACCTTTCAATAGAAGTTATTACATTTCAGTAAT-GATCC  223
+            |||||||||||||||||||||||| |||  |||||| | |||||
+Sbjct  45   CTGGAACCTTTCAATAGAAGTTAT-ACACATCAGTAGTAGATCC  3
+
+
+> Phyllosticta_capitalensis|FJ769696|SH216176.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=564
+
+ Score = 368 bits (199),  Expect = 4e-102
+ Identities = 199/199 (100%), Gaps = 0/199 (0%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  230  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  171
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  170  CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  111
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  110  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  51
+
+Query  181  CTGGAACCTTTCAATAGAA  199
+            |||||||||||||||||||
+Sbjct  50   CTGGAACCTTTCAATAGAA  32
+
+
+> Phyllosticta_capitalensis|FJ769686|SH216177.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=562
+
+ Score = 366 bits (198),  Expect = 1e-101
+ Identities = 202/204 (99%), Gaps = 0/204 (0%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  228  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  169
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  168  CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  109
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  108  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  49
+
+Query  181  CTGGAACCTTTCAATAGAAGTTAT  204
+            |||||||||||| |||||| ||||
+Sbjct  48   CTGGAACCTTTCGATAGAATTTAT  25
+
+
+> Phyllostictaceae_sp|KC291348|SH216174.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__unidentified;s__Phyllostictaceae_sp
+Length=506
+
+ Score = 348 bits (188),  Expect = 5e-96
+ Identities = 192/194 (99%), Gaps = 0/194 (0%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||
+Sbjct  194  ATATCAGGACTTCACAATATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  135
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  134  CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  75
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  74   CAAAGCAACATAGTGAGTACACAGGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  15
+
+Query  181  CTGGAACCTTTCAA  194
+            ||||||||||||||
+Sbjct  14   CTGGAACCTTTCAA  1
+
+
+> Phyllosticta_capitalensis|JQ317399|SH198966.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=564
+
+ Score = 340 bits (184),  Expect = 8e-94
+ Identities = 194/199 (97%), Gaps = 1/199 (1%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  230  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  171
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||
+Sbjct  170  CGTCCTGGCCAGTTAAGGCTGGGNGCGCCGGCCGCCTGGGTCGGAACCATGTCGACCCGC  111
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  110  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  51
+
+Query  181  CTGGAACCTTTCA-ATAGA  198
+            ||| ||||||||  |||||
+Sbjct  50   CTGAAACCTTTCGGATAGA  32
+
+
+> Phyllosticta_capitalensis|JQ317409|SH198967.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=559
+
+ Score = 340 bits (184),  Expect = 8e-94
+ Identities = 196/202 (97%), Gaps = 1/202 (0%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  224  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  165
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct  164  CGTCCTGGCCAGTTAAGGCTGGGNGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  105
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            ||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||
+Sbjct  104  CAAAGCAACATAGTGAGAACACAAGGGTGAGAAGGTCATTTCGGCGTTGT-GCGCCTACT  46
+
+Query  181  CTGGAACCTTTCAATAGAAGTT  202
+            |||  ||||||||| |||||||
+Sbjct  45   CTGCTACCTTTCAAGAGAAGTT  24
+
+
+> Phyllosticta_capitalensis|JQ317492|SH216175.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=561
+
+ Score = 329 bits (178),  Expect = 2e-90
+ Identities = 195/203 (96%), Gaps = 2/203 (1%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  227  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  168
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||
+Sbjct  167  CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCACGTCGACCCGC  108
+
+Query  121  CAAAGCAACATAGTGAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTACT  180
+            |||||||||||||| ||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct  107  CAAAGCAACATAGTCAGTACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGAGCCTACT  48
+
+Query  181  CTGGA-ACCTTTCAATAGAAGTT  202
+            | ||  ||||| |||| ||||||
+Sbjct  47   CAGGCTACCTT-CAATGGAAGTT  26
+
+
+> Phyllosticta_capitalensis|JQ317504|SH210450.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_capitalensis
+Length=567
+
+ Score = 329 bits (178),  Expect = 2e-90
+ Identities = 207/220 (94%), Gaps = 5/220 (2%)
+ Strand=Plus/Minus
+
+Query  1    ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  230  ATATCAGGACTTCACAAAATGAATTCTTGAGTTTTGTATACTGGCGGGCACTTAGCCGGG  171
+
+Query  61   CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGGAACCAGGTCGACCCGC  120
+            ||||||||||||||||||||||||||||||||||||||||||| | |||| |||||||||
+Sbjct  170  CGTCCTGGCCAGTTAAGGCTGGGGGCGCCGGCCGCCTGGGTCGCACCCAGCTCGACCCGC  111
+
+Query  121  CAAAGCAACATAGTGAGTA-CACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTAC  179
+            ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct  110  CAAAGCAACATAGTGAGTAACACAAGGGTGAGAAGGTCATTTCGGCGTTGTAGCGCCTAC  51
+
+Query  180  TC-TGGAACCTTTCAATAGAAGTTAT-TACATTTCA-GTA  216
+            || |  ||||||||| |||||||  | ||| ||||| |||
+Sbjct  50   TCCTTAAACCTTTCAGTAGAAGTACTCTAC-TTTCATGTA  12
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3365089104
+
+
+Query= OTU27:leafNotChim_100;size=65318;
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Diaporthales_sp|KF436050|SH180177.07FU|reps|k__Fungi;p__Ascomyc...  78.7    5e-15
+  Rhexodenticula_cylindrospora|KM484943|SH529147.07FU|reps|k__Fun...  76.8    2e-14
+
+
+> Diaporthales_sp|KF436050|SH180177.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Diaporthales;f__unidentified;g__unidentified;s__Diaporthales_sp
+Length=468
+
+ Score = 78.7 bits (42),  Expect = 5e-15
+ Identities = 53/58 (91%), Gaps = 1/58 (2%)
+ Strand=Plus/Minus
+
+Query  40  CCCGGCGAGCACCCTCGCGGGTCGGGGGCCCCTCCCAGGGGCCGCCCGCCGAAGCAAC  97
+           ||||||| || |||||||||| | | ||||||||||||||||||||||||||||||||
+Sbjct  99  CCCGGCGGGCGCCCTCGCGGG-CTGCGGCCCCTCCCAGGGGCCGCCCGCCGAAGCAAC  43
+
+
+> Rhexodenticula_cylindrospora|KM484943|SH529147.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Sordariales;f__Sordariales_fam_Incertae_sedis;g__Rhexodenticula;s__Rhexodenticula_cylindrospora
+Length=485
+
+ Score = 76.8 bits (41),  Expect = 2e-14
+ Identities = 91/114 (80%), Gaps = 8/114 (7%)
+ Strand=Plus/Minus
+
+Query  41   CCGGCGAGCACCCTCGCGGGTCGGGGGCCCCTCCCAGGGGCCGCCCGCCGAAGCAACGAG  100
+            |||||| || ||| || ||| |   |||||||||||||||||||||||||||||||| ||
+Sbjct  110  CCGGCGGGCGCCCGCGAGGGGCTACGGCCCCTCCCAGGGGCCGCCCGCCGAAGCAAC-AG  52
+
+Query  101  TTTTTCAGGTAACGTTCACG-GTGGTT-GGGAGTTTTGAACTC--GCTAATGAT  150
+            ||   | ||||  ||||||  ||| || ||||||||| |||||  | |||||||
+Sbjct  51   TTA--CGGGTAG-GTTCACAAGTGTTTAGGGAGTTTTCAACTCTTGGTAATGAT  1
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2216428881
+
+
+Query= OTU94:leafNotChim_114;size=28778;
+
+Length=254
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3753368616
+
+
+Query= OTU91:leafNotChim_100;size=29493;
+
+Length=219
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3187127661
+
+
+Query= OTU239:leafNotChim_100;size=10568;
+
+Length=211
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3057701157
+
+
+Query= OTU16:leafNotChim_100;size=127559;
+
+Length=240
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Phyllosticta_neopyrolae|AB454318|SH244990.07FU|refs_singleton|k...  244     7e-65
+  Guignardia_sp|EU675682|SH198937.07FU|reps|k__Fungi;p__Ascomycot...  237     1e-62
+  Phyllosticta_yuccae|UDB020917|SH091769.07FU|refs|k__Fungi;p__As...  235     4e-62
+  Phyllosticta_leucothoicola|AB454370|SH091775.07FU|refs|k__Fungi...  233     1e-61
+  Phyllosticta_pachysandricola|AB454317|SH186514.07FU|refs|k__Fun...  233     1e-61
+  Phyllosticta_paviae|AB454261|SH186513.07FU|reps|k__Fungi;p__Asc...  230     2e-60
+  Guignardia_gaultheriae|JN692543|SH186505.07FU|refs|k__Fungi;p__...  224     9e-59
+  Phyllosticta_rubella|KF206171|SH244980.07FU|refs|k__Fungi;p__As...  220     1e-57
+  Phyllosticta_ampelicida|HM049170|SH210446.07FU|reps|k__Fungi;p_...  217     1e-56
+  Phyllosticta_ilicis|JN692538|SH210438.07FU|refs|k__Fungi;p__Asc...  217     1e-56
+
+
+> Phyllosticta_neopyrolae|AB454318|SH244990.07FU|refs_singleton|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_neopyrolae
+Length=577
+
+ Score = 244 bits (132),  Expect = 7e-65
+ Identities = 200/230 (87%), Gaps = 16/230 (7%)
+ Strand=Plus/Minus
+
+Query  20   ATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGTCCTGGCCGGTGAGGG  79
+            |||||||||||| |||||| ||||||||||||||||||| | ||||||||||||||||||
+Sbjct  224  ATAATCGCTGGAGTTTTGTATACTGGCGGGCGCTTAGCCTGACGTCCTGGCCGGTGAGGG  165
+
+Query  80   CTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGCCAAAGCAACATGGTAA  139
+            |||||||||||||||||||||||  |||  ||||||||||||||||||||||||||||||
+Sbjct  164  CTGGGGGCGCCGGCCGCCCGGGT--CGAAGCCGGGTCGGCCCGCCAAAGCAACATGGTAA  107
+
+Query  140  GGTACACAAGGGGTGTGAGAGGCCCTTCCAGCCGGCCCGC--G---GGGGCCGGACGTGG  194
+            |||||||||||| ||||||||| ||||||  ||||||| |  |    |||  || || ||
+Sbjct  106  GGTACACAAGGG-TGTGAGAGGACCTTCC--CCGGCCCCCTTGTTTAGGGGGGGCCG-GG  51
+
+Query  195  T-CGGG-GACCTTTCAG-GA-TTACTGTGTTCAGTAATGATCCTTCCGCA  240
+            | | || |||||||||| || |||||  ||||||||||||||||||||||
+Sbjct  50   TACCGGCGACCTTTCAGAGAATTACTA-GTTCAGTAATGATCCTTCCGCA  2
+
+
+> Guignardia_sp|EU675682|SH198937.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Guignardia;s__Guignardia_sp
+Length=589
+
+ Score = 237 bits (128),  Expect = 1e-62
+ Identities = 203/238 (85%), Gaps = 10/238 (4%)
+ Strand=Plus/Minus
+
+Query  5    TCAGGACTACACTGGATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGT  64
+            |||||||||||| |||||||||||||| |||||| ||||||||||||||| |||||||||
+Sbjct  233  TCAGGACTACACGGGATAATCGCTGGAGTTTTGTATACTGGCGGGCGCTTGGCCGGGCGT  174
+
+Query  65   CCTGGCCGGTGAGGGCTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGCC  124
+            |||||||||||| ||||||| |||||||||||||||||  |||  |||||||||||||||
+Sbjct  173  CCTGGCCGGTGAAGGCTGGGTGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCGCC  116
+
+Query  125  AAAGCAACATGGTAAGGTACACAAGGGGTGTG-AGAGGCCCTTCCAGCCGGCCCGCGGGG  183
+            ||||||||||||||||||||||||||| || | |||||  ||| | |||||||    |||
+Sbjct  115  AAAGCAACATGGTAAGGTACACAAGGG-TGAGAAGAGGTTCTTTCGGCCGGCCTTTTGGG  57
+
+Query  184  GCCGGACGTGGTCGGGGACCTTTCA-G-GA-TTACTGTG-TTCAGTAATGATCCTTCC  237
+             |||| | |  |||  |||||| || | || ||||| |  ||||||||||||||||||
+Sbjct  56   -CCGGCC-TAATCGAAGACCTTCCAAGAGAATTACTTTATTTCAGTAATGATCCTTCC  1
+
+
+> Phyllosticta_yuccae|UDB020917|SH091769.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_yuccae
+Length=577
+
+ Score = 235 bits (127),  Expect = 4e-62
+ Identities = 208/244 (85%), Gaps = 17/244 (7%)
+ Strand=Plus/Minus
+
+Query  5    TCAGGACTACACTGGATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGT  64
+            |||| |||||||   |||||||||||| |||||| ||||||||||||||||||| | |||
+Sbjct  238  TCAGAACTACACGAAATAATCGCTGGAGTTTTGTATACTGGCGGGCGCTTAGCCTGACGT  179
+
+Query  65   CCTGGCCGGTGAGGGCTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGCC  124
+            ||||||||| ||||||||||||||||||||||||||||  |||  |||||||||||||||
+Sbjct  178  CCTGGCCGGCGAGGGCTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCGCC  121
+
+Query  125  AAAGCAACATGGTAAGGTACACAAGGGGTGTGAGAGGCCCTTCCAGCCGGCCCGC---G-  180
+            ||||||||||||||||||||||| ||||||||||||| ||||||  ||||||| |   | 
+Sbjct  120  AAAGCAACATGGTAAGGTACACA-GGGGTGTGAGAGGACCTTCC--CCGGCCCCCCTTGT  64
+
+Query  181  ---GGGGCCGGACGTGGT-CGGG-GACCTTTCAG-GA-TTACTGTGTTCAGTAATGATCC  233
+               ||||  ||||  ||| | || |||||||||| || |||||  |||||||||||||||
+Sbjct  63   TTAGGGGGGGGACCGGGTACCGGCGACCTTTCAGAGAATTACTA-GTTCAGTAATGATCC  5
+
+Query  234  TTCC  237
+            ||||
+Sbjct  4    TTCC  1
+
+
+> Phyllosticta_leucothoicola|AB454370|SH091775.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_leucothoicola
+Length=577
+
+ Score = 233 bits (126),  Expect = 1e-61
+ Identities = 197/229 (86%), Gaps = 14/229 (6%)
+ Strand=Plus/Minus
+
+Query  20   ATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGTCCTGGCCGGTGAGGG  79
+            ||||||||| || |||||| ||||||||||||||||||| || |||||||||||||||||
+Sbjct  224  ATAATCGCTTGAGTTTTGTATACTGGCGGGCGCTTAGCCTGGAGTCCTGGCCGGTGAGGG  165
+
+Query  80   CTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGCCAAAGCAACATGGTAA  139
+            |||||||||||||||||||||||  |||  ||||||||||||||||||||||||||||||
+Sbjct  164  CTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCGCCAAAGCAACATGGTAA  107
+
+Query  140  GGTACACAAGGGGTGTGAGAGGCCCTTCCAGCCGGCCCGC--G--GGGGCCGGACGTGGT  195
+            |||||||||||| ||||||||| ||||||  || |||| |  |    ||  ||||  |||
+Sbjct  106  GGTACACAAGGG-TGTGAGAGGACCTTCC--CCAGCCCCCTTGTTTAGGGGGGACTGGGT  50
+
+Query  196  -CGGG-GACCTTTCAG-GA-TTACTGTGTTCAGTAATGATCCTTCCGCA  240
+             | || |||||||||| || |||||  ||||||||||||||||||||||
+Sbjct  49   ACCGGCGACCTTTCAGAGAATTACTA-GTTCAGTAATGATCCTTCCGCA  2
+
+
+> Phyllosticta_pachysandricola|AB454317|SH186514.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_pachysandricola
+Length=582
+
+ Score = 233 bits (126),  Expect = 1e-61
+ Identities = 209/247 (85%), Gaps = 14/247 (6%)
+ Strand=Plus/Minus
+
+Query  4    GTCAGGACTACACTGGATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCG  63
+            ||||||||| ||| | ||||||||| || |||||  ||||||||||||||||||| | ||
+Sbjct  244  GTCAGGACTGCACGGAATAATCGCTTGAGTTTTGCATACTGGCGGGCGCTTAGCCTGACG  185
+
+Query  64   TCCTGGCCGGTGAGGGCTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGC  123
+            ||||||||||||| |||||||||||||||||||||||||  |||  ||||| ||||||||
+Sbjct  184  TCCTGGCCGGTGAAGGCTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGGCGGCCCGC  127
+
+Query  124  CAAAGCAACATGGTAAGGTACACAAGGGGTGTGAGAGGCCCTTCCA-G-CCGGCCC-GC-  179
+            |||||||||||||||||||||||||||| ||||||||| ||||||  | ||  ||| |  
+Sbjct  126  CAAAGCAACATGGTAAGGTACACAAGGG-TGTGAGAGGACCTTCCCCGGCCCCCCCTGTT  68
+
+Query  180  --GGGGGCCGGACGTGGT-CGGG-GACCTTTCAG-GA-TTACTGTGTTCAGTAATGATCC  233
+              |||||  ||||  ||| | || |||||||||| || |||||  |||||||||||||||
+Sbjct  67   TAGGGGGGGGGACCGGGTACCGGCGACCTTTCAGAGAATTACTA-GTTCAGTAATGATCC  9
+
+Query  234  TTCCGCA  240
+            |||||||
+Sbjct  8    TTCCGCA  2
+
+
+> Phyllosticta_paviae|AB454261|SH186513.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_paviae
+Length=584
+
+ Score = 230 bits (124),  Expect = 2e-60
+ Identities = 210/248 (85%), Gaps = 19/248 (8%)
+ Strand=Plus/Minus
+
+Query  5    TCAGGACTACACTGGATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGT  64
+            ||||||| ||||   || ||||||||| |||| | ||||||||||||||||||||| |||
+Sbjct  242  TCAGGACGACACGAAATGATCGCTGGAGTTTTATGTACTGGCGGGCGCTTAGCCGGACGT  183
+
+Query  65   CCTGGCC-GGTGAGGGCTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGC  123
+            |||||||  || |||||||||||||||||||||||||||  |||  ||||||||||||||
+Sbjct  182  CCTGGCCCCGT-AGGGCTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCGC  126
+
+Query  124  CAAAGCAACATGGTAAGGTACACAAGGGGTGTGAGAGGCCCTTCCAGCCGGCCCGC----  179
+            |||||||||||||||||||||||||||||||||||||| ||||||  ||||||| |    
+Sbjct  125  CAAAGCAACATGGTAAGGTACACAAGGGGTGTGAGAGGACCTTCC--CCGGCCCCCCTTT  68
+
+Query  180  --GGGGGCCGGACGTGGT-CGGG-GACCTTTCA--G-GATTACTGTGTTCAGTAATGATC  232
+              |||||  ||||  ||| | || |||||||||  | |||||||  ||||||||||||||
+Sbjct  67   TTGGGGGG-GGACCGGGTACCGGCGACCTTTCAAAGAGATTACTA-GTTCAGTAATGATC  10
+
+Query  233  CTTCCGCA  240
+            ||||||||
+Sbjct  9    CTTCCGCA  2
+
+
+> Guignardia_gaultheriae|JN692543|SH186505.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Guignardia;s__Guignardia_gaultheriae
+Length=566
+
+ Score = 224 bits (121),  Expect = 9e-59
+ Identities = 188/218 (86%), Gaps = 14/218 (6%)
+ Strand=Plus/Minus
+
+Query  20   ATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGTCCTGGCCGGTGAGGG  79
+            |||||||||||| |||||| ||||||||||||||||||| | ||||||||||||||||||
+Sbjct  212  ATAATCGCTGGAGTTTTGTATACTGGCGGGCGCTTAGCCTGACGTCCTGGCCGGTGAGGG  153
+
+Query  80   CTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGCCAAAGCAACATGGTAA  139
+            |||||||||||||||||||||||  |||  ||||||||||||||||||||||||||||||
+Sbjct  152  CTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCGCCAAAGCAACATGGTAA  95
+
+Query  140  GGTACACAAGGGGTGTGAGAGGCCCTTCCAGCCGGCCCGC--G--GGGGCCGGACGTGGT  195
+            |||||||||||| ||||||||| ||||||  ||||||| |  |    ||  ||||  |||
+Sbjct  94   GGTACACAAGGG-TGTGAGAGGACCTTCC--CCGGCCCCCTTGTTTAGGGGGGACCGGGT  38
+
+Query  196  -CGGG-GACCTTTCAG-GA-TTACTGTGTTCAGTAATG  229
+             | || |||||||||| || |||||  |||||||||||
+Sbjct  37   ACCGGCGACCTTTCAGAGAATTACTA-GTTCAGTAATG  1
+
+
+> Phyllosticta_rubella|KF206171|SH244980.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_rubella
+Length=535
+
+ Score = 220 bits (119),  Expect = 1e-57
+ Identities = 156/173 (90%), Gaps = 5/173 (3%)
+ Strand=Plus/Minus
+
+Query  5    TCAGGACTACACTGGATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGT  64
+            |||| |||||||   ||||||||| || |||||| ||||||||||||||||||| | |||
+Sbjct  224  TCAGAACTACACGAAATAATCGCTTGAGTTTTGTATACTGGCGGGCGCTTAGCCTGACGT  165
+
+Query  65   CCTGGCCGGTGAGGGCTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCGCC  124
+            ||||||||||||||||||||||||||||||||||||||  |||  |||||||||||||||
+Sbjct  164  CCTGGCCGGTGAGGGCTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCGCC  107
+
+Query  125  AAAGCAACATGGTAAGGTACACAAGGGGTGTGAGAGGCCCTTCCAGCCGGCCC  177
+            ||||||||||||||||||||||||||| ||||||||| ||||||  |||||||
+Sbjct  106  AAAGCAACATGGTAAGGTACACAAGGG-TGTGAGAGGACCTTCC--CCGGCCC  57
+
+
+> Phyllosticta_ampelicida|HM049170|SH210446.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_ampelicida
+Length=585
+
+ Score = 217 bits (117),  Expect = 1e-56
+ Identities = 204/244 (84%), Gaps = 13/244 (5%)
+ Strand=Plus/Minus
+
+Query  5    TCAGGACTACACTGGATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGT  64
+            |||||||| |||   ||||||||| || |||||| |||||||| || |||||||||||||
+Sbjct  244  TCAGGACTTCACAAAATAATCGCTTGAGTTTTGTATACTGGCGAGCACTTAGCCGGGCGT  185
+
+Query  65   CCTGGCC-GGTGA-GGGCTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCG  122
+            ||||||| ||| | ||||||||||||||||||||||||||  |||  |||||||||||||
+Sbjct  184  CCTGGCCCGGTTAGGGGCTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCG  127
+
+Query  123  CCAAAGCAACATGGTAAGGTACACAAGGGGTGTG-AGAGGCCCTTCCAGCCGGCCCGCGG  181
+            ||||||||||||||||||||||||||||| || | || ||| ||| | ||||||      
+Sbjct  126  CCAAAGCAACATGGTAAGGTACACAAGGG-TGAGAAGGGGCTCTTTCTGCCGGCTTTTTA  68
+
+Query  182  GGGCCGGACGTGGTCGGG-GACCTTTCA-G-GA-TTACTGTG-TTCAGTAATGATCCTTC  236
+            |||||| ||||  ||| | ||||||||| | || |||| ||  |||||||||||||||||
+Sbjct  67   GGGCCG-ACGTACTCGAGAGACCTTTCAAGAGAATTAC-GTATTTCAGTAATGATCCTTC  10
+
+Query  237  CGCA  240
+            ||||
+Sbjct  9    CGCA  6
+
+
+> Phyllosticta_ilicis|JN692538|SH210438.07FU|refs|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Botryosphaeriales;f__Phyllostictaceae;g__Phyllosticta;s__Phyllosticta_ilicis
+Length=568
+
+ Score = 217 bits (117),  Expect = 1e-56
+ Identities = 146/159 (92%), Gaps = 5/159 (3%)
+ Strand=Plus/Minus
+
+Query  5    TCAGGACTACACTGGATAATCGCTGGAATTTTGTTTACTGGCGGGCGCTTAGCCGGGCGT  64
+            ||||||||||||   |||||||||||| |||||| |||||||||||||||||||||| ||
+Sbjct  232  TCAGGACTACACGTAATAATCGCTGGAGTTTTGTATACTGGCGGGCGCTTAGCCGGGAGT  173
+
+Query  65   CCTGGCC-GGTGA-GGGCTGGGGGCGCCGGCCGCCCGGGTTTCGAGCCCGGGTCGGCCCG  122
+            ||||||| ||||| ||||||||||||||||||||||||||  |||  |||||||||||||
+Sbjct  172  CCTGGCCCGGTGAGGGGCTGGGGGCGCCGGCCGCCCGGGT--CGAAACCGGGTCGGCCCG  115
+
+Query  123  CCAAAGCAACATGGTAAGGTACACAAGGGGTGTGA-GAG  160
+            ||||||||||||||||||||||||||||||||||| |||
+Sbjct  114  CCAAAGCAACATGGTAAGGTACACAAGGGGTGTGAAGAG  76
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3526872234
+
+
+Query= OTU199:leafNotChim_101;size=13015;
+
+Length=254
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3753368616
+
+
+Query= OTU678:leafNotChim_131;size=2272;
+
+Length=191
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Dermatocarpon_dolomiticum|EF014211|SH205817.07FU|refs|k__Fungi;...  97.1    2e-20
+
+
+> Dermatocarpon_dolomiticum|EF014211|SH205817.07FU|refs|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Verrucariales;f__Verrucariaceae;g__Dermatocarpon;s__Dermatocarpon_dolomiticum
+Length=488
+
+ Score = 97.1 bits (52),  Expect = 2e-20
+ Identities = 65/71 (92%), Gaps = 2/71 (3%)
+ Strand=Plus/Minus
+
+Query  104  ACGGGCCCGCCGAAGCAACATGGTAAGGTAAACACAGGGTTGGAGAGGGGGCCCCGAAGG  163
+            ||||||||||| ||||||| ||||| |||| ||| |||||||||||||||||||||||||
+Sbjct  70   ACGGGCCCGCCAAAGCAACGTGGTA-GGTAGACA-AGGGTTGGAGAGGGGGCCCCGAAGG  13
+
+Query  164  ACCCAAACTCG  174
+            |||| ||||||
+Sbjct  12   ACCCGAACTCG  2
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2734134897
+
+
+  Database: unite.copy.fasta
+    Posted date:  Jul 15, 2018  6:08 PM
+  Number of letters in database: 16,853,603
+  Number of sequences in database:  30,695
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

@@ -335,26 +335,6 @@ sink("leafCoreTax.txt")
 tax_table(deseq95)[helleaffung,]
 sink()
 
-############### blast the cores #############
-
-## we need to get a better handle on the taxonomy 
-## of our core OTUs. 
-
-## for this we need their sequences...where do these live 
-## again? 
-
-mcseq=("")
-with open('otus_95_combo_nolb.fasta', 'r') as zoop:
-        refseq = zoop.readlines()
-
-with open('seqs_dangen95.fasta', 'w') as goop:
-        for j,otu in enumerate(mcseq):
-                for i,line in enumerate(refseq):
-                        if otu in line:
-                                goop.write(line)
-                                goop.write(refseq[i+1])
-
-
 
 load('deseq95.rda')
 ## make our dataframe of spatial coordinates and BC index:
@@ -395,3 +375,141 @@ plot(leafMDS$points,
 )
 
 identify(leafMDS$points)
+
+
+############### blast the cores #############
+
+## we need to get a better handle on the taxonomy 
+## of our core OTUs. 
+
+## for this we need their sequences...where do these live 
+## again? 
+
+## for leaf core mycobiome:
+
+## still in R:
+
+load(file= 'helleaffung.rda')
+sink("leafCore.txt")
+helleaffung
+sink()
+
+## use this to make a list of sequences to fetch, in python:
+
+######## leafCoreFindseq.py ###########
+
+#!/usr/bin/env python3
+
+coreSeq=("OTU19:","OTU202:","OTU10:","OTU17:",
+ "OTU15:","OTU27:","OTU94:","OTU91:",
+ "OTU239:","OTU16:","OTU199:","OTU678:")
+
+with open('otus_95_combo_nolb.fasta', 'r') as zoop:
+        refseq = zoop.readlines()
+
+with open('seqs_leafCoreMycobiom.fasta', 'w') as goop:
+        for j,otu in enumerate(coreSeq):
+                for i,line in enumerate(refseq):
+                        if otu in line:
+                                goop.write(line)
+                                goop.write(refseq[i+1])
+
+## run it
+
+./leafCoreFindseq.py
+
+## now, blast these on our local copy of UNITE:
+
+## our local UNITE version lives at:
+UNITE='/home/daniel/Documents/taiwan/UNITE/sh_general_release_dynamic_01.12.2017.fasta'
+leafCoreSeqs='/home/daniel/Documents/taiwan/taiwan_combined_stats/CSrev/seqs_leafCoreMycobiom.fasta'
+Udir='/home/daniel/Documents/taiwan/UNITE/'
+CSrev='/home/daniel/Documents/taiwan/taiwan_combined_stats/CSrev'
+
+## need to make a blasteable database out of this...
+
+cd $Udir
+
+makeblastdb -in sh_general_release_dynamic_01.12.2017.fasta -parse_seqids -dbtype nucl
+## doesn't work. Apparently 
+## Neotyphodium_×siegelii
+## is causing a problem
+
+## try on optiplex? 
+## from optiplex:
+
+scp daniel@192.168.1.4:/home/daniel/Documents/taiwan/UNITE/sh_general_release_dynamic_01.12.2017.fasta ./
+
+scp daniel@192.168.1.4:/home/daniel/Documents/taiwan/taiwan_combined_stats/CSrev/seqs_leafCoreMycobiom.fasta ./
+
+makeblastdb -in sh_general_release_dynamic_01.12.2017.fasta -parse_seqids -dbtype nucl
+
+## nope
+
+## does SED see this?
+
+cp sh_general_release_dynamic_01.12.2017.fasta unite.copy.fasta
+chmod 777 unite.copy.fasta
+grep "×" unite.copy.fasta
+sed -i '/_×/ s/×//g' unite.copy.fasta
+
+makeblastdb -in unite.copy.fasta -parse_seqids -dbtype nucl
+## coredumps
+
+makeblastdb -in unite.copy.fasta  -dbtype nucl
+## -parse_seqids not used, is this a problem?
+## let's see. 
+
+UNITE='/home/daniel/Documents/taiwan/UNITE/unite.copy.fasta'
+
+cd $CSrev
+
+cd $Udir
+
+blastn -query $leafCoreSeqs -db $UNITE -out leafCoreMycobiom_blast.txt -num_descriptions 10 -num_alignments 10
+
+
+
+load(file= 'helwoodfung.rda')
+sink("woodCore.txt")
+helwoodfung
+sink()
+
+## blast wood core:
+blastn -query $woodCoreSeqs -db $UNITE -out woodCoreMycobiom_blast.txt -num_descriptions 10 -num_alignments 10
+
+## same for the wood, done in the notebook. 
+
+## so now what?
+
+## we need a new table of IDs that we feel most confident. 
+
+## how to do this?
+
+## go through them one-by-one, pick the best or consensus match  
+
+leaves, bestIDmanual, 
+OTU10 , Phyllosticta
+OTU15 , Phyllosticta capitalensis
+OTU16 , Phyllosticta
+OTU17 , NoHit
+OTU19 , Clavicipitaceae (Metarhizium?)
+OTU27 , Ascomycota (Sordariomycetes?)(Dothideomycetes?)
+OTU91 , NoHit
+OTU94 , NoHit (Basidiomycota, Pucciniomycotina)
+OTU199, NoHit (Chytridiomycota?)
+OTU202, Phyllosticta
+OTU239, Phyllosticta
+OTU678, NoHit (Dermatocarpon?, Phaeoisaria?)
+
+
+wood
+OTU84 , Chaetothyriales 
+OTU250, NoHit (Dermatocarpon) 
+OTU257,  
+OTU269,
+OTU287,
+OTU352,
+OTU726,
+
+

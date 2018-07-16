@@ -1,0 +1,542 @@
+BLASTN 2.2.31+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: unite.copy.fasta
+           30,695 sequences; 16,853,603 total letters
+
+
+
+Query= OTU352:1w;size=6443;
+
+Length=182
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Chaetothyriales_sp|KC965461|SH212404.07FU|reps|k__Fungi;p__Asco...  257     6e-69
+  Fungi_sp|KU580527|SH530645.07FU|reps|k__Fungi;p__unidentified;c...  244     5e-65
+
+
+> Chaetothyriales_sp|KC965461|SH212404.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales_sp
+Length=509
+
+ Score = 257 bits (139),  Expect = 6e-69
+ Identities = 166/179 (93%), Gaps = 1/179 (1%)
+ Strand=Plus/Plus
+
+Query  1    AAGAGTTCGGGTCCTCACGGGCCTAACCTCCAACCCTTTGTCTACCAAACTTCACGTTGC  60
+            ||||||||||||||||||||||||||||||||||||||||||||||||||   |||||||
+Sbjct  1    AAGAGTTCGGGTCCTCACGGGCCTAACCTCCAACCCTTTGTCTACCAAACCATACGTTGC  60
+
+Query  61   TTCGGCGGGTCTGTCTTTCAGACTGCCGGGGAGTTCACACCCCTGGCTCGTACCCGCCGG  120
+            ||||||||||||||||||||||||||||||| | ||||||||||||||||||||||||||
+Sbjct  61   TTCGGCGGGTCTGTCTTTCAGACTGCCGGGGGGGTCACACCCCTGGCTCGTACCCGCCGG  120
+
+Query  121  TGGCCAACTCAACCAAAACTCTTAATTGAACTGTGTCTGAATACTTATTAAATAATAAT  179
+            |||||||| |||||||||||||||| | ||  |||||||||||||||  || |||||||
+Sbjct  121  TGGCCAAC-CAACCAAAACTCTTAACTAAATCGTGTCTGAATACTTAAAAAGTAATAAT  178
+
+
+> Fungi_sp|KU580527|SH530645.07FU|reps|k__Fungi;p__unidentified;c__unidentified;o__unidentified;f__unidentified;g__unidentified;s__Fungi_sp
+Length=500
+
+ Score = 244 bits (132),  Expect = 5e-65
+ Identities = 165/180 (92%), Gaps = 5/180 (3%)
+ Strand=Plus/Plus
+
+Query  2    AGAGTTCGGGTCCTCACGGGCCTAACCTCCAACCCTTTGTCTACCAAACTTCACGTTGCT  61
+            ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||
+Sbjct  2    AGAGTTCGGGTCCTCACGGGCCTAACCTCCAACCCTTTGTCTACCAAACCTCACGTTGCT  61
+
+Query  62   TCGGCGGGTCTGTCTTTCAGACTGCCGGGGAGTTCACACCCCTGGCTCGTACCCGCCGGT  121
+            ||||| ||||||||||||||||||||||||  ||| ||||||||||||||||||||||||
+Sbjct  62   TCGGCAGGTCTGTCTTTCAGACTGCCGGGG-TTTC-CACCCCTGGCTCGTACCCGCCGGT  119
+
+Query  122  GGCCAACTCAACCAAAACTCTT--AATTGAACTGTGTCTGAATACTTATTAAA-TAATAA  178
+            ||||||||||||||||||||||  || | ||  | |||||||||||||  ||| ||||||
+Sbjct  120  GGCCAACTCAACCAAAACTCTTTTAAATAAATCGCGTCTGAATACTTAAAAAAGTAATAA  179
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2588530080
+
+
+Query= OTU726:72w;size=2046;
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Dothideomycetes_sp|EF373557|SH202790.07FU|reps|k__Fungi;p__Asco...  213     2e-55
+  Capnodiales_sp|JF691278|SH202792.07FU|reps|k__Fungi;p__Ascomyco...  196     2e-50
+  Sarocladium_implicatum|EF556211|SH177343.07FU|reps|k__Fungi;p__...  56.5    3e-08
+
+
+> Dothideomycetes_sp|EF373557|SH202790.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__unidentified;f__unidentified;g__unidentified;s__Dothideomycetes_sp
+Length=498
+
+ Score = 213 bits (115),  Expect = 2e-55
+ Identities = 155/173 (90%), Gaps = 7/173 (4%)
+ Strand=Plus/Plus
+
+Query  38   TAGGTGAACCTGCGGAGGGATCATTACCAGAGATGGCGGGCCTCCGTGCTCCCGTCCCCA  97
+            |||||| |||||||||||||||||||||| ||||||||||||| || |  ||||||||||
+Sbjct  6    TAGGTG-ACCTGCGGAGGGATCATTACCAAAGATGGCGGGCCTTCGGGTCCCCGTCCCCA  64
+
+Query  98   ACCCATTGTTGA-CCAAAACCCTTTTGCCTCGGGGGCAGAGCGT---CCGCCGCCCCCGG  153
+            |||| ||||||| |||||||| ||||||||||||||||||||||   |||||||||||||
+Sbjct  65   ACCCTTTGTTGACCCAAAACCTTTTTGCCTCGGGGGCAGAGCGTCCGCCGCCGCCCCCGG  124
+
+Query  154  AGGACCACCGAACGCTGTCTCTCTGCGTCAGAGTAATTGATT-AAATGAATGA  205
+            |||||||||||||||||||||| | |||| ||||| |||||| |||| |||||
+Sbjct  125  AGGACCACCGAACGCTGTCTCTTTACGTCGGAGTA-TTGATTTAAATAAATGA  176
+
+
+> Capnodiales_sp|JF691278|SH202792.07FU|reps|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__unidentified;g__unidentified;s__Capnodiales_sp
+Length=480
+
+ Score = 196 bits (106),  Expect = 2e-50
+ Identities = 132/144 (92%), Gaps = 4/144 (3%)
+ Strand=Plus/Plus
+
+Query  47   CTGCGGAGGGATCATTACCAGAGATGGCGGGCCTCCGTGCTCCCGTCCCCAACCCATTGT  106
+            ||||||||||||||||||||||||||||||||| ||| || |||||||||||||| ||||
+Sbjct  1    CTGCGGAGGGATCATTACCAGAGATGGCGGGCCCCCGCGCCCCCGTCCCCAACCCTTTGT  60
+
+Query  107  TGACCAAAACCCTTTTGCCTCGGGGGCAGAGCGT---CCGCCGCCCCCGGAGGACCACCG  163
+            ||||||||| ||||||||||||||||| ||||||   |||||||||||||||||||||||
+Sbjct  61   TGACCAAAA-CCTTTTGCCTCGGGGGCGGAGCGTCCGCCGCCGCCCCCGGAGGACCACCG  119
+
+Query  164  AACGCTGTCTCTCTGCGTCAGAGT  187
+            |||||||||||| | |||| ||||
+Sbjct  120  AACGCTGTCTCTGTACGTCGGAGT  143
+
+
+> Sarocladium_implicatum|EF556211|SH177343.07FU|reps|k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales;f__Hypocreales_fam_Incertae_sedis;g__Sarocladium;s__Sarocladium_implicatum
+Length=560
+
+ Score = 56.5 bits (30),  Expect = 3e-08
+ Identities = 33/34 (97%), Gaps = 1/34 (3%)
+ Strand=Plus/Minus
+
+Query  38   TAG-GTGAACCTGCGGAGGGATCATTACCAGAGA  70
+            ||| ||||||||||||||||||||||||||||||
+Sbjct  553  TAGTGTGAACCTGCGGAGGGATCATTACCAGAGA  520
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2960631279
+
+
+Query= OTU269:1w;size=9056;
+
+Length=126
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 1701945840
+
+
+Query= OTU287:3w;size=8152;
+
+Length=254
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3753368616
+
+
+Query= OTU250:4w;size=9658;
+
+Length=191
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Dermatocarpon_dolomiticum|EF014211|SH205817.07FU|refs|k__Fungi;...  97.1    2e-20
+
+
+> Dermatocarpon_dolomiticum|EF014211|SH205817.07FU|refs|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Verrucariales;f__Verrucariaceae;g__Dermatocarpon;s__Dermatocarpon_dolomiticum
+Length=488
+
+ Score = 97.1 bits (52),  Expect = 2e-20
+ Identities = 65/71 (92%), Gaps = 2/71 (3%)
+ Strand=Plus/Plus
+
+Query  2   CGAGTTTGGGTCCTTCGGGGCCCCCTCTCCAACCCTGTGTTTACCTTACCATGTTGCTTC  61
+           |||||| ||||||||||||||||||||||||||||| ||| |||| ||||| ||||||| 
+Sbjct  2   CGAGTTCGGGTCCTTCGGGGCCCCCTCTCCAACCCT-TGTCTACC-TACCACGTTGCTTT  59
+
+Query  62  GGCGGGCCCGT  72
+           |||||||||||
+Sbjct  60  GGCGGGCCCGT  70
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 2734134897
+
+
+Query= OTU257:3w;size=9392;
+
+Length=249
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Trichomerium_foliicola|JX313651|SH177466.07FU|reps|k__Fungi;p__...  344     7e-95
+  Chaetothyriales_sp|GU054287|SH177468.07FU|reps|k__Fungi;p__Asco...  287     1e-77
+  Trichomerium_dioscoreae|KP004468|SH186766.07FU|refs|k__Fungi;p_...  272     3e-73
+  Trichomeriaceae_sp|KP174853|SH530157.07FU|reps|k__Fungi;p__Asco...  207     9e-54
+  Trichomeriaceae_sp|KP174850|SH528223.07FU|reps|k__Fungi;p__Asco...  198     6e-51
+  Chaetothyriales_sp|GQ999538|SH186764.07FU|reps|k__Fungi;p__Asco...  132     6e-31
+  Chaetothyriales_sp|GU055944|SH177465.07FU|reps|k__Fungi;p__Asco...  121     1e-27
+  Capronia_sp|EU520629|SH180479.07FU|reps|k__Fungi;p__Ascomycota;...  63.9    2e-10
+  Cladosporium_adianticola|DQ008125|SH101078.07FU|refs_singleton|...  62.1    8e-10
+  Arthrocladium_sp|HQ634657|SH208969.07FU|reps|k__Fungi;p__Ascomy...  60.2    3e-09
+
+
+> Trichomerium_foliicola|JX313651|SH177466.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Trichomeriaceae;g__Trichomerium;s__Trichomerium_foliicola
+Length=546
+
+ Score = 344 bits (186),  Expect = 7e-95
+ Identities = 238/261 (91%), Gaps = 12/261 (5%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTAGGGTCTCCTCTGTGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGTT  60
+            |||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||
+Sbjct  1    CCGAGTTAGGGTCTCCTCCGTGAGACCCGACCTCCCAACCCCGTGTCTAATAAACCTGTT  60
+
+Query  61   TGTGTTGCTTCGGCGGAACGGCAGTCGT--C---CTCCCCTTCACCgggg--g--ggATA  111
+            ||||||||||||||||||||||||||||  |   | ||||||||||||||  |  ||| |
+Sbjct  61   TGTGTTGCTTCGGCGGAACGGCAGTCGTTCCGGACCCCCCTTCACCGGGGACGAAGGACA  120
+
+Query  112  ACCGTCGCCGGGGGACT-CCCGGTCTCACGACCG-CCCCTGGAGAGCGTCCGCCGATGGC  169
+            ||||||||||||||| | | ||||||| |||||| |||||||||||||||||||||||||
+Sbjct  121  ACCGTCGCCGGGGGATTGCACGGTCTCGCGACCGTCCCCTGGAGAGCGTCCGCCGATGGC  180
+
+Query  170  CCCAACCAAAACAACTACCAAACCCAAACTATGGAGTTAAAATTTTCTGAATCAGA-CTT  228
+            ||||||||||||||||||||||||||||  |||||  ||||||||||||||||||| |||
+Sbjct  181  CCCAACCAAAACAACTACCAAACCCAAATCATGGAACTAAAATTTTCTGAATCAGACCTT  240
+
+Query  229  TTGATATACCAATCAAAAACA  249
+            |||||||||||||||||||||
+Sbjct  241  TTGATATACCAATCAAAAACA  261
+
+
+> Chaetothyriales_sp|GU054287|SH177468.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales_sp
+Length=588
+
+ Score = 287 bits (155),  Expect = 1e-77
+ Identities = 229/262 (87%), Gaps = 15/262 (6%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTAGGGTCTCCTCTGTGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGTT  60
+            |||||| ||||||||||| | |||||||||||||||||||||||||||||||||||||||
+Sbjct  1    CCGAGTAAGGGTCTCCTCCGGGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGTT  60
+
+Query  61   TGTGTTGCTTCGGCGGAACGGCAGT---C-G--TCCTCCCCTTCACCggg-gg--g--gA  109
+            |||||||||||||||||||||||||   | |   |||||||  ||||||| ||  |  ||
+Sbjct  61   TGTGTTGCTTCGGCGGAACGGCAGTGGTCAGACCCCTCCCC-CCACCGGGAGGCAGACGA  119
+
+Query  110  -TAACCGTCGCCGGGGGACTCCCGGTCTCACGACCGCCCCTGGAGAGCGTCCGCCGATGG  168
+                ||||||||||||| | | ||| ||||||||||||||||||||||||||||||||||
+Sbjct  120  CCGTCCGTCGCCGGGGGGCCCACGGACTCACGACCGCCCCTGGAGAGCGTCCGCCGATGG  179
+
+Query  169  CCCCAACCAAAACAACTACCAAACCCAAACTATGGAGTTAAA-ATTTTCTGAATCAGACT  227
+            ||||||||||||||||||||||||||||| | || |  |||| || |||||||||||| |
+Sbjct  180  CCCCAACCAAAACAACTACCAAACCCAAATTGTGAAAATAAATATATTCTGAATCAGA-T  238
+
+Query  228  TTTGATATACCAATCAAAAACA  249
+            ||||||||||||||||||||||
+Sbjct  239  TTTGATATACCAATCAAAAACA  260
+
+
+> Trichomerium_dioscoreae|KP004468|SH186766.07FU|refs|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Trichomeriaceae;g__Trichomerium;s__Trichomerium_dioscoreae
+Length=571
+
+ Score = 272 bits (147),  Expect = 3e-73
+ Identities = 219/251 (87%), Gaps = 15/251 (6%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTAGGGTCTCCTCTGTGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGTT  60
+            |||||||||||||||||  |||||||||||||||||||||| ||||||||||||||||| 
+Sbjct  1    CCGAGTTAGGGTCTCCTTCGTGAGGCCCGACCTCCCAACCCTGTGTCTAATAAACCTGTA  60
+
+Query  61   TGTGTTGCTTCGGCGGAACGGCAGTCGTCCTCCCCTTCACCgggggggATAACCGTCGCC  120
+            ||||||||||||||||||||||||||     ||||||   | |||| ||  |||||||||
+Sbjct  61   TGTGTTGCTTCGGCGGAACGGCAGTC---AACCCCTT---C-GGGGAGA-GACCGTCGCC  112
+
+Query  121  GGGGGA-CTC-CCGGTCTCACGACC-GCCCCTGGAGAGCGTCCGCCGATGGCCCCAACCA  177
+            |||||| ||| |||||||||||||| |||||||||||||||||||||||||||| |||||
+Sbjct  113  GGGGGATCTCACCGGTCTCACGACCGGCCCCTGGAGAGCGTCCGCCGATGGCCC-AACCA  171
+
+Query  178  AAACAACTACCAAACCCAAACTATGG-AGTTAAAATTTTCTGAATCAGACTTTTGATATA  236
+            ||  |||| ||||||| |||  || | |  |||||  |||||||||||||||||||||||
+Sbjct  172  AACAAACTCCCAAACC-AAATAATAGTACCTAAAAC-TTCTGAATCAGACTTTTGATATA  229
+
+Query  237  CCAATCAAAAA  247
+            |||||||||||
+Sbjct  230  CCAATCAAAAA  240
+
+
+> Trichomeriaceae_sp|KP174853|SH530157.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Trichomeriaceae;g__unidentified;s__Trichomeriaceae_sp
+Length=579
+
+ Score = 207 bits (112),  Expect = 9e-54
+ Identities = 209/251 (83%), Gaps = 25/251 (10%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTAGGGTCTCCTCTGTGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGTT  60
+            |||||||||||||||||  |||||||||||||||||||||| |||||||| |||||||| 
+Sbjct  4    CCGAGTTAGGGTCTCCTTCGTGAGGCCCGACCTCCCAACCCTGTGTCTAACAAACCTGTA  63
+
+Query  61   TGTGTTGCTTCGGCGGAACGGCAGTCGTCCTCCCCTTCACCgggggggATAACCGTCGCC  120
+            |||||||||||||||||||||||||||     |||||   | ||||||   |||||||||
+Sbjct  64   TGTGTTGCTTCGGCGGAACGGCAGTCG----ACCCTT--TC-GGGGGG-CGACCGTCGCC  115
+
+Query  121  GGGGGACTCCCGGTCTCACGACCGCCCCTGGAGAGCGTCCGCCGATGGCCCCAACCAAAA  180
+            |||||     | |  |  |  |||||| ||||||||||||||||||||||| ||||||||
+Sbjct  116  GGGGG-----C-G--T--C--CCGCCCTTGGAGAGCGTCCGCCGATGGCCC-AACCAAAA  162
+
+Query  181  CAA-CTACCAAACCCAAACTATGG-AGTTAAAATTTTCTGAATCAGACTTTTGATATACC  238
+            ||| || ||||||| |||  || | |  |||||  |||||||||||||||||||||||||
+Sbjct  163  CAAACTCCCAAACC-AAATAATAGTACCTAAAAC-TTCTGAATCAGACTTTTGATATACC  220
+
+Query  239  AATCAAAAACA  249
+            |||||||||||
+Sbjct  221  AATCAAAAACA  231
+
+
+> Trichomeriaceae_sp|KP174850|SH528223.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Trichomeriaceae;g__unidentified;s__Trichomeriaceae_sp
+Length=598
+
+ Score = 198 bits (107),  Expect = 6e-51
+ Identities = 214/261 (82%), Gaps = 26/261 (10%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTAGGGTCTCC-TCTGTGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGT  59
+            |||||||||||||||| || | | ||||||||||||||||||||||||||||||||||||
+Sbjct  4    CCGAGTTAGGGTCTCCCTC-GCGGGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGT  62
+
+Query  60   TTGTGTTGCTTCGGCGGAACGGCAGTCGTCC-TCCCCT-T-CACCgggggggATAACCGT  116
+              |||||||||||||||| |||| ||||| | || | | | ||| |      ||  | | 
+Sbjct  63   ACGTGTTGCTTCGGCGGACCGGC-GTCGTGCGTCTCGTATGCAC-G------AT--CTGC  112
+
+Query  117  CGCCGGGGGACTC-CCGG-T-CTCACGA--CC-GCCCCTGGAGAGCGTCCGCCGATGGCC  170
+            |||||||||| || |||| | ||||||   || |||||||||||||||||| ||||||||
+Sbjct  113  CGCCGGGGGAGTCACCGGCTGCTCACGCGGCCGGCCCCTGGAGAGCGTCCGTCGATGGCC  172
+
+Query  171  CCAACCAAAACAACTACCAAACCCAAACT-ATGGAGTTAAAATTTTCTGAATCAGA-CTT  228
+            | |||||||  |||| ||||| ||||| | ||||| | |||  || |||||||||| |||
+Sbjct  173  C-AACCAAACAAACTCCCAAAACCAAAATTATGGA-TGAAACCTT-CTGAATCAGACCTT  229
+
+Query  229  TTGATATACCAATCAAAAACA  249
+            |||||||||||||||||||||
+Sbjct  230  TTGATATACCAATCAAAAACA  250
+
+
+> Chaetothyriales_sp|GQ999538|SH186764.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales_sp
+Length=595
+
+ Score = 132 bits (71),  Expect = 6e-31
+ Identities = 198/257 (77%), Gaps = 18/257 (7%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTAGGGTCTCCT-CTGTGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGT  59
+            ||||||||||||| ||| |   | ||||||||||||||||||||||||||||||||||||
+Sbjct  1    CCGAGTTAGGGTC-CCTCCCACGGGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGT  59
+
+Query  60   TTGTGTTGCTTCGGCGGAACGGCAGTCGTCCTCCCCTTCACCgggggggATAAC-CGT-C  117
+              |||||||||||||||| |||   ||| |  |    || | | |    | ||| | | |
+Sbjct  60   ACGTGTTGCTTCGGCGGACCGGT--TCG-CTGCGAGGTCTC-GCGACC-ACAACGCCTGC  114
+
+Query  118  -GCCGGGGG-ACTCCCGGTCTCACGACCGCCCCTGGAGAGCGTCCGCCGATGGCCCCAAC  175
+             |||||||| |     | || | |  || ||||||||||||||||| ||||||||| |||
+Sbjct  115  CGCCGGGGGTAAAGGAGTTCACCCTCCC-CCCCTGGAGAGCGTCCGTCGATGGCCC-AAC  172
+
+Query  176  CAAAACAACTACCAAACCCAAAC-TATG-GAGTTAAAATTTTCTGAATCAGA-CTTTTGA  232
+            ||||  |||| ||||||| |||  |||| ||   | ||||  |||||||||| |||||||
+Sbjct  173  CAAACAAACTCCCAAACCAAAATGTATGTGAAACACAATT--CTGAATCAGACCTTTTGA  230
+
+Query  233  TATACCAATCAAAAACA  249
+            |||||||||||||||||
+Sbjct  231  TATACCAATCAAAAACA  247
+
+
+> Chaetothyriales_sp|GU055944|SH177465.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales_sp
+Length=561
+
+ Score = 121 bits (65),  Expect = 1e-27
+ Identities = 197/254 (78%), Gaps = 36/254 (14%)
+ Strand=Plus/Plus
+
+Query  1    CCGAGTTAGGG-TCTCCTCTGTGAGGCCCGACCTCCCAACCCCGTGTCTAATAAACCTGT  59
+            ||||||||||| ||| |||   |||||||||||||||||||| |||||||  |   ||||
+Sbjct  4    CCGAGTTAGGGTTCT-CTC-CCGAGGCCCGACCTCCCAACCCTGTGTCTACCACCTCTGT  61
+
+Query  60   -TTGTGTTGCTTCGGCGGAACGGCAGTCGTCCTCCCCTTCACCgggggggATAACCGTCG  118
+               |||||||||||||||| ||||||||      ||| ||| |  ||||| |  ||||||
+Sbjct  62   CCCGTGTTGCTTCGGCGGACCGGCAGTC------CCC-TCA-C--GGGGG-T--CCGTCG  108
+
+Query  119  CCGGGGGACTCCCGGTCTCACGACCGCCCCTGGAGAGCGTCCGCCGATGGCCCCAACCAA  178
+            || ||||      ||  |  | |   ||||||||||||||||||||||||||||||||||
+Sbjct  109  CC-GGGG------GG--T--C-A---CCCCTGGAGAGCGTCCGCCGATGGCCCCAACCAA  153
+
+Query  179  AACAACTACCAAACCCAAACTATGG-AGTTAAAATTTTCTGAATCAGAC--TTTTGATAT  235
+            ||||||  ||||||||||| ||  | |  ||||| || |||||||| ||  ||||||| |
+Sbjct  154  AACAACGCCCAAACCCAAATTAACGTACCTAAAACTT-CTGAATCAAACCTTTTTGATGT  212
+
+Query  236  ACCAATCAAAAACA  249
+            ||||||||||||||
+Sbjct  213  ACCAATCAAAAACA  226
+
+
+> Capronia_sp|EU520629|SH180479.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Herpotrichiellaceae;g__Capronia;s__Capronia_sp
+Length=522
+
+ Score = 63.9 bits (34),  Expect = 2e-10
+ Identities = 41/44 (93%), Gaps = 2/44 (5%)
+ Strand=Plus/Plus
+
+Query  142  CCGCCCCTGGAGAGCGTCCGCCGATGGCCCCAACCAAAACAACT  185
+            |||||||||||||||||||||||||||||| ||||| || ||||
+Sbjct  111  CCGCCCCTGGAGAGCGTCCGCCGATGGCCC-AACCACAA-AACT  152
+
+
+> Cladosporium_adianticola|DQ008125|SH101078.07FU|refs_singleton|k__Fungi;p__Ascomycota;c__Dothideomycetes;o__Capnodiales;f__Cladosporiaceae;g__Cladosporium;s__Cladosporium_adianticola
+Length=555
+
+ Score = 62.1 bits (33),  Expect = 8e-10
+ Identities = 40/43 (93%), Gaps = 2/43 (5%)
+ Strand=Plus/Plus
+
+Query  144  GCCCCTGGAGAGCGTCCGCCGATGGCCCCAACCA-AAACAACT  185
+            |||||||||||||||||||||||||||| ||||| ||| ||||
+Sbjct  111  GCCCCTGGAGAGCGTCCGCCGATGGCCC-AACCACAAAAAACT  152
+
+
+> Arthrocladium_sp|HQ634657|SH208969.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__Trichomeriaceae;g__Arthrocladium;s__Arthrocladium_sp
+Length=522
+
+ Score = 60.2 bits (32),  Expect = 3e-09
+ Identities = 39/42 (93%), Gaps = 2/42 (5%)
+ Strand=Plus/Plus
+
+Query  144  GCCCCTGGAGAGCGTCCGCCGATGGCCCCAACCAAAACAACT  185
+            |||||||||||||||||||||||||||| ||||| | |||||
+Sbjct  105  GCCCCTGGAGAGCGTCCGCCGATGGCCC-AACCACA-CAACT  144
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3672477051
+
+
+Query= OTU84:38w;size=31914;
+
+Length=220
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  Chaetothyriales_sp|KF614884|SH532208.07FU|reps|k__Fungi;p__Asco...  76.8    2e-14
+  Candelariella_sp|KR052103|SH532250.07FU|reps|k__Fungi;p__Ascomy...  65.8    5e-11
+
+
+> Chaetothyriales_sp|KF614884|SH532208.07FU|reps|k__Fungi;p__Ascomycota;c__Eurotiomycetes;o__Chaetothyriales;f__unidentified;g__unidentified;s__Chaetothyriales_sp
+Length=626
+
+ Score = 76.8 bits (41),  Expect = 2e-14
+ Identities = 92/115 (80%), Gaps = 10/115 (9%)
+ Strand=Plus/Plus
+
+Query  13   CTAACCCttttttttAGGTGAACCTGCGGAAGGATCATTAAAGAGTGGGGTTGCTCGATT  72
+            |||||||  |||||||||||||||||||||||||||||||||||||  || | ||| || 
+Sbjct  42   CTAACCC--TTTTTTAGGTGAACCTGCGGAAGGATCATTAAAGAGTTAGGGT-CTCTAT-  97
+
+Query  73   GAGCGCCCAAACTCCCAACCCTTTGATGACTTGACAAAAATTGTTGCTTCGGCGG  127
+            | || || |  ||||||||||| || ||  |||| |     ||||||||||||||
+Sbjct  98   G-GC-CCGAC-CTCCCAACCCTATG-TGTATTGA-ACCTG-TGTTGCTTCGGCGG  146
+
+
+> Candelariella_sp|KR052103|SH532250.07FU|reps|k__Fungi;p__Ascomycota;c__Lecanoromycetes;o__Candelariales;f__Candelariaceae;g__Candelariella;s__Candelariella_sp
+Length=565
+
+ Score = 65.8 bits (35),  Expect = 5e-11
+ Identities = 35/35 (100%), Gaps = 0/35 (0%)
+ Strand=Plus/Plus
+
+Query  24  ttttAGGTGAACCTGCGGAAGGATCATTAAAGAGT  58
+           |||||||||||||||||||||||||||||||||||
+Sbjct  61  TTTTAGGTGAACCTGCGGAAGGATCATTAAAGAGT  95
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 3203305974
+
+
+  Database: unite.copy.fasta
+    Posted date:  Jul 15, 2018  6:08 PM
+  Number of letters in database: 16,853,603
+  Number of sequences in database:  30,695
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
