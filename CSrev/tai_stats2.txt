@@ -488,6 +488,31 @@ blastn -query $woodCoreSeqs -db $UNITE -out woodCoreMycobiom_blast.txt -num_desc
 
 ## go through them one-by-one, pick the best or consensus match  
 
+## method: manual blast is given priority, over the initial, high-throughput 
+## assignments given by usearch. 
+
+## 1. 
+## If several high quality matches in the manual blast 
+## are available that agree on a taxonomic assignment, use
+## this at the finest resolution possible, however broad.  
+
+## 2. 
+## If a single very strong BLAST match exists (ex - 97%+ agreement
+## on 100+ BP), even if there isn't other evidence for it.
+
+## 3. 
+## If the two searchs, BLAST and USEARCH agree in some way, 
+## this also strongly suggests a taxonomic assignment, even if 
+## there are not numerous BLAST matches to corroborate
+
+## 4.
+## Otherwise, no assignment is given. Weak assignments that 
+## seem plausible can be shown in parentheses. 
+
+
+## because of the strong disagreement in numerous places
+## between BLAST and USEARCH, 
+
 leaves, bestIDmanual, 
 OTU10 , Phyllosticta
 OTU15 , Phyllosticta capitalensis
@@ -498,18 +523,46 @@ OTU27 , Ascomycota (Sordariomycetes?)(Dothideomycetes?)
 OTU91 , NoHit
 OTU94 , NoHit (Basidiomycota, Pucciniomycotina)
 OTU199, NoHit (Chytridiomycota?)
-OTU202, Phyllosticta
-OTU239, Phyllosticta
+OTU202, NoHit
+OTU239, NoHit
 OTU678, NoHit (Dermatocarpon?, Phaeoisaria?)
 
 
 wood
 OTU84 , Chaetothyriales 
 OTU250, NoHit (Dermatocarpon) 
-OTU257,  
-OTU269,
-OTU287,
-OTU352,
-OTU726,
+OTU257, Trichomeriaceae 
+OTU269, NoHit (Tremellales)
+OTU287, NoHit
+OTU352, Chaetothyriales 
+OTU726, Capnodiales
+
+## put this into markdown tables
+
+|OTU | ID
+|---|--|
+|OTU10 | *Phyllosticta* |
+|OTU15 | *Phyllosticta capitalensis* |
+|OTU16 | *Phyllosticta* |
+|OTU17 | NoHit |
+|OTU19 | Clavicipitaceae (*Metarhizium*?) |
+|OTU27 | Ascomycota (Sordariomycetes?)(Dothideomycetes?) |
+|OTU91 | NoHit |
+|OTU94 | NoHit (Basidiomycota, Pucciniomycotina) |
+|OTU199 | NoHit (Chytridiomycota?) |
+|OTU202 | NoHit |
+|OTU239 | NoHit |
+|OTU678 | NoHit (*Dermatocarpon*?, *Phaeoisaria*?) |
 
 
+## wood
+
+|OTU | ID
+|---|--|
+| OTU84  | Chaetothyriales 
+| OTU250 | NoHit (*Dermatocarpon*) 
+| OTU257 | Trichomeriaceae 
+| OTU269 | NoHit (Tremellales)
+| OTU287 | NoHit
+| OTU352 | Chaetothyriales 
+| OTU726 | Capnodiales
