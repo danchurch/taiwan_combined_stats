@@ -566,3 +566,57 @@ OTU726, Capnodiales
 | OTU287 | NoHit
 | OTU352 | Chaetothyriales 
 | OTU726 | Capnodiales
+
+## leaf
+|Taxa|Kingdom|Phylum|Subphylum|Class|Order|Family|Genus|Species
+|----|-------|------|---------|-----|-----|------|-----|-------
+|OTU10  | Fungi | Ascomycota | Pezizomycotina | Dothideomycetes | Botryosphaeriales | *Phyllosticta* |
+|OTU15  | Fungi | Ascomycota | Pezizomycotina | Dothideomycetes | Botryosphaeriales | *Phyllosticta capitalensis* |
+|OTU16  | Fungi | Ascomycota | Pezizomycotina | Dothideomycetes | Botryosphaeriales | *Phyllosticta* |
+|OTU17  | Fungi | 
+|OTU19  | Fungi | Ascomycota | Pezizomycotina | Sordariomycetes | Hypocreales | Clavicipitaceae |
+|OTU27  | Fungi | Ascomycota | 
+|OTU91  | Fungi | 
+|OTU94  | Fungi | 
+|OTU199 | Fungi | 
+|OTU202 | Fungi | 
+|OTU239 | Fungi | 
+|OTU678 | Fungi | 
+
+
+## wood
+|Taxa|Kingdom|Phylum|Subphylum|Class|Order|Family|Genus|Species
+|----|-------|------|---------|-----|-----|------|-----|-------
+| OTU84  | Fungi | Ascomycota | Pezizomycotina | Eurotiomycetes | Chaetothyriales 
+| OTU250 | Fungi | 
+| OTU257 | Fungi | Ascomycota | Pezizomycotina | Eurotiomycetes | Chaetothyriales | Trichomeriaceae 
+| OTU269 | Fungi | 
+| OTU287 | Fungi | 
+| OTU352 | Fungi | Ascomycota | Pezizomycotina | Eurotiomycetes | Chaetothyriales 
+| OTU726 | Fungi | Ascomycota | Pezizomycotina | Dothideomycetes | Capnodiales
+
+
+## BC table, last results for the analysis:
+
+
+[1] "Helicia, core fungi, leaves:"
+
+0.383548761116857
+0.167949494026408
+
+[1] "Helicia, core fungi, wood:"
+
+0.377571947052467
+0.171537476539615
+
+
+organ | all hosts, all endophytes  | *Helicia*, all-endophytes  | *Helicia*, core-fungi      | *Helicia*, non-core        |
+------|----------------------------|----------------------------|----------------------------|----------------------------|
+leaf  | 0.897(<sup>+</sup>/-0.088) | 0.799(<sup>+</sup>/-0.107) | 0.383(<sup>+</sup>/-0.168) | 0.885(<sup>+</sup>/-0.078) |
+wood  | 0.874(<sup>+</sup>/-0.069) | 0.804(<sup>+</sup>/-0.061) | 0.378(<sup>+</sup>/-0.172) | 0.833(<sup>+</sup>/-0.063) |
+
+## looks good. 
+
+## next, fill in the commentary on the new notebook. 
+
+
