@@ -619,4 +619,136 @@ wood  | 0.874(<sup>+</sup>/-0.069) | 0.804(<sup>+</sup>/-0.061) | 0.378(<sup>+</
 
 ## next, fill in the commentary on the new notebook. 
 
+####################
 
+## I think I need to redo the varpart afterall.
+## let's see what we can do in a half hour without internet
+
+## leaves: 
+
+source('biomsetup.R')
+load("deseq95.rda") ## phyloseq object
+leaf95 <- subset_samples(deseq95, Library=="L") ## subset biom to leaf
+
+## get a dataframe of the positions of points:
+leafxy <- sample_data(leaf95)[,c('X', 'Y')]
+rownames(leafxy) <- gsub("leaf.*","", rownames(leafxy) )
+leafxy <- data.frame(leafxy[order(as.numeric(rownames(leafxy))),])
+leafxy$X <- as.numeric(leafxy$X)
+leafxy$Y <- as.numeric(leafxy$Y)
+
+#save(leafxy, file="leafxy.rda")
+#load("leafxy.rda")
+
+## we need a leaf environmental dataframe with matching order
+
+
+leaf.env <- sample_data(leaf95)[,c('Forest_Type', 'vegcom')] ## fix weird rownames and order:
+rownames(leaf.env) <- gsub("leaf.*","",rownames(leaf.env))
+leaf.env <- data.frame(leaf.env[order(as.numeric(rownames(leaf.env))),])
+leaf.env$Forest_Type <- as.factor(leaf.env$Forest_Type)
+leaf.env$vegcom <- as.factor(leaf.env$vegcom)
+
+## checks
+rownames(leaf.env) 
+rownames(leafxy) 
+all(rownames(leafxy) == rownames(leaf.env))
+all(rownames(leaf.env) %in% rownames(leafxy) )
+all(rownames(leafxy) %in% rownames(leaf.env) )
+
+#save(leaf.env, file="leaf.env.rda") 
+#load("leaf.env.rda") 
+
+## already saved the PCNMs and transformed community matrix. 
+load("leafPCNM.rda") ## spatial patterns of variation
+load("leafcom.hel.rda") ## our community matrix of leaf endophyhytes, presence/absence  transformed then hellinger-transformed
+
+## check for broad spatial trends with the raw positions
+
+leaf.XY.rda <- rda(leafcom.hel, leafxy)
+anova.cca(leaf.XY.rda)
+
+# Permutation test for rda under reduced model
+# Permutation: free
+# Number of permutations: 999
+# 
+# Model: rda(X = leafcom.hel, Y = leafxy)
+#           Df Variance      F Pr(>F)   
+# Model      2  0.01764 1.2194   0.01 **
+# Residual 120  0.86818                 
+# ---
+# Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+## okay, as usual, very low variance explained, but statistically
+## significant. 
+
+## find out which direction is causing this:
+
+mod0 <- rda(leafcom.hel ~ 1, leafxy)
+mod1 <- rda(leafcom.hel ~ ., leafxy)
+step.res <- ordiR2step(mod0, mod1, perm.max = 1000)
+step.res$anova
+
+##                    R2.adj Df     AIC      F Pr(>F)
+## + X             0.0026216  1 -13.251 1.3207  0.012 *
+## <All variables> 0.0035841
+## ---
+## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+## looks like some sort of east-west trend, but REALLY weak
+
+## load it up with our PCNMs, see if it clarifies spatial
+## trends:
+
+spat <- cbind(leafxy$X, leafPCNM)
+rownames(spat) <- rownames(leafPCNM)
+colnames(spat)[1] <- 'XX'
+
+mod0 <- rda(leafcom.hel ~ 1, spat)
+mod1 <- rda(leafcom.hel ~ ., spat)
+step.res <- ordiR2step(mod0, mod1, perm.max = 1000)
+
+step.res$anova
+
+##                    R2.adj Df     AIC      F Pr(>F)
+## + XX            0.0026216  1 -13.251 1.3207  0.010 **
+## + X8            0.0051270  1 -12.581 1.3047  0.010 **
+## + X34           0.0072663  1 -11.875 1.2586  0.022 *
+## + X9            0.0093039  1 -11.166 1.2448  0.028 *
+## + X7            0.0113712  1 -10.470 1.2467  0.026 *
+## <All variables> 0.0127785
+## ---
+## Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+## very little variation explained. as per last time. 
+
+## and as per last time the raw positions (X and y) explain
+## very little and add very little to variance explained.
+
+## so for simplicity we'll leave them out, and just use the PCNM vectors
+
+## next?
+
+## check environmental effects
+mod0 <- rda(leafcom.hel ~ 1, leaf.env)
+mod1 <- rda(leafcom.hel ~ ., leaf.env)
+step.res <- ordiR2step(mod0, mod1, perm.max = 1000) 
+
+## environmental effects explain no variance. 
+
+## host? make the matrix:
+
+leafhost <- as.factor(sample_data(leaf95)$Host_genus_species)
+names(leafhost) <- gsub("leaf[AB]?","",rownames(sample_data(leaf95)))
+leafhost <- leafhost[order(as.numeric(names(leafhost)))]
+#save(leafhost, file='leafhost.rda')
+
+all(names(leafhost) == rownames(leafPCNM)) ## check to see if the ordering worked
+
+## check 
+
+rda(leafcom.hel ~ leafhost) ## 26% variance explained
+
+anova(rda(leafcom.hel ~ leafhost)) ## but not significant. 
+
+## well, that's unexpected, and different -
