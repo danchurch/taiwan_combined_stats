@@ -751,4 +751,23 @@ rda(leafcom.hel ~ leafhost) ## 26% variance explained
 
 anova(rda(leafcom.hel ~ leafhost)) ## but not significant. 
 
-## well, that's unexpected, and different -
+## well, that's unexpected, and different - why did this happen?
+
+## I think it's the same story. I was stricter in my cutoffs, in how I
+## applied them in this pipeline. So after the transformations I 
+## there is just not enough information left, we're underpowered. 
+## That's my best guess, because we do have a lot of variance 
+## explained here, similar to last time.
+## but really, I'd need an expert here. 
+
+## I think we just need to remove the varpart from the analysis, 
+## we don't have enough data to do it properly. And the reviewers
+## said to stop emphasizing the inconclusive/negative results. 
+
+## should we do the wood varpart? What's the use if its not accompanied 
+## by a leaf analysis?
+
+## nope. Get this out and stop letting it ruin your nights. There are 
+## many other projects that can do that next...
+
+
