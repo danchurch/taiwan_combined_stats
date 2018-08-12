@@ -771,3 +771,113 @@ anova(rda(leafcom.hel ~ leafhost)) ## but not significant.
 ## many other projects that can do that next...
 
 
+##############################
+
+## make some nice network diagrams:
+
+source('biomsetup.R')
+
+load('graphcooc_wood.rda')
+
+vcols <- vector(length = length(V(graphcooc_wood)))
+vcols[] <- 'gray'
+vcols[which(names(V(graphcooc_wood)) == "Helicia_formosana")] <- "red"
+vcols[which(names(V(graphcooc_wood)) == "Myrsine_seguinii")] <- "darkgreen"
+aa <- adjacent_vertices(graphcooc_wood, "Helicia_formosana", mode = c("all"))[[1]]
+vcols[V(graphcooc_wood) %in% aa] <- "lightpink" ## color first-degrees purple
+bb <- adjacent_vertices(graphcooc_wood, "Myrsine_seguinii", mode = c("all"))[[1]]
+vcols[V(graphcooc_wood) %in% bb] <- "lightgreen" ## color first-degrees purple
+helwoodfung <- names(aa) ## useful below, in mapping of core mycobiomes
+
+#svg('wood_cooccur.svg')
+plot(graphcooc_wood, 
+     vertex.color = vcols, 
+     vertex.size = 8, 
+     vertex.label = NA, 
+     edge.color = 'black')
+#dev.off()
+
+## sweet. 
+
+
+
+############################
+## repeat with leaves:
+
+load(file = 'graphcooc_leaf.rda')
+
+vcols <- vector(length = length(V(graphcooc_leaf)))
+vcols[] <- 'gray'
+vcols[which(names(V(graphcooc_leaf)) == "Helicia_formosana")] <- "red"
+vcols[which(names(V(graphcooc_leaf)) == "Blastus_cochinchinensis")] <- "blue"
+vcols[which(names(V(graphcooc_leaf)) == "Limlia_uraiana")] <- "orange"
+aa <- adjacent_vertices(graphcooc_leaf, "Helicia_formosana", mode = c("all"))[[1]]
+vcols[V(graphcooc_leaf) %in% aa] <- "lightpink" ## color first-degrees purple
+bb <- adjacent_vertices(graphcooc_leaf, "Blastus_cochinchinensis", mode = c("all"))[[1]]
+vcols[V(graphcooc_leaf) %in% bb] <- "lightblue" ## color first-degrees purple
+cc <- adjacent_vertices(graphcooc_leaf, "Limlia_uraiana", mode = c("all"))[[1]]
+vcols[V(graphcooc_leaf) %in% cc] <- "yellow" ## color first-degrees purple
+helleaffung <- names(aa)
+
+#svg('leaf_cooccur.svg')
+plot(graphcooc_leaf, 
+     vertex.color = vcols, 
+     vertex.size = 8, 
+     vertex.label = NA, 
+     edge.color = 'black')
+#dev.off()
+
+## okay, what do we need to do for these figures? 
+## Legend. 
+## Title and caption.
+
+
+
+#####################3
+
+## how many wood otus vs leaf?
+
+load('deseq95.rda')
+
+leafbiom  <- subset_samples(deseq95, Library=='L')
+sum(rowSums(otu_table(leafbiom)) > 0)
+
+woodbiom  <- subset_samples(deseq95, Library=='W')
+sum(rowSums(otu_table(woodbiom)) > 0)
+
+
+##########################
+
+## composition, dig back in a litte:
+
+load('deseq95.rda')
+woodPA <- subset_samples(deseq95, Library == 'W')
+leafPA <- subset_samples(deseq95, Library == 'L')
+leafOTU <- otu_table(leafPA) ## extract otu table matrix
+leafOTU[leafOTU > 0] <- 1 ## convert to P/A
+leafOTU -> otu_table(leafPA) ## put it back in
+woodOTU <- otu_table(woodPA) ## same with wood
+woodOTU[woodOTU > 0] <- 1
+woodOTU -> otu_table(woodPA)
+leafPA <- prune_taxa(rowSums(otu_table(leafPA)) > 0, leafPA) ## get rid of empty taxa
+woodPA <- prune_taxa(rowSums(otu_table(woodPA)) > 0, woodPA)
+
+leafclasstable <- table(tax_table(leafPA)[,"Class"])/nrow(otu_table(leafPA))
+woodclasstable <- table(tax_table(woodPA)[,"Class"])/nrow(otu_table(woodPA))
+leafclassvector <- as.vector(leafclasstable); names(leafclassvector) <- names(leafclasstable)
+woodclassvector <- as.vector(woodclasstable); names(woodclassvector) <- names(woodclasstable)
+## which classes that are in leaves are not observed in wood? and vice-versa:
+notinwoodclassvector <- names(leafclassvector)[!(names(leafclassvector) %in% names(woodclassvector))]
+notinleafclassvector <- names(woodclassvector)[!(names(woodclassvector) %in% names(leafclassvector))]
+## match up the membership and order of these vectors so we can rbind them 
+notinwood <- vector(length=length(notinwoodclassvector))
+notinwood[] <- 0; names(notinwood) <- notinwoodclassvector
+fullwoodclassvector <- c(woodclassvector,notinwood)
+notinleaf <- vector(length=length(notinleafclassvector))
+notinleaf[] <- 0; names(notinleaf) <- notinleafclassvector
+fullleafclassvector <- c(leafclassvector,notinleaf)
+fullwoodclassvector <- fullwoodclassvector[names(fullleafclassvector)] ## match order
+## put them in a matrix together
+bothclass <- rbind(fullleafclassvector, fullwoodclassvector)
+
+
