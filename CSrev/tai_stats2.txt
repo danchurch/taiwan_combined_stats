@@ -850,6 +850,9 @@ sum(rowSums(otu_table(woodbiom)) > 0)
 
 ## composition, dig back in a litte:
 
+
+source("biomsetup.R")
+
 load('deseq95.rda')
 woodPA <- subset_samples(deseq95, Library == 'W')
 leafPA <- subset_samples(deseq95, Library == 'L')
@@ -877,7 +880,33 @@ notinleaf <- vector(length=length(notinleafclassvector))
 notinleaf[] <- 0; names(notinleaf) <- notinleafclassvector
 fullleafclassvector <- c(leafclassvector,notinleaf)
 fullwoodclassvector <- fullwoodclassvector[names(fullleafclassvector)] ## match order
+
+## we can simplify. 
+
 ## put them in a matrix together
 bothclass <- rbind(fullleafclassvector, fullwoodclassvector)
+## round
+bothclass <- round(bothclass, digits = 3)
+## drop the zeros, and any column that lacks 
+## a value with at least 1% in either leaf or wood:
+bothclass <- bothclass[,colSums(bothclass < 0.01) < 2]
+colnames(bothclass)[7] <- "Pezizomycotina incertae sedis"
+
+svg("Class_bargraph.svg")
+par(mar=c(15,3,3,2)) # increase y-axis margin.
+#barplot(bothclasstable, 
+barplot(bothclass,
+        las=2,
+        ylim = c(0,0.5),
+        #main='Marxist critique: Class differences',
+        beside=TRUE,
+        col = c('green','brown'),
+        )
+legend('topright',
+        fill = c('green','brown'),
+        legend= c('leaf','wood')
+        )
+dev.off()
+
 
 
