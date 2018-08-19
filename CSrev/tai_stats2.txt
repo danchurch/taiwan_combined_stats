@@ -910,3 +910,332 @@ dev.off()
 
 
 
+########## remake host NMS graphics ############
+
+## wood
+
+load('deseq95.rda')
+
+woodbiom  <- subset_samples(deseq95, Library=='W')
+woodOTU <- otu_table(woodbiom)
+wood <- t(woodOTU@.Data) ## transpose, default phyloseq uses otus as rows
+wood_data <- sample_data(woodbiom)
+WoodMDS <- metaMDS(wood)
+samps <- table(wood_data$Host_genus_species)
+hisamps <- samps[samps > 2] ## only hosts with >2 samples
+hihosts <- wood_data$Host_genus_species %in% names(hisamps)
+## make new groups/color palette
+hispp <- names(hisamps)
+hihostspp <- sapply(wood_data$Host_genus_species[hihosts], FUN= function(x){which(hispp == x)})
+n <- length(hispp)
+palette <- distinctColorPalette(n)
+
+load('woodHostMDS.rda')
+
+svg('woodHost.svg')
+plot(WoodMDS$points[hihosts,],
+    col="black",
+    pch = 21,
+    bg = palette[hihostspp],
+    #xlim = c(-0.15,.35),
+)
+legend( x=.13,
+    y=0.15,
+    legend=hispp,
+    fill=palette,
+    bty='n')
+## hulls have to be drawn one by one if we use ordihull():
+for(i in 1:length(hispp)){
+ordihull(WoodMDS, groups=wood_data$Host_genus_species, show.groups=hispp[i], col=palette[i])
+}
+dev.off()
+
+#save(WoodMDS, file = 'woodHostMDS.rda')
+
+##### leaf Host nms ###########
+
+load('deseq95.rda')
+leafbiom  <- subset_samples(deseq95, Library=='L')
+leafOTU <- otu_table(leafbiom)
+leaf <- t(leafOTU@.Data)
+leaf_data <- sample_data(leafbiom)
+leafMDS <- metaMDS(leaf)
+
+#save(leafMDS, file='leafHostMDS.rda')
+
+## host groups/colors
+samps <- table(leaf_data$Host_genus_species)
+spp <- names(samps)
+hostspp <- sapply(leaf_data$Host_genus_species, FUN= function(x){which(spp == x)})
+#spp == sort(unique(leaf_data$Host_genus_species)) ## yup, table function does this
+
+hisamps <- samps[samps > 2] ## only hosts with >2 samples
+hihosts <- leaf_data$Host_genus_species %in% names(hisamps)
+## make new groups/color palette
+hispp <- names(hisamps)
+hihostspp <- sapply(leaf_data$Host_genus_species[hihosts], FUN= function(x){which(hispp == x)})
+n <- length(hispp)
+palette <- distinctColorPalette(n)
+
+svg('leafHost.svg')
+plot(leafMDS$points[hihosts,],
+        col="black",
+        pch = 21,
+        bg = palette[hihostspp]
+)
+length(hihosts); dim(leafMDS$points)
+legend("topleft",
+    legend=hispp,
+    fill=palette,
+    bty='n',
+      )
+for(i in 1:length(hispp)){
+ordihull(leafMDS, groups=leaf_data$Host_genus_species, show.groups=hispp[i], col=palette[i])
+}
+dev.off()
+
+
+############# PCNMs #####################
+
+## get the valley pcnms into svg
+
+## leaves:
+
+source("biomsetup.R")
+source("/home/daniel/Documents/taiwan/taiwan_combined_stats/CSrev/NEwR-2ed_code_data/NEwR2-Functions/sr.value.R")
+
+load("leafHelxy.rda")
+load("leafHelPCNM.rda")
+mapP <- function(PCNM, P, bkg){
+        require('png')
+        topo <- readPNG(bkg) ## load scanned image of Fushan Map
+        plot(1, type='n', 
+                xlim=c(0,500), 
+                ylim=c(0,500),
+                xlab = '',
+                ylab = '',
+        main = paste('PCNM',colnames(PCNM)[P], sep = ' ')
+        ) ##blank plot
+        rasterImage(topo,0,0,500,500)
+       sr.value(dfxy=leafHelxy,
+        z=PCNM[,P],
+#        clegend = 0, ## gets rid of legends, they can get in the way
+        add.plot = TRUE,
+)
+}
+
+## supp fig:
+
+svg('leafFullPCNM.svg')
+par(mfrow=c(2,2))
+for (i in 1:ncol(leafHelPCNM)){mapP(leafHelPCNM,i,'/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png')}
+par(mfrow=c(1,1))
+dev.off()
+
+
+## and just the valley PCNM
+
+svg('leafValleyPCNM.svg')
+par(mfrow=c(1,1))
+mapP(leafHelPCNM,1,'/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png')
+dev.off()
+
+
+## wood all PCNM supp:
+
+## gotta rebuild XY?
+
+load('deseq95.rda')
+woodHel95 <- subset_samples(deseq95, Library == 'W' & Host_genus_species == "Helicia_formosana")
+woodHelxy <- sample_data(woodHel95)[,c('X', 'Y')]
+rownames(woodHelxy) <- gsub("w","",rownames(woodHelxy))
+woodHelxy <- data.frame(woodHelxy[order(as.numeric(rownames(woodHelxy))),])
+woodHelxy$X <- as.numeric(woodHelxy$X)
+woodHelxy$Y <- as.numeric(woodHelxy$Y)
+
+#save(woodHelxy, file = 'woodHelxy.rda')
+
+source("biomsetup.R")
+
+source("/home/daniel/Documents/taiwan/taiwan_combined_stats/CSrev/NEwR-2ed_code_data/NEwR2-Functions/sr.value.R")
+load("woodHelxy.rda")
+load("woodHelPCNM.rda")
+
+mapP <- function(PCNM, P, bkg){
+        require('png')
+        topo <- readPNG(bkg) ## load scanned image of Fushan Map
+        plot(1, type='n', 
+                xlim=c(0,500), 
+                ylim=c(0,500),
+                xlab = '',
+                ylab = '',
+        main = paste('PCNM',colnames(PCNM)[P], sep = ' ')
+        ) ##blank plot
+        rasterImage(topo,0,0,500,500)
+       sr.value(dfxy=woodHelxy,
+        z=PCNM[,P],
+#        clegend = 0, ## gets rid of legends, they can get in the way
+        add.plot = TRUE,
+)
+}
+
+svg('woodFullPCNM.svg')
+par(pty="s") ## square plot
+par(mfrow=c(1,2))
+for (i in 1:ncol(woodHelPCNM)){mapP(woodHelPCNM,i,'/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png')}
+par(mfrow=c(1,1))
+dev.off()
+
+
+svg('woodValley.svg')
+par(mfrow=c(1,1))
+par(pty="s") ## square plot
+mapP(woodHelPCNM,1,'/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png')
+dev.off()
+
+######## BC distance to valley community graphic:
+
+load('deseq95.rda')
+load("leafHelxy.rda")
+leafHel95 <- subset_samples(deseq95, Library == 'L' & Host_genus_species == "Helicia_formosana")
+woodHel95 <- subset_samples(deseq95, Library == 'W' & Host_genus_species == "Helicia_formosana")
+
+## sample 104, at 180,51. 
+
+## leaves:
+bb <- t(otu_table(leafHel95)) ## get otu table for Helicia leaves
+bb[bb > 0] <- 1 ## presence/absence
+cc <- vegdist(bb, method='bray') ## makes a triangular association matrix 
+dd <- as.matrix(cc) ## convert to full, symmetric matrix
+#leafhelvalBC <- dd[,'131leaf'] ## extract only the comparisons to our Helicia sample of choice
+leafhelvalBC <- dd[,'104leaf'] ## extract only the comparisons to our Helicia sample of choice
+all(names(leafhelvalBC) == rownames(sample_data(leafHel95))) ## worked
+## map a dataframe with the info we want to plot:
+mapBC <- cbind(sample_data(leafHel95)[,c('X','Y')], leafhelvalBC)
+colnames(mapBC)[3] <- 'BC'
+## order by BC dissimilarity
+mapBC <- mapBC[order(mapBC$BC),]
+mapBCrev <- mapBC[rev(rownames(mapBC)),]
+## make a heat map palette useing colorbrewer
+my_palette2 <- colorRampPalette(c("green","yellow","blue"))(n = 101)
+## need an "adapter", for our BC values to this heat map color scheme: 
+BCroundup <- rev(round(mapBC$BC*100+1))
+## leaves
+
+svg('helleafBCvalley.svg')
+plot(1, type='n',
+        xlim=c(0,500),
+        ylim=c(0,500),
+        xlab = '',
+        ylab = '',
+        asp=1,
+        main='Helicia formosana leaf endophytes, comparison to one valley point'
+) ##blank plot
+topo <- readPNG('/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png')
+rasterImage(topo,0,0,500,500) ## add raster of our plot
+## add Helicia points, colored by similarity
+points(mapBCrev[,c('X','Y')],
+        pch=21,
+        cex=1.5,
+        bg = my_palette2[BCroundup],
+        lwd=1.5,
+        )
+## circle point of comparison
+points(mapBCrev['104leaf',c('X','Y')],
+        pch=1,
+        cex=3,
+        col='red',
+        lwd = 3,
+        )
+heatlegend <- vector(length=11)
+heatlegend[] <- ''
+heatlegend[1] <- '0'
+heatlegend[6] <- '0.5'
+heatlegend[11] <- '1.0'
+legend(
+#        "topright",
+        x=420,
+        y=500,
+        fill = my_palette2[seq(1,101,10)],
+        legend = heatlegend,
+        bg = "white",
+        y.intersp = 0.5,
+)
+dev.off()
+
+#points(mapBCrev['104leaf',c('X','Y')],
+#        pch=1,
+#        cex=3,
+#        col='red',
+#        lwd = 3,
+#        )
+
+###### wood, helicia valley comparison:
+
+rm(list=ls())
+
+
+load('deseq95.rda')
+load("woodHelxy.rda")
+leafHel95 <- subset_samples(deseq95, Library == 'L' & Host_genus_species == "Helicia_formosana")
+woodHel95 <- subset_samples(deseq95, Library == 'W' & Host_genus_species == "Helicia_formosana")
+
+## sample 104, at 180,51. 
+bb <- t(otu_table(woodHel95)) ## get otu table for Helicia wood
+bb[bb > 0] <- 1 ## presence/absence
+cc <- vegdist(bb, method='bray') ## makes a triangular association matrix 
+dd <- as.matrix(cc) ## convert to full, symmetric matrix
+#woodhelvalBC <- dd[,'131wood'] ## extract only the comparisons to our Helicia sample of choice
+woodhelvalBC <- dd[,'104w'] ## extract only the comparisons to our Helicia sample of choice
+ll(names(woodhelvalBC) == rownames(sample_data(woodHel95))) ## worked
+## map a dataframe with the info we want to plot:
+mapBC <- cbind(sample_data(woodHel95)[,c('X','Y')], woodhelvalBC)
+colnames(mapBC)[3] <- 'BC'
+## order by BC dissimilarity
+mapBC <- mapBC[order(mapBC$BC),]
+mapBCrev <- mapBC[rev(rownames(mapBC)),]
+## make a heat map palette useing colorbrewer
+my_palette2 <- colorRampPalette(c("green","yellow","blue"))(n = 101)
+## need an "adapter", for our BC values to this heat map color scheme: 
+BCroundup <- rev(round(mapBC$BC*100+1))
+## wood
+
+svg('helwoodBCvalley.svg')
+plot(1, type='n',
+        xlim=c(0,500),
+        ylim=c(0,500),
+        xlab = '',
+        ylab = '',
+        asp=1,
+        main='Helicia formosana wood endophytes, comparison to one valley point'
+) ##blank plot
+topo <- readPNG('/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png')
+rasterImage(topo,0,0,500,500) ## add raster of our plot
+## add Helicia points, colored by similarity
+points(mapBCrev[,c('X','Y')],
+        pch=21,
+        cex=1.5,
+        bg = my_palette2[BCroundup],
+        lwd=1.5,
+        )
+points(mapBCrev['104w',c('X','Y')],
+        pch=1,
+        cex=3,
+        col='red',
+        lwd = 3,
+        )
+heatlegend <- vector(length=11)
+heatlegend[] <- ''
+heatlegend[1] <- '0'
+heatlegend[6] <- '0.5'
+heatlegend[11] <- '1.0'
+legend(
+#        "topright",
+        x=420,
+        y=500,
+        fill = my_palette2[seq(1,101,10)],
+        legend = heatlegend,
+        bg = "white",
+        y.intersp = 0.5,
+)
+dev.off()
