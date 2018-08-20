@@ -1239,3 +1239,254 @@ legend(
         y.intersp = 0.5,
 )
 dev.off()
+
+
+
+######### leaf core BC distance graphic ############
+
+load('deseq95.rda') 
+load('helleaffung.rda') ## our list of strongly associated Helicia leaf fungi
+leafHel95 <- subset_samples(deseq95, Library == 'L' & Host_genus_species == "Helicia_formosana")
+
+## get the BC distance of all helicia points from the core:
+aa <- t(otu_table(leafHel95))
+aa <- aa[,helleaffung] ## subset OTU to just these rows
+aa[aa > 0] <- 1 ## PA
+leafXY <- sample_data(leafHel95)[,c('X','Y')] ## spatial coords
+aaNo0 <- aa[rowSums(aa) > 0,] ## get rid of zero rows, for nms
+core <- vector(length=ncol(aa)); core[] <- 1 ## our "core" mycobiome
+leafHelcoreOTU <- rbind(core, aa) ## stack them, including zeroes (for map)
+leafHelcoreOTUno0 <- rbind(core, aaNo0) ## stack them, not including zeroes (for NMS)
+bray <- as.matrix(vegdist(leafHelcoreOTU)) ## comparisons of mutally zero rows go to NA
+leafHelcoreBC <- bray['core',-1] ## use core comparison, but remove core entry to match sample_data
+coreBCroundup <- round(leafHelcoreBC*100+1) ## turn our BC values into heatmap values
+core_palette2 <- colorRampPalette(c("green","yellow","blue"))(n = 101) ## colors for plot
+
+svg('HelCoreLeafBC.svg')
+topo <- readPNG('/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png') ## load scanned image of Fushan Map
+plot(1, type='n',
+        xlim=c(0,500),
+        ylim=c(0,500),
+        xlab = '',
+        ylab = '',
+) ##blank plot
+rasterImage(topo,0,0,500,500)
+points(leafXY,
+        pch=21,
+        cex=2,
+        bg = core_palette2[coreBCroundup],
+        lwd=1.5,
+        )
+#draw.circle(x=183,y=223, radius=200, border="red",lwd=2, lty = 2)
+heatlegend <- vector(length=11)
+heatlegend[] <- ''
+heatlegend[1] <- '0'
+heatlegend[6] <- '0.5'
+heatlegend[11] <- '1.0'
+legend("topright",
+        fill = core_palette2[seq(1,101,10)],
+        legend = heatlegend,
+        bg = "white",
+        y.intersp = 0.5,
+)
+dev.off()
+
+
+
+
+
+
+
+
+load('helwoodfung.rda') ## our list of strongly associated Helicia wood fungi, 'helwoodfung'
+woodHel95 <- subset_samples(deseq95, Library == 'W' & Host_genus_species == "Helicia_formosana")
+## get the BC distance of all helicia points from the core:
+aa <- t(otu_table(woodHel95))
+aa <- aa[,helwoodfung] ## subset OTU to just these rows
+aa[aa > 0] <- 1 ## PA
+woodXY <- sample_data(woodHel95)[,c('X','Y')] ## get positions
+## for jittering, might be useful to fully convert the positions:
+woodHelXY <- data.frame(cbind(as.numeric(woodXY$X), as.numeric(woodXY$Y)))
+colnames(woodHelXY) <- woodXY@names
+core <- vector(length=ncol(aa)); core[] <- 1 ## our "core" mycobiome
+woodHelcoreOTU <- rbind(core, aa) ## stack them, including zeroes (for map)
+bray <- as.matrix(vegdist(woodHelcoreOTU)) ## comparisons of mutally zero rows go to NA
+woodHelcoreBC <- bray['core',-1] ## use core comparison, but remove core entry to match sample_data
+coreBCroundup <- round(woodHelcoreBC*100+1) ## turn our BC values into heatmap values
+core_palette2 <- colorRampPalette(c("green","yellow","blue"))(n = 101) ## colors for plot
+
+svg('HelCoreWoodBC.svg')
+topo <- readPNG('/home/daniel/Documents/taiwan/taiwan_combined_stats/topo.png') ## load scanned image of Fushan Map
+plot(1, type='n',
+        xlim=c(0,500),
+        ylim=c(0,500),
+        xlab = '',
+        ylab = '',
+        asp=1
+) ##blank plot
+rasterImage(topo,0,0,500,500)
+#points(woodXY,            ## no jitter
+points(cbind(jitter(woodHelXY$X,40), jitter(woodHelXY$Y,40)), ## jitter
+        pch=21,
+        cex=2,
+        bg = core_palette2[coreBCroundup],
+        lwd=1.5,
+        )
+heatlegend <- vector(length=11)
+heatlegend[] <- ''
+heatlegend[1] <- '0'
+heatlegend[6] <- '0.5'
+heatlegend[11] <- '1.0'
+legend("topright",
+        fill = core_palette2[seq(1,101,10)],
+        legend = heatlegend,
+        bg = "white",
+        y.intersp = 0.5,
+)
+dev.off()
+
+######### BC chart ###################
+
+load('deseq95.rda')
+## leaves, at large:
+    leaf95 <- subset_samples(deseq95, Library == 'L')
+    leafOTU <- t(otu_table(leaf95))
+    leafOTU[leafOTU > 0] <- 1
+    aa <- c(vegdist(leafOTU))
+    BClist <- aa
+    namez <- rep('leaf95', length(aa))
+## wood, at large:
+    wood95 <- subset_samples(deseq95, Library == 'W')
+    woodOTU <- t(otu_table(wood95))
+    woodOTU[woodOTU > 0] <- 1
+    aa <- c(vegdist(woodOTU))
+    BClist <- c(BClist, aa)
+    namez <- c(namez, rep('wood95', length(aa)))
+## leaves, for Helicia:
+    leafHel95 <- subset_samples(deseq95, Library == 'L' & Host_genus_species == "Helicia_formosana")
+    leafOTU <- t(otu_table(leafHel95))
+    leafOTU[leafOTU > 0] <- 1
+    aa <- c(vegdist(leafOTU))
+    BClist <- c(BClist, aa)
+    namez <- c(namez, rep('leafHel95', length(aa)))
+## wood, for Helicia:
+    woodHel95 <- subset_samples(deseq95, Library == 'W' & Host_genus_species == "Helicia_formosana")
+    woodOTU <- t(otu_table(woodHel95))
+    woodOTU[woodOTU > 0] <- 1
+    aa <- c(vegdist(woodOTU))
+    BClist <- c(BClist, aa)
+    namez <- c(namez, rep('woodHel95', length(aa)))
+## Helicia-only, core, wood, avg BC
+    woodHel95 <- subset_samples(deseq95, Library == 'W' & Host_genus_species == "Helicia_formosana")
+    load('helwoodfung.rda')
+    ## get the average BC of all helicia wood points from this core:
+    aa <- t(otu_table(woodHel95))
+    aa <- aa[,helwoodfung] ## subset OTU to just these rows
+    aa[aa > 0] <- 1 ## PA
+    aa <- c(vegdist(aa)) ## 
+    BClist <- c(BClist, aa)
+    namez <- c(namez, rep('woodHel95core', length(aa)))
+## Helicia-only, non-core, wood, avg BC
+    aa <- t(otu_table(woodHel95))
+    aa <- aa[,!(colnames(aa) %in% helwoodfung)] ## get rid of cores
+    aa[aa > 0] <- 1 ## PA
+    aa <- c(vegdist(aa)) ## 
+    BClist <- c(BClist, aa)
+    namez <- c(namez, rep('woodHel95nocore', length(aa)))
+## helicia-only, leaves, core
+    leafHel95 <- subset_samples(deseq95, Library == 'L' & Host_genus_species == "Helicia_formosana")
+    load('helleaffung.rda')
+    ## get the average BC of all helicia leaf points from this core:
+    aa <- t(otu_table(leafHel95))
+    aa <- aa[,helleaffung] ## subset OTU to just these rows
+    aa <- aa[rowSums(aa)>0,] ## remove zero sum rows
+    aa[aa > 0] <- 1 ## PA
+    aa <- c(vegdist(aa)) ## 
+    BClist <- c(BClist, aa)
+    namez <- c(namez, rep('leafHel95core', length(aa)))
+## Helicia-only, non-core, leaf, avg BC
+    aa <- t(otu_table(leafHel95))
+    aa <- aa[,!(colnames(aa) %in% helleaffung)] ## get rid of cores
+    aa[aa > 0] <- 1 ## PA
+    aa <- c(vegdist(aa)) ## 
+    BClist <- c(BClist, aa)
+    namez <- c(namez, rep('leafHel95nocore', length(aa)))
+
+bcp <- data.frame(BClist,namez)
+## control the plotting order:
+bcp$namez <- factor(bcp$namez, levels=c('leaf95',
+                                        'wood95',
+                                        'leafHel95',
+                                        'leafHel95core',
+                                        'leafHel95nocore',
+                                        'woodHel95',
+                                        'woodHel95core',
+                                        'woodHel95nocore'
+                                        ))
+
+## control the box size, make proportions a little more 
+## realistic:
+levelProportions <- c(123, 91, 31,15.5,15.5,22,11,11)/100
+names(levelProportions) <- c('leaf95', 'wood95', 'leafHel95', 'leafHel95core', 'leafHel95nocore', 'woodHel95', 'woodHel95core', 'woodHel95nocore')
+
+svg('BCcompare.svg')
+par(mar=c(10,3,4,2)) # increase y-axis margin.
+    boxBC <- boxplot(BClist~namez, data=bcp,
+    las = 2,
+    width = levelProportions
+    )
+dev.off()
+
+## just curious, where is our most unique point, that is on average most different from the 
+## others? 
+
+## leaves:
+
+## leaves, at large:
+    leaf95 <- subset_samples(deseq95, Library == 'L')
+    leafOTU <- t(otu_table(leaf95))
+    leafOTU[leafOTU > 0] <- 1
+    leafdiff <- as.matrix(vegdist(leafOTU))
+
+aa <- rowSums(leafdiff) / nrow(leafdiff - 1)
+
+min(aa) ## the most similar site, 
+
+which(aa == min(aa)) 
+
+plot(sort(aa))
+
+aa['120leaf']
+
+## where is this?
+
+sample_data(deseq95)['120leaf']
+## limlia, at (41, 40). SW valley. huh. 
+
+## how about Helicia?
+
+leafHel95 <- subset_samples(deseq95, Library == 'L' & Host_genus_species == "Helicia_formosana")
+leafOTU <- t(otu_table(leafHel95))
+leafOTU[leafOTU > 0] <- 1
+leafdiff <- as.matrix(vegdist(leafOTU))
+aa <- rowSums(leafdiff) / nrow(leafdiff - 1)
+
+## also works, not sure why diagonal is disregarded:
+apply(leafdiff, 1, mean)
+
+min(aa) ## the most similar site, 
+
+## most similar
+bb <- names(which(aa == min(aa))) ## 97leaf
+sample_data(deseq95)[bb]
+
+## most different:
+cc <- names(which(aa == max(aa))) ## 3 leaf
+sample_data(deseq95)[cc]
+## this is at 361, 221, swampy central area
+## kind of makes sense. 
+
+## Anyway, back to the paper
+
+
+plot(sort(aa))
